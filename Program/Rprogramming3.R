@@ -80,4 +80,21 @@ print(max(vector3))
 
 help.search("split")
 
+# split() : split function in R programming is used to divide a data vector into groups as defined by the factor provided.
+
+array1<-1:10
+vector4<-c(rep("A",3),rep("B",5),rep("C",2))
+my_split<-split(array1,vector4)
+print(my_split)
+
+# un_split : split data can be reassembled back using unsplit() function.
+
+my_unsplit<-unsplit(my_split,vector4)
+print(my_unsplit)
+
+# strsplit()
+
+string2<-"aaaxbbbycccxzzz"
+print(strsplit(string2,"x"))
+print(strsplit(string2,"x|y"))
 
