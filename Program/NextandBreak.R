@@ -47,6 +47,7 @@ for(string in vector1){
 
 # repeat loop in R programming 
 
+
 # to exit from loop we use break
 vector2<-c("Madhav","is","a","good","boy")
 index<-1
