@@ -49,9 +49,20 @@ ncol(data_frame1)
 # data frame length
 length(data_frame1)  # it is similar to ncol() function
 
+# combining data frame
 
 
+data_frame2<-data.frame("Name" = c("Madhav","Krishna","Gopal"),"Reg" = c(1,2,3))
+data_frame3<-data.frame(marks = c(98,87,77),Grade = c("A","B","C"))
+data_frame4<-data.frame("Name" = c("Madhava","Krishn","Gopala"),"Reg" = c(4,5,6))
 
+
+print(data_frame2)
+print(data_frame3)
+print(data_frame4)
+
+data_frame5<-rbind(data_frame2,data_frame4)
+print(data_frame5)
 
 
 
