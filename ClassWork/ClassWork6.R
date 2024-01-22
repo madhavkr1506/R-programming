@@ -81,5 +81,27 @@ csv_data<-csv_data[c(1:2),c(1:2)]
 print(csv_data)
 
 
+# to get the position of a particular column : 
+grep("names",colnames(csv_data)) # --> It will return integer(0) because no column of this name exists. 
+grep("RegNo",colnames(csv_data))
+
+
+# $ dollar sign for accessing or mentioning the variable name
+csv_data$name
+
+# aggregate function
+
+max_regNo<-max(csv_data$RegNo)
+print(max_regNo)
+
+# use subset function : to get the data of "Madhav" (details of a particular row)
+
+csv_data<-subset(csv_data,name=="Madhav")
+print(csv_data)
+
+
+
+
+
 
 
