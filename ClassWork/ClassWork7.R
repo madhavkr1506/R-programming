@@ -60,5 +60,8 @@ print(array1)
 
 # error in opening file : 
 
-csv_data<-read.table(file = "Book1.csv",header = T,sep = ",")
+csv_data<-read.csv(file = "C:\\Users\\Madhav Kumar\\Documents\\R programming\\ClassWork\\Book1.csv")
 View(csv_data)
+
+
+
