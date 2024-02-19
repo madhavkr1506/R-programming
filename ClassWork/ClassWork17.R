@@ -50,7 +50,7 @@ power<-function1(num)
 function1<-function(num){
   total<-0
   while(num != 0){
-    num = num %/% 10
+    num = floor(num / 10)
     total<-total + 1
     
   }
@@ -59,8 +59,16 @@ function1<-function(num){
 }
 
 while(num != 0){
-  res <- num % 10
+  rem <- num %% 10
+  sum<-sum+(rem ** power)
+  num<-floor(num/10)
   
+}
+
+if(sum == temp){
+  print("yes")
+}else{
+  print("no")
 }
 
 
