@@ -73,3 +73,10 @@ newcol<-c(1:100)
 readdata$age<-newcol
 write.csv(readdata,"Prostate_cancer.csv",row.names = FALSE)
 View(readdata)
+
+
+subdata<-subset(readdata,age == 100)
+print(subdata)
+
+subdata2<-subset(readdata, id == 10)
+print(subdata2)
