@@ -78,8 +78,13 @@ View(readdata)
 subdata<-subset(readdata,age == 100)
 print(subdata)
 
-subdata2<-subset(readdata, id == 10)
+subdata2<-subset(readdata,id == 10)
 print(subdata2)
 
-subdata3<-subset(readdata,age>90 & age <95)
+subdata3<-subset(readdata,age > 90 & age < 95)
 print(subdata3)
+
+
+
+subdata4<-subset(readdata,age == 90 | age == 95)
+print(subdata4)
