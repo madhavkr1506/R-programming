@@ -88,3 +88,9 @@ print(subdata3)
 
 subdata4<-subset(readdata,age == 90 | age == 95)
 print(subdata4)
+
+subdata5<-subset(readdata,age == 90 | radius == 12)
+print(subdata5)
+
+
+
