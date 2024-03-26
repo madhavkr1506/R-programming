@@ -1,0 +1,54 @@
+# Study performance
+## by Madhav Kumar
+
+---------------------------------------------------------------------
+
+**Part 1**
+
+```{r,echo=FALSE}
+getwd()
+```
+
+**Part 2 : Here we apply head function to get data of first six rows **
+```{r,echo=FALSE}
+readData<-read.csv("student-por.csv")
+View(readData)
+
+print(head(readData))
+```
+
+
+**Part 3 : Here we apply tail function to get data of last six rows **
+
+```{r,echo=FALSE}
+print(tail(readData))
+```
+
+
+**Part 4 : Pie 3D on Mother Job **
+
+```{r,echo=FALSE}
+library(plotrix)
+
+result_count<-table(readData$Mjob)
+
+label = names(result_count)
+
+pie3D(result_count,labels = label)
+
+
+```
+
+
+**Part 5 : Pie 3D on Father Job **
+
+```{r}
+
+result_count<-table(readData$Fjob)
+
+label = names(result_count)
+
+pie3D(result_count,labels = label)
+
+
+```

@@ -1,0 +1,27 @@
+# Hello world!
+## This is Madhav kumar
+
+
+**Part 1**
+
+```{r}
+data(cars)
+str(cars)
+summary(cars)
+```
+**Part 2**
+```{r}
+plot(cars)
+```
+
+**Part 3**
+```{r}
+hist(cars$speed,main="Histogram Graph",xlab = "Speed",ylab = "Frequency", col.main = "Brown",col.lab = "Brown")
+```
+**Part 4**
+```{r}
+boxplot(cars$speed,xlab = "Box plot",ylab = "Speed",col.lab = "Green")
+```
+
+
+#The End
