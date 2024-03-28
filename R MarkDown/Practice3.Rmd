@@ -1,0 +1,339 @@
+---
+title: "Madhav Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+    social: [ "twitter","facebook","menu"]
+    source_code: embed
+    
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(knitr)
+library(DT)
+library(rpivotTable)
+library(ggplot2)
+library(plotly)
+library(dplyr)
+library(openintro)
+library(highcharter)
+library(ggvis)
+
+
+```
+
+
+```{r}
+
+data<-read.csv("Car Data.csv")
+
+```
+
+```{r}
+mycolors <- c("blue", "#FFC125", "darkgreen", "darkorange")
+```
+
+
+Interactive Data Visualization
+==================================================
+
+Row
+------------------------------------
+
+### Car Analysis
+
+
+```{r}
+valueBox(paste("Manufacture vs Location"),color = "warning")
+
+```
+
+### Maximum Mileage in meters
+```{r}
+valueBox(max(data$Mileage),
+         icon = "fa-car")
+```
+
+### State with Maximum production
+
+```{r}
+Location_count<-table(data$Location)
+max_Location<-names(Location_count)[which.max(Location_count)]
+
+valueBox(max_Location,
+         icon = 'fa-car')
+```
+
+
+### **Average Mileage in meters**
+```{r}
+gauge(round(mean(data$Mileage),
+            digits = 2),
+            min = 0,
+            max = 100000,
+            gaugeSectors(success = c(60001, 100000),
+                         warning = c(40001, 60000),
+                         danger = c(0, 40000),
+                         colors = c("green", "yellow", "red")))
+```
+
+Row
+--------------------------------------------------
+
+### New York
+
+```{r}
+valueBox(sum(data$Location == "New York"),
+         icon = 'fa-car')
+```
+
+### Los Angeles
+
+```{r}
+valueBox(sum(data$Location == "Los Angeles"),
+         icon = 'fa-car')
+```
+
+### Chicago
+
+```{r}
+valueBox(sum(data$Location == "Chicago"),
+         icon = 'fa-car')
+```
+
+### Miami
+
+```{r}
+valueBox(sum(data$Location == "Miami"),
+         icon = 'fa-car')
+```
+
+### Dallas
+
+```{r}
+valueBox(sum(data$Location == "Dallas"),
+         icon = 'fa-car')
+```
+
+
+### Atlanta
+
+```{r}
+valueBox(sum(data$Location == "Atlanta"),
+         icon = 'fa-car')
+```
+
+### Phoenix
+
+```{r}
+valueBox(sum(data$Location == "Phoenix"),
+         icon = 'fa-car')
+```
+
+### Houston
+
+```{r}
+valueBox(sum(data$Location == "Houston"),
+         icon = 'fa-car')
+```
+
+### Seattle
+
+```{r}
+valueBox(sum(data$Location == "Seattle"),
+         icon = 'fa-car')
+```
+
+Row
+-------------------------------
+
+### Production By Model
+
+```{r}
+p1 <- data %>%
+         group_by(Model) %>%
+         summarise(count = n()) %>%
+         plot_ly(x = ~Model,
+                 y = ~count,
+                 color = "blue",
+                 type = 'bar') %>%
+layout(xaxis = list(title = "Production By Model"),
+yaxis = list(title = 'Count'))
+p1
+```
+
+
+### Top States
+
+```{r}
+p2 <- data %>%
+         group_by(Location) %>%
+         summarise(count = n()) %>%
+         filter(count>50) %>%
+         plot_ly(labels = ~Location,
+                 values = ~count,
+                 marker = list(colors = mycolors)) %>%
+         add_pie(hole = 0.2) %>%
+         layout(xaxis = list(zeroline = F,
+                             showline = F,
+                             showticklabels = F,
+                             showgrid = F),
+                yaxis = list(zeroline = F,
+                             showline = F,
+                             showticklabels=F,
+                             showgrid=F))
+p2
+```
+
+
+### Price Vs Mileage
+
+```{r}
+p3 <- plot_ly(data,
+              x = ~Price,
+              y = ~Mileage,
+              text = paste("Price:", data$Price,
+                           "Mileage:",
+                           data$Mileage),
+              type = "bar") %>%
+         layout(xaxis = list(title="Price"),
+                yaxis = list(title = "Mileage"))
+p3
+```
+
+
+Row
+------------------------------------
+### Scatter Plot of Price Vs Mileage
+
+```{r}
+p4 <- plot_ly(data, x=~Price) %>%
+         add_markers(y = ~Mileage,
+                     text = ~paste("Mileage: ", Mileage),
+                     showlegend = F) %>%
+         add_lines(y = ~fitted(loess(Mileage ~ Price)),
+                   name = "Loess Smoother",
+                   color = I("#FFC125"),
+                   showlegend = T,
+                   line = list(width=5)) %>%
+         layout(xaxis = list(title = "Price"),
+                yaxis = list(title = "Mileage"))
+p4
+```
+
+### Box Plot of Top State
+
+```{r}
+data %>%
+         group_by(Location) %>%
+         ggvis(~Location, ~Mileage, fill = ~Location) %>%
+         layer_boxplots()
+```
+
+
+Map
+========================================
+
+### Map
+
+```{r}
+car <- data %>%
+         group_by(Location) %>%
+         summarize(total = n())
+car$Location <- abbr2state(car$Location)
+
+highchart() %>%
+         hc_title(text = "Car Production in US") %>%
+         hc_subtitle(text = "Source: Car Data.csv") %>%
+         hc_add_series_map(usgeojson, car,
+                           name = "Location",
+                           value = "total",
+                           joinBy = c("Price", "Location")) %>%
+         hc_mapNavigation(enabled = T)
+```
+
+
+Data Table
+========================================
+
+```{r}
+datatable(data,
+          caption = "Car Production",
+          rownames = T,
+          filter = "top",
+          options = list(pageLength = 25))
+```
+
+
+
+Pivot Table
+=========================================
+
+```{r}
+rpivotTable(data,
+            aggregatorName = "Count",
+            cols= "Price",
+            rows = "Mileage",
+            rendererName = "Heatmap")
+```
+
+
+Summary {data-orientation=columns}
+===========================================
+
+Column
+-----------------------------------
+
+### Max  Car Price
+
+```{r}
+valueBox(max(data$Price),
+         icon = "fa-car" )
+```
+
+### Average Car Price
+```{r}
+valueBox(round(mean(data$Price),
+               digits = 2),
+         icon = "fa-area-chart")
+```
+
+### Average Mileage
+
+```{r}
+valueBox(round(mean(data$Mileage), digits = 2),
+         icon = "fa-area-chart")
+```
+
+
+
+
+Column
+---------------------------
+
+Report
+
+* This is a report on `r length(data$Car.ID)` car Production.
+
+* The average Mileage of car was `r mean(data$Mileage)`.
+
+* The average cost was `r mean(data$Price)`.
+
+This report was generated on `r format(Sys.Date(), format = "%B %d, %Y")`.
+
+About Report
+========================================
+
+Created by: Madhav Kumar at Lovely Professional University, Punjab
+
+Confidential: HIGHLY!
+
+
+
+
+
+
+
+

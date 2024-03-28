@@ -1,0 +1,2001 @@
+Car ID,Brand,Model,Year,Color,Mileage,Price,Location
+1,Toyota,Camry,2018,White,45000,18000,Los Angeles
+2,Honda,Civic,2019,Blue,35000,16000,New York
+3,Ford,Focus,2017,Silver,55000,14000,Chicago
+4,Chevrolet,Cruze,2016,Red,60000,12000,Miami
+5,Hyundai,Elantra,2018,Black,40000,15000,San Francisco
+6,Toyota,Corolla,2020,Gray,25000,19000,Dallas
+7,Honda,Accord,2019,White,30000,18000,Atlanta
+8,Ford,Mustang,2015,Yellow,65000,22000,Phoenix
+9,Chevrolet,Impala,2017,Black,55000,16000,Houston
+10,Hyundai,Sonata,2016,Blue,50000,14000,Seattle
+11,Toyota,Rav4,2017,Gray,55000,19000,Los Angeles
+12,Honda,CR-V,2020,Red,30000,23000,New York
+13,Ford,Escape,2019,White,40000,21000,Chicago
+14,Chevrolet,Equinox,2018,Black,45000,18000,Miami
+15,Hyundai,Kona,2019,Blue,35000,20000,San Francisco
+16,Toyota,Highlander,2016,Silver,60000,25000,Dallas
+17,Honda,Pilot,2017,Gray,55000,24000,Atlanta
+18,Ford,Explorer,2018,White,50000,23000,Phoenix
+19,Chevrolet,Traverse,2020,Black,35000,28000,Houston
+20,Hyundai,Santa Fe,2019,Red,40000,25000,Seattle
+21,Toyota,4Runner,2015,Silver,70000,27000,Los Angeles
+22,Honda,Odyssey,2016,White,55000,22000,New York
+23,Ford,Edge,2017,Blue,50000,21000,Chicago
+24,Chevrolet,Tahoe,2018,Black,45000,26000,Miami
+25,Hyundai,Palisade,2019,Silver,30000,29000,San Francisco
+26,Toyota,Sienna,2020,Red,35000,27000,Dallas
+27,Honda,Fit,2017,Gray,55000,12000,Atlanta
+28,Ford,Fusion,2018,White,50000,15000,Phoenix
+29,Chevrolet,Malibu,2019,Blue,40000,17000,Houston
+30,Hyundai,Venue,2016,Silver,60000,14000,Seattle
+31,Toyota,Yaris,2017,Black,55000,12000,Los Angeles
+32,Honda,HR-V,2018,White,50000,15000,New York
+33,Ford,EcoSport,2019,Red,40000,17000,Chicago
+34,Chevrolet,Spark,2020,Blue,35000,14000,Miami
+35,Hyundai,Accent,2015,Silver,70000,12000,San Francisco
+36,Toyota,Prius,2016,Gray,55000,15000,Dallas
+37,Honda,Civic,2017,White,50000,17000,Atlanta
+38,Ford,Fiesta,2018,Blue,40000,14000,Phoenix
+39,Chevrolet,Cruze,2019,Black,45000,16000,Houston
+40,Hyundai,Elantra,2020,Red,35000,18000,Seattle
+41,Toyota,Camry,2017,Silver,60000,19000,Los Angeles
+42,Honda,Accord,2018,White,50000,18000,New York
+43,Ford,Mustang,2019,Blue,40000,22000,Chicago
+44,Chevrolet,Camaro,2020,Red,35000,25000,Miami
+45,Hyundai,Genesis,2015,Black,70000,18000,San Francisco
+46,Toyota,Avalon,2016,Silver,55000,19000,Dallas
+47,Honda,Civic,2017,Gray,50000,17000,Atlanta
+48,Ford,Fusion,2018,White,45000,16000,Phoenix
+49,Chevrolet,Impala,2019,Blue,40000,18000,Houston
+50,Hyundai,Sonata,2020,Red,35000,20000,Seattle
+51,Toyota,Corolla,2017,Silver,55000,19000,Los Angeles
+52,Honda,CR-V,2018,White,50000,23000,New York
+53,Ford,Escape,2019,Blue,40000,21000,Chicago
+54,Chevrolet,Equinox,2020,Black,35000,24000,Miami
+55,Hyundai,Tucson,2015,Red,70000,20000,San Francisco
+56,Toyota,Rav4,2016,Gray,55000,22000,Dallas
+57,Honda,Pilot,2017,White,50000,24000,Atlanta
+58,Ford,Explorer,2018,Blue,45000,23000,Phoenix
+59,Chevrolet,Traverse,2019,Black,40000,27000,Houston
+60,Hyundai,Santa Fe,2020,Red,35000,25000,Seattle
+61,Toyota,4Runner,2015,Silver,70000,28000,Los Angeles
+62,Honda,Odyssey,2016,White,55000,22000,New York
+63,Ford,Edge,2017,Blue,50000,21000,Chicago
+64,Chevrolet,Tahoe,2018,Black,45000,26000,Miami
+65,Hyundai,Palisade,2019,Silver,30000,29000,San Francisco
+66,Toyota,Sienna,2020,Red,35000,27000,Dallas
+67,Honda,Fit,2017,Gray,55000,12000,Atlanta
+68,Ford,Fusion,2018,White,50000,15000,Phoenix
+69,Chevrolet,Malibu,2019,Blue,40000,17000,Houston
+70,Hyundai,Venue,2016,Silver,60000,14000,Seattle
+71,Toyota,Yaris,2017,Black,55000,12000,Los Angeles
+72,Toyota,Camry,2017,White,45000,18000,Los Angeles
+73,Honda,Civic,2015,Blue,35000,16000,New York
+74,Toyota,Camry,2018,White,55000,14000,Los Angeles
+75,Honda,Civic,2016,Blue,60000,12000,New York
+76,Ford,Focus,2019,Silver,40000,15000,Chicago
+77,Chevrolet,Cruze,2015,Red,25000,19000,Miami
+78,Hyundai,Elantra,2020,Black,30000,18000,San Francisco
+79,Toyota,Corolla,2016,Gray,65000,22000,Dallas
+80,Honda,Accord,2015,White,55000,16000,Atlanta
+81,Ford,Mustang,2020,Yellow,50000,14000,Phoenix
+82,Chevrolet,Impala,2015,Black,55000,19000,Houston
+83,Hyundai,Sonata,2020,Blue,30000,23000,Seattle
+84,Toyota,Rav5,2017,Gray,40000,21000,Los Angeles
+85,Honda,CR-V,2019,Red,45000,18000,New York
+86,Ford,Escape,2020,White,35000,20000,Chicago
+87,Chevrolet,Equinox,2019,Black,60000,25000,Miami
+88,Hyundai,Kona,2017,Blue,55000,24000,San Francisco
+89,Toyota,Highlander,2016,Silver,50000,23000,Dallas
+90,Honda,Pilot,2018,Gray,35000,28000,Atlanta
+91,Ford,Explorer,2018,White,40000,25000,Phoenix
+92,Chevrolet,Traverse,2016,Black,70000,27000,Houston
+93,Hyundai,Santa Fe,2020,Red,55000,22000,Seattle
+94,Toyota,4Runner,2017,Silver,50000,21000,Los Angeles
+95,Honda,Odyssey,2017,White,45000,26000,New York
+96,Ford,Edge,2019,Blue,30000,29000,Chicago
+97,Chevrolet,Tahoe,2018,Black,35000,27000,Miami
+98,Hyundai,Palisade,2018,Silver,55000,12000,San Francisco
+99,Toyota,Sienna,2019,Red,50000,15000,Dallas
+100,Honda,Fit,2017,Gray,40000,17000,Atlanta
+101,Ford,Fusion,2015,White,60000,14000,Phoenix
+102,Chevrolet,Malibu,2016,Blue,55000,12000,Houston
+103,Hyundai,Venue,2018,Silver,50000,15000,Seattle
+104,Toyota,Yaris,2018,Black,40000,17000,Los Angeles
+105,Honda,HR-V,2016,White,35000,14000,New York
+106,Ford,EcoSport,2017,Red,70000,12000,Chicago
+107,Chevrolet,Spark,2017,Blue,55000,15000,Miami
+108,Hyundai,Accent,2019,Silver,50000,17000,San Francisco
+109,Toyota,Prius,2017,Gray,40000,14000,Dallas
+110,Honda,Civic,2015,White,45000,16000,Atlanta
+111,Ford,Fiesta,2019,Blue,35000,18000,Phoenix
+112,Chevrolet,Cruze,2018,Black,60000,19000,Houston
+113,Hyundai,Elantra,2016,Red,50000,18000,Seattle
+114,Toyota,Camry,2019,Silver,40000,22000,Los Angeles
+115,Honda,Accord,2020,White,35000,25000,New York
+116,Ford,Mustang,2020,Blue,70000,18000,Chicago
+117,Chevrolet,Camaro,2019,Red,55000,19000,Miami
+118,Hyundai,Genesis,2017,Black,50000,17000,San Francisco
+119,Toyota,Avalon,2015,Silver,45000,16000,Dallas
+120,Honda,Civic,2015,Gray,40000,18000,Atlanta
+121,Ford,Fusion,2015,White,35000,20000,Phoenix
+122,Chevrolet,Impala,2020,Blue,55000,19000,Houston
+123,Hyundai,Sonata,2017,Red,50000,23000,Seattle
+124,Toyota,Corolla,2017,Silver,40000,21000,Los Angeles
+125,Honda,CR-V,2018,White,35000,24000,New York
+126,Ford,Escape,2019,Blue,70000,20000,Chicago
+127,Chevrolet,Equinox,2015,Black,55000,22000,Miami
+128,Hyundai,Tucson,2019,Red,50000,24000,San Francisco
+129,Toyota,Rav5,2015,Gray,45000,23000,Dallas
+130,Honda,Pilot,2016,White,40000,27000,Atlanta
+131,Ford,Explorer,2015,Blue,35000,25000,Phoenix
+132,Chevrolet,Traverse,2017,Black,70000,28000,Houston
+133,Hyundai,Santa Fe,2018,Red,55000,22000,Seattle
+134,Toyota,4Runner,2017,Silver,50000,21000,Los Angeles
+135,Honda,Odyssey,2016,White,45000,26000,New York
+136,Ford,Edge,2019,Blue,30000,29000,Chicago
+137,Chevrolet,Tahoe,2016,Black,35000,27000,Miami
+138,Hyundai,Palisade,2020,Silver,55000,12000,San Francisco
+139,Toyota,Sienna,2020,Red,50000,15000,Dallas
+140,Honda,Fit,2018,Gray,40000,17000,Atlanta
+141,Ford,Fusion,2018,White,60000,14000,Phoenix
+142,Chevrolet,Malibu,2019,Blue,55000,12000,Houston
+143,Hyundai,Venue,2015,Silver,45000,18000,Seattle
+144,Toyota,Yaris,2018,Black,35000,16000,Los Angeles
+145,Toyota,Camry,2018,White,55000,14000,Los Angeles
+146,Honda,Civic,2016,Blue,60000,12000,New York
+147,Toyota,Camry,2016,White,40000,15000,Los Angeles
+148,Honda,Civic,2016,Blue,25000,19000,New York
+149,Ford,Focus,2016,Silver,30000,18000,Chicago
+150,Chevrolet,Cruze,2018,Red,65000,22000,Miami
+151,Hyundai,Elantra,2017,Black,55000,16000,San Francisco
+152,Toyota,Corolla,2019,Gray,50000,14000,Dallas
+153,Honda,Accord,2017,White,55000,19000,Atlanta
+154,Ford,Mustang,2017,Yellow,30000,23000,Phoenix
+155,Chevrolet,Impala,2015,Black,40000,21000,Houston
+156,Hyundai,Sonata,2017,Blue,45000,18000,Seattle
+157,Toyota,Rav6,2015,Gray,35000,20000,Los Angeles
+158,Honda,CR-V,2020,Red,60000,25000,New York
+159,Ford,Escape,2019,White,55000,24000,Chicago
+160,Chevrolet,Equinox,2015,Black,50000,23000,Miami
+161,Hyundai,Kona,2020,Blue,35000,28000,San Francisco
+162,Toyota,Highlander,2020,Silver,40000,25000,Dallas
+163,Honda,Pilot,2018,Gray,70000,27000,Atlanta
+164,Ford,Explorer,2015,White,55000,22000,Phoenix
+165,Chevrolet,Traverse,2017,Black,50000,21000,Houston
+166,Hyundai,Santa Fe,2019,Red,45000,26000,Seattle
+167,Toyota,4Runner,2019,Silver,30000,29000,Los Angeles
+168,Honda,Odyssey,2016,White,35000,27000,New York
+169,Ford,Edge,2019,Blue,55000,12000,Chicago
+170,Chevrolet,Tahoe,2015,Black,50000,15000,Miami
+171,Hyundai,Palisade,2016,Silver,40000,17000,San Francisco
+172,Toyota,Sienna,2019,Red,60000,14000,Dallas
+173,Honda,Fit,2020,Gray,55000,12000,Atlanta
+174,Ford,Fusion,2019,White,50000,15000,Phoenix
+175,Chevrolet,Malibu,2016,Blue,40000,17000,Houston
+176,Hyundai,Venue,2015,Silver,35000,14000,Seattle
+177,Toyota,Yaris,2018,Black,70000,12000,Los Angeles
+178,Honda,HR-V,2017,White,55000,15000,New York
+179,Ford,EcoSport,2016,Red,50000,17000,Chicago
+180,Chevrolet,Spark,2016,Blue,40000,14000,Miami
+181,Hyundai,Accent,2016,Silver,45000,16000,San Francisco
+182,Toyota,Prius,2019,Gray,35000,18000,Dallas
+183,Honda,Civic,2015,White,60000,19000,Atlanta
+184,Ford,Fiesta,2018,Blue,50000,18000,Phoenix
+185,Chevrolet,Cruze,2015,Black,40000,22000,Houston
+186,Hyundai,Elantra,2015,Red,35000,25000,Seattle
+187,Toyota,Camry,2020,Silver,70000,18000,Los Angeles
+188,Honda,Accord,2016,White,55000,19000,New York
+189,Ford,Mustang,2016,Blue,50000,17000,Chicago
+190,Chevrolet,Camaro,2020,Red,45000,16000,Miami
+191,Hyundai,Genesis,2020,Black,40000,18000,San Francisco
+192,Toyota,Avalon,2019,Silver,35000,20000,Dallas
+193,Honda,Civic,2015,Gray,55000,19000,Atlanta
+194,Ford,Fusion,2020,White,50000,23000,Phoenix
+195,Chevrolet,Impala,2016,Blue,40000,21000,Houston
+196,Hyundai,Sonata,2016,Red,35000,24000,Seattle
+197,Toyota,Corolla,2020,Silver,70000,20000,Los Angeles
+198,Honda,CR-V,2015,White,55000,22000,New York
+199,Ford,Escape,2019,Blue,50000,24000,Chicago
+200,Chevrolet,Equinox,2019,Black,45000,23000,Miami
+201,Hyundai,Tucson,2015,Red,40000,27000,San Francisco
+202,Toyota,Rav6,2016,Gray,35000,25000,Dallas
+203,Honda,Pilot,2016,White,70000,28000,Atlanta
+204,Ford,Explorer,2019,Blue,55000,22000,Phoenix
+205,Chevrolet,Traverse,2017,Black,50000,21000,Houston
+206,Hyundai,Santa Fe,2017,Red,45000,26000,Seattle
+207,Toyota,4Runner,2018,Silver,30000,29000,Los Angeles
+208,Honda,Odyssey,2015,White,35000,27000,New York
+209,Ford,Edge,2019,Blue,55000,12000,Chicago
+210,Chevrolet,Tahoe,2018,Black,50000,15000,Miami
+211,Hyundai,Palisade,2016,Silver,40000,17000,San Francisco
+212,Toyota,Sienna,2018,Red,60000,14000,Dallas
+213,Honda,Fit,2019,Gray,55000,12000,Atlanta
+214,Ford,Fusion,2017,White,45000,18000,Phoenix
+215,Chevrolet,Malibu,2015,Blue,35000,16000,Houston
+216,Hyundai,Venue,2016,Silver,55000,14000,Seattle
+217,Toyota,Yaris,2015,Black,60000,12000,Los Angeles
+218,Toyota,Camry,2017,White,40000,15000,Los Angeles
+219,Honda,Civic,2015,Blue,25000,19000,New York
+220,Toyota,Camry,2020,White,30000,18000,Los Angeles
+221,Honda,Civic,2019,Blue,65000,22000,New York
+222,Ford,Focus,2019,Silver,55000,16000,Chicago
+223,Chevrolet,Cruze,2018,Red,50000,14000,Miami
+224,Hyundai,Elantra,2016,Black,55000,19000,San Francisco
+225,Toyota,Corolla,2018,Gray,30000,23000,Dallas
+226,Honda,Accord,2016,White,40000,21000,Atlanta
+227,Ford,Mustang,2015,Yellow,45000,18000,Phoenix
+228,Chevrolet,Impala,2018,Black,35000,20000,Houston
+229,Hyundai,Sonata,2015,Blue,60000,25000,Seattle
+230,Toyota,Rav7,2016,Gray,55000,24000,Los Angeles
+231,Honda,CR-V,2019,Red,50000,23000,New York
+232,Ford,Escape,2015,White,35000,28000,Chicago
+233,Chevrolet,Equinox,2020,Black,40000,25000,Miami
+234,Hyundai,Kona,2018,Blue,70000,27000,San Francisco
+235,Toyota,Highlander,2020,Silver,55000,22000,Dallas
+236,Honda,Pilot,2020,Gray,50000,21000,Atlanta
+237,Ford,Explorer,2019,White,45000,26000,Phoenix
+238,Chevrolet,Traverse,2018,Black,30000,29000,Houston
+239,Hyundai,Santa Fe,2016,Red,35000,27000,Seattle
+240,Toyota,4Runner,2018,Silver,55000,12000,Los Angeles
+241,Honda,Odyssey,2017,White,50000,15000,New York
+242,Ford,Edge,2015,Blue,40000,17000,Chicago
+243,Chevrolet,Tahoe,2018,Black,60000,14000,Miami
+244,Hyundai,Palisade,2015,Silver,55000,12000,San Francisco
+245,Toyota,Sienna,2016,Red,50000,15000,Dallas
+246,Honda,Fit,2020,Gray,40000,17000,Atlanta
+247,Ford,Fusion,2019,White,35000,14000,Phoenix
+248,Chevrolet,Malibu,2017,Blue,70000,12000,Houston
+249,Hyundai,Venue,2019,Silver,55000,15000,Seattle
+250,Toyota,Yaris,2017,Black,50000,17000,Los Angeles
+251,Honda,HR-V,2020,White,40000,14000,New York
+252,Ford,EcoSport,2017,Red,45000,16000,Chicago
+253,Chevrolet,Spark,2015,Blue,35000,18000,Miami
+254,Hyundai,Accent,2015,Silver,60000,19000,San Francisco
+255,Toyota,Prius,2017,Gray,50000,18000,Dallas
+256,Honda,Civic,2020,White,40000,22000,Atlanta
+257,Ford,Fiesta,2017,Blue,35000,25000,Phoenix
+258,Chevrolet,Cruze,2020,Black,70000,18000,Houston
+259,Hyundai,Elantra,2018,Red,55000,19000,Seattle
+260,Toyota,Camry,2015,Silver,50000,17000,Los Angeles
+261,Honda,Accord,2020,White,45000,16000,New York
+262,Ford,Mustang,2015,Blue,40000,18000,Chicago
+263,Chevrolet,Camaro,2016,Red,35000,20000,Miami
+264,Hyundai,Genesis,2020,Black,55000,19000,San Francisco
+265,Toyota,Avalon,2016,Silver,50000,23000,Dallas
+266,Honda,Civic,2019,Gray,40000,21000,Atlanta
+267,Ford,Fusion,2017,White,35000,24000,Phoenix
+268,Chevrolet,Impala,2019,Blue,70000,20000,Houston
+269,Hyundai,Sonata,2015,Red,55000,22000,Seattle
+270,Toyota,Corolla,2018,Silver,50000,24000,Los Angeles
+271,Honda,CR-V,2018,White,45000,23000,New York
+272,Ford,Escape,2019,Blue,40000,27000,Chicago
+273,Chevrolet,Equinox,2018,Black,35000,25000,Miami
+274,Hyundai,Tucson,2015,Red,70000,28000,San Francisco
+275,Toyota,Rav7,2019,Gray,55000,22000,Dallas
+276,Honda,Pilot,2019,White,50000,21000,Atlanta
+277,Ford,Explorer,2017,Blue,45000,26000,Phoenix
+278,Chevrolet,Traverse,2017,Black,30000,29000,Houston
+279,Hyundai,Santa Fe,2018,Red,35000,27000,Seattle
+280,Toyota,4Runner,2017,Silver,55000,12000,Los Angeles
+281,Honda,Odyssey,2015,White,50000,15000,New York
+282,Ford,Edge,2020,Blue,40000,17000,Chicago
+283,Chevrolet,Tahoe,2019,Black,60000,14000,Miami
+284,Hyundai,Palisade,2017,Silver,55000,12000,San Francisco
+285,Toyota,Sienna,2016,Red,45000,18000,Dallas
+286,Honda,Fit,2017,Gray,35000,16000,Atlanta
+287,Ford,Fusion,2019,White,55000,14000,Phoenix
+288,Chevrolet,Malibu,2020,Blue,60000,12000,Houston
+289,Hyundai,Venue,2018,Silver,40000,15000,Seattle
+290,Toyota,Yaris,2019,Black,25000,19000,Los Angeles
+291,Toyota,Camry,2018,White,30000,18000,Los Angeles
+292,Honda,Civic,2015,Blue,65000,22000,New York
+293,Toyota,Camry,2015,White,55000,16000,Los Angeles
+294,Honda,Civic,2019,Blue,50000,14000,New York
+295,Ford,Focus,2016,Silver,55000,19000,Chicago
+296,Chevrolet,Cruze,2015,Red,30000,23000,Miami
+297,Hyundai,Elantra,2019,Black,40000,21000,San Francisco
+298,Toyota,Corolla,2016,Gray,45000,18000,Dallas
+299,Honda,Accord,2020,White,35000,20000,Atlanta
+300,Ford,Mustang,2019,Yellow,60000,25000,Phoenix
+301,Chevrolet,Impala,2017,Black,55000,24000,Houston
+302,Hyundai,Sonata,2019,Blue,50000,23000,Seattle
+303,Toyota,Rav8,2019,Gray,35000,28000,Los Angeles
+304,Honda,CR-V,2017,Red,40000,25000,New York
+305,Ford,Escape,2016,White,70000,27000,Chicago
+306,Chevrolet,Equinox,2016,Black,55000,22000,Miami
+307,Hyundai,Kona,2016,Blue,50000,21000,San Francisco
+308,Toyota,Highlander,2017,Silver,45000,26000,Dallas
+309,Honda,Pilot,2018,Gray,30000,29000,Atlanta
+310,Ford,Explorer,2016,White,35000,27000,Phoenix
+311,Chevrolet,Traverse,2018,Black,55000,12000,Houston
+312,Hyundai,Santa Fe,2019,Red,50000,15000,Seattle
+313,Toyota,4Runner,2017,Silver,40000,17000,Los Angeles
+314,Honda,Odyssey,2016,White,60000,14000,New York
+315,Ford,Edge,2020,Blue,55000,12000,Chicago
+316,Chevrolet,Tahoe,2017,Black,50000,15000,Miami
+317,Hyundai,Palisade,2015,Silver,40000,17000,San Francisco
+318,Toyota,Sienna,2019,Red,35000,14000,Dallas
+319,Honda,Fit,2020,Gray,70000,12000,Atlanta
+320,Ford,Fusion,2020,White,55000,15000,Phoenix
+321,Chevrolet,Malibu,2019,Blue,50000,17000,Houston
+322,Hyundai,Venue,2018,Silver,40000,14000,Seattle
+323,Toyota,Yaris,2019,Black,45000,16000,Los Angeles
+324,Honda,HR-V,2017,White,35000,18000,New York
+325,Ford,EcoSport,2020,Red,60000,19000,Chicago
+326,Chevrolet,Spark,2017,Blue,50000,18000,Miami
+327,Hyundai,Accent,2017,Silver,40000,22000,San Francisco
+328,Toyota,Prius,2016,Gray,35000,25000,Dallas
+329,Honda,Civic,2015,White,70000,18000,Atlanta
+330,Ford,Fiesta,2020,Blue,55000,19000,Phoenix
+331,Chevrolet,Cruze,2015,Black,50000,17000,Houston
+332,Hyundai,Elantra,2016,Red,45000,16000,Seattle
+333,Toyota,Camry,2018,Silver,40000,18000,Los Angeles
+334,Honda,Accord,2018,White,35000,20000,New York
+335,Ford,Mustang,2019,Blue,55000,19000,Chicago
+336,Chevrolet,Camaro,2019,Red,50000,23000,Miami
+337,Hyundai,Genesis,2015,Black,40000,21000,San Francisco
+338,Toyota,Avalon,2019,Silver,35000,24000,Dallas
+339,Honda,Civic,2016,Gray,70000,20000,Atlanta
+340,Ford,Fusion,2018,White,55000,22000,Phoenix
+341,Chevrolet,Impala,2017,Blue,50000,24000,Houston
+342,Hyundai,Sonata,2020,Red,45000,23000,Seattle
+343,Toyota,Corolla,2020,Silver,40000,27000,Los Angeles
+344,Honda,CR-V,2020,White,35000,25000,New York
+345,Ford,Escape,2015,Blue,70000,28000,Chicago
+346,Chevrolet,Equinox,2020,Black,55000,22000,Miami
+347,Hyundai,Tucson,2017,Red,50000,21000,San Francisco
+348,Toyota,Rav8,2016,Gray,45000,26000,Dallas
+349,Honda,Pilot,2018,White,30000,29000,Atlanta
+350,Ford,Explorer,2017,Blue,35000,27000,Phoenix
+351,Chevrolet,Traverse,2019,Black,55000,12000,Houston
+352,Hyundai,Santa Fe,2017,Red,50000,15000,Seattle
+353,Toyota,4Runner,2016,Silver,40000,17000,Los Angeles
+354,Honda,Odyssey,2015,White,60000,14000,New York
+355,Ford,Edge,2019,Blue,55000,12000,Chicago
+356,Chevrolet,Tahoe,2016,Black,45000,18000,Miami
+357,Hyundai,Palisade,2015,Silver,35000,16000,San Francisco
+358,Toyota,Sienna,2016,Red,55000,14000,Dallas
+359,Honda,Fit,2019,Gray,60000,12000,Atlanta
+360,Ford,Fusion,2020,White,40000,15000,Phoenix
+361,Chevrolet,Malibu,2015,Blue,25000,19000,Houston
+362,Hyundai,Venue,2016,Silver,30000,18000,Seattle
+363,Toyota,Yaris,2015,Black,65000,22000,Los Angeles
+364,Toyota,Camry,2020,White,55000,16000,Los Angeles
+365,Honda,Civic,2015,Blue,50000,14000,New York
+366,Toyota,Camry,2020,White,55000,19000,Los Angeles
+367,Honda,Civic,2015,Blue,30000,23000,New York
+368,Ford,Focus,2016,Silver,40000,21000,Chicago
+369,Chevrolet,Cruze,2019,Red,45000,18000,Miami
+370,Hyundai,Elantra,2017,Black,35000,20000,San Francisco
+371,Toyota,Corolla,2018,Gray,60000,25000,Dallas
+372,Honda,Accord,2018,White,55000,24000,Atlanta
+373,Ford,Mustang,2015,Yellow,50000,23000,Phoenix
+374,Chevrolet,Impala,2017,Black,35000,28000,Houston
+375,Hyundai,Sonata,2018,Blue,40000,25000,Seattle
+376,Toyota,Rav9,2015,Gray,70000,27000,Los Angeles
+377,Honda,CR-V,2018,Red,55000,22000,New York
+378,Ford,Escape,2015,White,50000,21000,Chicago
+379,Chevrolet,Equinox,2018,Black,45000,26000,Miami
+380,Hyundai,Kona,2019,Blue,30000,29000,San Francisco
+381,Toyota,Highlander,2019,Silver,35000,27000,Dallas
+382,Honda,Pilot,2017,Gray,55000,12000,Atlanta
+383,Ford,Explorer,2016,White,50000,15000,Phoenix
+384,Chevrolet,Traverse,2020,Black,40000,17000,Houston
+385,Hyundai,Santa Fe,2019,Red,60000,14000,Seattle
+386,Toyota,4Runner,2015,Silver,55000,12000,Los Angeles
+387,Honda,Odyssey,2015,White,50000,15000,New York
+388,Ford,Edge,2018,Blue,40000,17000,Chicago
+389,Chevrolet,Tahoe,2017,Black,35000,14000,Miami
+390,Hyundai,Palisade,2020,Silver,70000,12000,San Francisco
+391,Toyota,Sienna,2016,Red,55000,15000,Dallas
+392,Honda,Fit,2020,Gray,50000,17000,Atlanta
+393,Ford,Fusion,2019,White,40000,14000,Phoenix
+394,Chevrolet,Malibu,2015,Blue,45000,16000,Houston
+395,Hyundai,Venue,2019,Silver,35000,18000,Seattle
+396,Toyota,Yaris,2017,Black,60000,19000,Los Angeles
+397,Honda,HR-V,2018,White,50000,18000,New York
+398,Ford,EcoSport,2016,Red,40000,22000,Chicago
+399,Chevrolet,Spark,2015,Blue,35000,25000,Miami
+400,Hyundai,Accent,2017,Silver,70000,18000,San Francisco
+401,Toyota,Prius,2015,Gray,55000,19000,Dallas
+402,Honda,Civic,2017,White,50000,17000,Atlanta
+403,Ford,Fiesta,2017,Blue,45000,16000,Phoenix
+404,Chevrolet,Cruze,2017,Black,40000,18000,Houston
+405,Hyundai,Elantra,2020,Red,35000,20000,Seattle
+406,Toyota,Camry,2018,Silver,55000,19000,Los Angeles
+407,Honda,Accord,2016,White,50000,23000,New York
+408,Ford,Mustang,2015,Blue,40000,21000,Chicago
+409,Chevrolet,Camaro,2017,Red,35000,24000,Miami
+410,Hyundai,Genesis,2015,Black,70000,20000,San Francisco
+411,Toyota,Avalon,2018,Silver,55000,22000,Dallas
+412,Honda,Civic,2020,Gray,50000,24000,Atlanta
+413,Ford,Fusion,2019,White,45000,23000,Phoenix
+414,Chevrolet,Impala,2015,Blue,40000,27000,Houston
+415,Hyundai,Sonata,2015,Red,35000,25000,Seattle
+416,Toyota,Corolla,2016,Silver,70000,28000,Los Angeles
+417,Honda,CR-V,2015,White,55000,22000,New York
+418,Ford,Escape,2015,Blue,50000,21000,Chicago
+419,Chevrolet,Equinox,2017,Black,45000,26000,Miami
+420,Hyundai,Tucson,2016,Red,30000,29000,San Francisco
+421,Toyota,Rav9,2018,Gray,35000,27000,Dallas
+422,Honda,Pilot,2019,White,55000,12000,Atlanta
+423,Ford,Explorer,2019,Blue,50000,15000,Phoenix
+424,Chevrolet,Traverse,2020,Black,40000,17000,Houston
+425,Hyundai,Santa Fe,2020,Red,60000,14000,Seattle
+426,Toyota,4Runner,2016,Silver,55000,12000,Los Angeles
+427,Honda,Odyssey,2019,White,45000,18000,New York
+428,Ford,Edge,2015,Blue,35000,16000,Chicago
+429,Chevrolet,Tahoe,2016,Black,55000,14000,Miami
+430,Hyundai,Palisade,2015,Silver,60000,12000,San Francisco
+431,Toyota,Sienna,2017,Red,40000,15000,Dallas
+432,Honda,Fit,2016,Gray,25000,19000,Atlanta
+433,Ford,Fusion,2016,White,30000,18000,Phoenix
+434,Chevrolet,Malibu,2018,Blue,65000,22000,Houston
+435,Hyundai,Venue,2015,Silver,55000,16000,Seattle
+436,Toyota,Yaris,2018,Black,50000,14000,Los Angeles
+437,Toyota,Camry,2016,White,55000,19000,Los Angeles
+438,Honda,Civic,2017,Blue,30000,23000,New York
+439,Toyota,Camry,2019,White,40000,21000,Los Angeles
+440,Honda,Civic,2016,Blue,45000,18000,New York
+441,Ford,Focus,2019,Silver,35000,20000,Chicago
+442,Chevrolet,Cruze,2017,Red,60000,25000,Miami
+443,Hyundai,Elantra,2019,Black,55000,24000,San Francisco
+444,Toyota,Corolla,2015,Gray,50000,23000,Dallas
+445,Honda,Accord,2015,White,35000,28000,Atlanta
+446,Ford,Mustang,2016,Yellow,40000,25000,Phoenix
+447,Chevrolet,Impala,2018,Black,70000,27000,Houston
+448,Hyundai,Sonata,2020,Blue,55000,22000,Seattle
+449,Toyota,Rav10,2019,Gray,50000,21000,Los Angeles
+450,Honda,CR-V,2018,Red,45000,26000,New York
+451,Ford,Escape,2020,White,30000,29000,Chicago
+452,Chevrolet,Equinox,2015,Black,35000,27000,Miami
+453,Hyundai,Kona,2016,Blue,55000,12000,San Francisco
+454,Toyota,Highlander,2015,Silver,50000,15000,Dallas
+455,Honda,Pilot,2020,Gray,40000,17000,Atlanta
+456,Ford,Explorer,2015,White,60000,14000,Phoenix
+457,Chevrolet,Traverse,2019,Black,55000,12000,Houston
+458,Hyundai,Santa Fe,2018,Red,50000,15000,Seattle
+459,Toyota,4Runner,2016,Silver,40000,17000,Los Angeles
+460,Honda,Odyssey,2018,White,35000,14000,New York
+461,Ford,Edge,2015,Blue,70000,12000,Chicago
+462,Chevrolet,Tahoe,2015,Black,55000,15000,Miami
+463,Hyundai,Palisade,2020,Silver,50000,17000,San Francisco
+464,Toyota,Sienna,2015,Red,40000,14000,Dallas
+465,Honda,Fit,2017,Gray,45000,16000,Atlanta
+466,Ford,Fusion,2019,White,35000,18000,Phoenix
+467,Chevrolet,Malibu,2018,Blue,60000,19000,Houston
+468,Hyundai,Venue,2016,Silver,50000,18000,Seattle
+469,Toyota,Yaris,2017,Black,40000,22000,Los Angeles
+470,Honda,HR-V,2018,White,35000,25000,New York
+471,Ford,EcoSport,2020,Red,70000,18000,Chicago
+472,Chevrolet,Spark,2018,Blue,55000,19000,Miami
+473,Hyundai,Accent,2018,Silver,50000,17000,San Francisco
+474,Toyota,Prius,2015,Gray,45000,16000,Dallas
+475,Honda,Civic,2016,White,40000,18000,Atlanta
+476,Ford,Fiesta,2017,Blue,35000,20000,Phoenix
+477,Chevrolet,Cruze,2019,Black,55000,19000,Houston
+478,Hyundai,Elantra,2017,Red,50000,23000,Seattle
+479,Toyota,Camry,2020,Silver,40000,21000,Los Angeles
+480,Honda,Accord,2019,White,35000,24000,New York
+481,Ford,Mustang,2016,Blue,70000,20000,Chicago
+482,Chevrolet,Camaro,2016,Red,55000,22000,Miami
+483,Hyundai,Genesis,2015,Black,50000,24000,San Francisco
+484,Toyota,Avalon,2017,Silver,45000,23000,Dallas
+485,Honda,Civic,2018,Gray,40000,27000,Atlanta
+486,Ford,Fusion,2020,White,35000,25000,Phoenix
+487,Chevrolet,Impala,2016,Blue,70000,28000,Houston
+488,Hyundai,Sonata,2020,Red,55000,22000,Seattle
+489,Toyota,Corolla,2017,Silver,50000,21000,Los Angeles
+490,Honda,CR-V,2018,White,45000,26000,New York
+491,Ford,Escape,2016,Blue,30000,29000,Chicago
+492,Chevrolet,Equinox,2015,Black,35000,27000,Miami
+493,Hyundai,Tucson,2015,Red,55000,12000,San Francisco
+494,Toyota,Rav10,2019,Gray,50000,15000,Dallas
+495,Honda,Pilot,2018,White,40000,17000,Atlanta
+496,Ford,Explorer,2020,Blue,60000,14000,Phoenix
+497,Chevrolet,Traverse,2015,Black,55000,12000,Houston
+498,Hyundai,Santa Fe,2017,Red,45000,18000,Seattle
+499,Toyota,4Runner,2020,Silver,35000,16000,Los Angeles
+500,Honda,Odyssey,2018,White,55000,14000,New York
+501,Ford,Edge,2015,Blue,60000,12000,Chicago
+502,Chevrolet,Tahoe,2018,Black,40000,15000,Miami
+503,Hyundai,Palisade,2017,Silver,25000,19000,San Francisco
+504,Toyota,Sienna,2020,Red,30000,18000,Dallas
+505,Honda,Fit,2018,Gray,65000,22000,Atlanta
+506,Ford,Fusion,2017,White,55000,16000,Phoenix
+507,Chevrolet,Malibu,2017,Blue,50000,14000,Houston
+508,Hyundai,Venue,2015,Silver,55000,19000,Seattle
+509,Toyota,Yaris,2019,Black,30000,23000,Los Angeles
+510,Toyota,Camry,2019,White,40000,21000,Los Angeles
+511,Honda,Civic,2019,Blue,45000,18000,New York
+512,Toyota,Camry,2018,White,35000,20000,Los Angeles
+513,Honda,Civic,2020,Blue,60000,25000,New York
+514,Ford,Focus,2020,Silver,55000,24000,Chicago
+515,Chevrolet,Cruze,2020,Red,50000,23000,Miami
+516,Hyundai,Elantra,2017,Black,35000,28000,San Francisco
+517,Toyota,Corolla,2019,Gray,40000,25000,Dallas
+518,Honda,Accord,2015,White,70000,27000,Atlanta
+519,Ford,Mustang,2016,Yellow,55000,22000,Phoenix
+520,Chevrolet,Impala,2015,Black,50000,21000,Houston
+521,Hyundai,Sonata,2016,Blue,45000,26000,Seattle
+522,Toyota,Rav11,2017,Gray,30000,29000,Los Angeles
+523,Honda,CR-V,2015,Red,35000,27000,New York
+524,Ford,Escape,2020,White,55000,12000,Chicago
+525,Chevrolet,Equinox,2016,Black,50000,15000,Miami
+526,Hyundai,Kona,2018,Blue,40000,17000,San Francisco
+527,Toyota,Highlander,2018,Silver,60000,14000,Dallas
+528,Honda,Pilot,2018,Gray,55000,12000,Atlanta
+529,Ford,Explorer,2017,White,50000,15000,Phoenix
+530,Chevrolet,Traverse,2017,Black,40000,17000,Houston
+531,Hyundai,Santa Fe,2018,Red,35000,14000,Seattle
+532,Toyota,4Runner,2019,Silver,70000,12000,Los Angeles
+533,Honda,Odyssey,2017,White,55000,15000,New York
+534,Ford,Edge,2018,Blue,50000,17000,Chicago
+535,Chevrolet,Tahoe,2016,Black,40000,14000,Miami
+536,Hyundai,Palisade,2016,Silver,45000,16000,San Francisco
+537,Toyota,Sienna,2017,Red,35000,18000,Dallas
+538,Honda,Fit,2015,Gray,60000,19000,Atlanta
+539,Ford,Fusion,2019,White,50000,18000,Phoenix
+540,Chevrolet,Malibu,2017,Blue,40000,22000,Houston
+541,Hyundai,Venue,2019,Silver,35000,25000,Seattle
+542,Toyota,Yaris,2020,Black,70000,18000,Los Angeles
+543,Honda,HR-V,2016,White,55000,19000,New York
+544,Ford,EcoSport,2016,Red,50000,17000,Chicago
+545,Chevrolet,Spark,2018,Blue,45000,16000,Miami
+546,Hyundai,Accent,2019,Silver,40000,18000,San Francisco
+547,Toyota,Prius,2020,Gray,35000,20000,Dallas
+548,Honda,Civic,2016,White,55000,19000,Atlanta
+549,Ford,Fiesta,2019,Blue,50000,23000,Phoenix
+550,Chevrolet,Cruze,2015,Black,40000,21000,Houston
+551,Hyundai,Elantra,2018,Red,35000,24000,Seattle
+552,Toyota,Camry,2020,Silver,70000,20000,Los Angeles
+553,Honda,Accord,2017,White,55000,22000,New York
+554,Ford,Mustang,2017,Blue,50000,24000,Chicago
+555,Chevrolet,Camaro,2017,Red,45000,23000,Miami
+556,Hyundai,Genesis,2020,Black,40000,27000,San Francisco
+557,Toyota,Avalon,2016,Silver,35000,25000,Dallas
+558,Honda,Civic,2020,Gray,70000,28000,Atlanta
+559,Ford,Fusion,2019,White,55000,22000,Phoenix
+560,Chevrolet,Impala,2019,Blue,50000,21000,Houston
+561,Hyundai,Sonata,2020,Red,45000,26000,Seattle
+562,Toyota,Corolla,2017,Silver,30000,29000,Los Angeles
+563,Honda,CR-V,2016,White,35000,27000,New York
+564,Ford,Escape,2019,Blue,55000,12000,Chicago
+565,Chevrolet,Equinox,2015,Black,50000,15000,Miami
+566,Hyundai,Tucson,2016,Red,40000,17000,San Francisco
+567,Toyota,Rav11,2019,Gray,60000,14000,Dallas
+568,Honda,Pilot,2016,White,55000,12000,Atlanta
+569,Ford,Explorer,2020,Blue,45000,18000,Phoenix
+570,Chevrolet,Traverse,2019,Black,35000,16000,Houston
+571,Hyundai,Santa Fe,2015,Red,55000,14000,Seattle
+572,Toyota,4Runner,2020,Silver,60000,12000,Los Angeles
+573,Honda,Odyssey,2015,White,40000,15000,New York
+574,Ford,Edge,2015,Blue,25000,19000,Chicago
+575,Chevrolet,Tahoe,2015,Black,30000,18000,Miami
+576,Hyundai,Palisade,2015,Silver,65000,22000,San Francisco
+577,Toyota,Sienna,2017,Red,55000,16000,Dallas
+578,Honda,Fit,2020,Gray,50000,14000,Atlanta
+579,Ford,Fusion,2015,White,55000,19000,Phoenix
+580,Chevrolet,Malibu,2019,Blue,30000,23000,Houston
+581,Hyundai,Venue,2015,Silver,40000,21000,Seattle
+582,Toyota,Yaris,2016,Black,45000,18000,Los Angeles
+583,Toyota,Camry,2019,White,35000,20000,Los Angeles
+584,Honda,Civic,2020,Blue,60000,25000,New York
+585,Toyota,Camry,2016,White,55000,24000,Los Angeles
+586,Honda,Civic,2016,Blue,50000,23000,New York
+587,Ford,Focus,2016,Silver,35000,28000,Chicago
+588,Chevrolet,Cruze,2017,Red,40000,25000,Miami
+589,Hyundai,Elantra,2015,Black,70000,27000,San Francisco
+590,Toyota,Corolla,2018,Gray,55000,22000,Dallas
+591,Honda,Accord,2017,White,50000,21000,Atlanta
+592,Ford,Mustang,2015,Yellow,45000,26000,Phoenix
+593,Chevrolet,Impala,2016,Black,30000,29000,Houston
+594,Hyundai,Sonata,2018,Blue,35000,27000,Seattle
+595,Toyota,Rav12,2020,Gray,55000,12000,Los Angeles
+596,Honda,CR-V,2016,Red,50000,15000,New York
+597,Ford,Escape,2016,White,40000,17000,Chicago
+598,Chevrolet,Equinox,2017,Black,60000,14000,Miami
+599,Hyundai,Kona,2018,Blue,55000,12000,San Francisco
+600,Toyota,Highlander,2020,Silver,50000,15000,Dallas
+601,Honda,Pilot,2019,Gray,40000,17000,Atlanta
+602,Ford,Explorer,2017,White,35000,14000,Phoenix
+603,Chevrolet,Traverse,2020,Black,70000,12000,Houston
+604,Hyundai,Santa Fe,2017,Red,55000,15000,Seattle
+605,Toyota,4Runner,2020,Silver,50000,17000,Los Angeles
+606,Honda,Odyssey,2018,White,40000,14000,New York
+607,Ford,Edge,2015,Blue,45000,16000,Chicago
+608,Chevrolet,Tahoe,2015,Black,35000,18000,Miami
+609,Hyundai,Palisade,2015,Silver,60000,19000,San Francisco
+610,Toyota,Sienna,2017,Red,50000,18000,Dallas
+611,Honda,Fit,2018,Gray,40000,22000,Atlanta
+612,Ford,Fusion,2015,White,35000,25000,Phoenix
+613,Chevrolet,Malibu,2020,Blue,70000,18000,Houston
+614,Hyundai,Venue,2015,Silver,55000,19000,Seattle
+615,Toyota,Yaris,2020,Black,50000,17000,Los Angeles
+616,Honda,HR-V,2018,White,45000,16000,New York
+617,Ford,EcoSport,2019,Red,40000,18000,Chicago
+618,Chevrolet,Spark,2016,Blue,35000,20000,Miami
+619,Hyundai,Accent,2015,Silver,55000,19000,San Francisco
+620,Toyota,Prius,2020,Gray,50000,23000,Dallas
+621,Honda,Civic,2018,White,40000,21000,Atlanta
+622,Ford,Fiesta,2018,Blue,35000,24000,Phoenix
+623,Chevrolet,Cruze,2018,Black,70000,20000,Houston
+624,Hyundai,Elantra,2018,Red,55000,22000,Seattle
+625,Toyota,Camry,2018,Silver,50000,24000,Los Angeles
+626,Honda,Accord,2015,White,45000,23000,New York
+627,Ford,Mustang,2015,Blue,40000,27000,Chicago
+628,Chevrolet,Camaro,2016,Red,35000,25000,Miami
+629,Hyundai,Genesis,2016,Black,70000,28000,San Francisco
+630,Toyota,Avalon,2015,Silver,55000,22000,Dallas
+631,Honda,Civic,2020,Gray,50000,21000,Atlanta
+632,Ford,Fusion,2015,White,45000,26000,Phoenix
+633,Chevrolet,Impala,2019,Blue,30000,29000,Houston
+634,Hyundai,Sonata,2017,Red,35000,27000,Seattle
+635,Toyota,Corolla,2020,Silver,55000,12000,Los Angeles
+636,Honda,CR-V,2020,White,50000,15000,New York
+637,Ford,Escape,2015,Blue,40000,17000,Chicago
+638,Chevrolet,Equinox,2016,Black,60000,14000,Miami
+639,Hyundai,Tucson,2016,Red,55000,12000,San Francisco
+640,Toyota,Rav12,2020,Gray,45000,18000,Dallas
+641,Honda,Pilot,2019,White,35000,16000,Atlanta
+642,Ford,Explorer,2018,Blue,55000,14000,Phoenix
+643,Chevrolet,Traverse,2017,Black,60000,12000,Houston
+644,Hyundai,Santa Fe,2020,Red,40000,15000,Seattle
+645,Toyota,4Runner,2020,Silver,25000,19000,Los Angeles
+646,Honda,Odyssey,2017,White,30000,18000,New York
+647,Ford,Edge,2017,Blue,65000,22000,Chicago
+648,Chevrolet,Tahoe,2017,Black,55000,16000,Miami
+649,Hyundai,Palisade,2019,Silver,50000,14000,San Francisco
+650,Toyota,Sienna,2015,Red,55000,19000,Dallas
+651,Honda,Fit,2016,Gray,30000,23000,Atlanta
+652,Ford,Fusion,2020,White,40000,21000,Phoenix
+653,Chevrolet,Malibu,2018,Blue,45000,18000,Houston
+654,Hyundai,Venue,2019,Silver,35000,20000,Seattle
+655,Toyota,Yaris,2016,Black,60000,25000,Los Angeles
+656,Toyota,Camry,2017,White,55000,24000,Los Angeles
+657,Honda,Civic,2015,Blue,50000,23000,New York
+658,Toyota,Camry,2016,White,35000,28000,Los Angeles
+659,Honda,Civic,2020,Blue,40000,25000,New York
+660,Ford,Focus,2018,Silver,70000,27000,Chicago
+661,Chevrolet,Cruze,2018,Red,55000,22000,Miami
+662,Hyundai,Elantra,2019,Black,50000,21000,San Francisco
+663,Toyota,Corolla,2017,Gray,45000,26000,Dallas
+664,Honda,Accord,2019,White,30000,29000,Atlanta
+665,Ford,Mustang,2015,Yellow,35000,27000,Phoenix
+666,Chevrolet,Impala,2018,Black,55000,12000,Houston
+667,Hyundai,Sonata,2020,Blue,50000,15000,Seattle
+668,Toyota,Rav13,2016,Gray,40000,17000,Los Angeles
+669,Honda,CR-V,2017,Red,60000,14000,New York
+670,Ford,Escape,2016,White,55000,12000,Chicago
+671,Chevrolet,Equinox,2016,Black,50000,15000,Miami
+672,Hyundai,Kona,2018,Blue,40000,17000,San Francisco
+673,Toyota,Highlander,2017,Silver,35000,14000,Dallas
+674,Honda,Pilot,2019,Gray,70000,12000,Atlanta
+675,Ford,Explorer,2015,White,55000,15000,Phoenix
+676,Chevrolet,Traverse,2019,Black,50000,17000,Houston
+677,Hyundai,Santa Fe,2016,Red,40000,14000,Seattle
+678,Toyota,4Runner,2020,Silver,45000,16000,Los Angeles
+679,Honda,Odyssey,2020,White,35000,18000,New York
+680,Ford,Edge,2018,Blue,60000,19000,Chicago
+681,Chevrolet,Tahoe,2020,Black,50000,18000,Miami
+682,Hyundai,Palisade,2016,Silver,40000,22000,San Francisco
+683,Toyota,Sienna,2019,Red,35000,25000,Dallas
+684,Honda,Fit,2020,Gray,70000,18000,Atlanta
+685,Ford,Fusion,2015,White,55000,19000,Phoenix
+686,Chevrolet,Malibu,2016,Blue,50000,17000,Houston
+687,Hyundai,Venue,2016,Silver,45000,16000,Seattle
+688,Toyota,Yaris,2016,Black,40000,18000,Los Angeles
+689,Honda,HR-V,2018,White,35000,20000,New York
+690,Ford,EcoSport,2016,Red,55000,19000,Chicago
+691,Chevrolet,Spark,2016,Blue,50000,23000,Miami
+692,Hyundai,Accent,2017,Silver,40000,21000,San Francisco
+693,Toyota,Prius,2018,Gray,35000,24000,Dallas
+694,Honda,Civic,2020,White,70000,20000,Atlanta
+695,Ford,Fiesta,2016,Blue,55000,22000,Phoenix
+696,Chevrolet,Cruze,2020,Black,50000,24000,Houston
+697,Hyundai,Elantra,2020,Red,45000,23000,Seattle
+698,Toyota,Camry,2019,Silver,40000,27000,Los Angeles
+699,Honda,Accord,2017,White,35000,25000,New York
+700,Ford,Mustang,2019,Blue,70000,28000,Chicago
+701,Chevrolet,Camaro,2015,Red,55000,22000,Miami
+702,Hyundai,Genesis,2020,Black,50000,21000,San Francisco
+703,Toyota,Avalon,2015,Silver,45000,26000,Dallas
+704,Honda,Civic,2019,Gray,30000,29000,Atlanta
+705,Ford,Fusion,2018,White,35000,27000,Phoenix
+706,Chevrolet,Impala,2017,Blue,55000,12000,Houston
+707,Hyundai,Sonata,2015,Red,50000,15000,Seattle
+708,Toyota,Corolla,2020,Silver,40000,17000,Los Angeles
+709,Honda,CR-V,2020,White,60000,14000,New York
+710,Ford,Escape,2020,Blue,55000,12000,Chicago
+711,Chevrolet,Equinox,2015,Black,45000,18000,Miami
+712,Hyundai,Tucson,2019,Red,35000,16000,San Francisco
+713,Toyota,Rav13,2018,Gray,55000,14000,Dallas
+714,Honda,Pilot,2017,White,60000,12000,Atlanta
+715,Ford,Explorer,2020,Blue,40000,15000,Phoenix
+716,Chevrolet,Traverse,2017,Black,25000,19000,Houston
+717,Hyundai,Santa Fe,2019,Red,30000,18000,Seattle
+718,Toyota,4Runner,2016,Silver,65000,22000,Los Angeles
+719,Honda,Odyssey,2020,White,55000,16000,New York
+720,Ford,Edge,2017,Blue,50000,14000,Chicago
+721,Chevrolet,Tahoe,2015,Black,55000,19000,Miami
+722,Hyundai,Palisade,2019,Silver,30000,23000,San Francisco
+723,Toyota,Sienna,2017,Red,40000,21000,Dallas
+724,Honda,Fit,2019,Gray,45000,18000,Atlanta
+725,Ford,Fusion,2015,White,35000,20000,Phoenix
+726,Chevrolet,Malibu,2019,Blue,60000,25000,Houston
+727,Hyundai,Venue,2020,Silver,55000,24000,Seattle
+728,Toyota,Yaris,2017,Black,50000,23000,Los Angeles
+729,Toyota,Camry,2019,White,35000,28000,Los Angeles
+730,Honda,Civic,2017,Blue,40000,25000,New York
+731,Toyota,Camry,2018,White,70000,27000,Los Angeles
+732,Honda,Civic,2016,Blue,55000,22000,New York
+733,Ford,Focus,2019,Silver,50000,21000,Chicago
+734,Chevrolet,Cruze,2019,Red,45000,26000,Miami
+735,Hyundai,Elantra,2016,Black,30000,29000,San Francisco
+736,Toyota,Corolla,2015,Gray,35000,27000,Dallas
+737,Honda,Accord,2017,White,55000,12000,Atlanta
+738,Ford,Mustang,2015,Yellow,50000,15000,Phoenix
+739,Chevrolet,Impala,2016,Black,40000,17000,Houston
+740,Hyundai,Sonata,2018,Blue,60000,14000,Seattle
+741,Toyota,Rav14,2017,Gray,55000,12000,Los Angeles
+742,Honda,CR-V,2016,Red,50000,15000,New York
+743,Ford,Escape,2020,White,40000,17000,Chicago
+744,Chevrolet,Equinox,2020,Black,35000,14000,Miami
+745,Hyundai,Kona,2020,Blue,70000,12000,San Francisco
+746,Toyota,Highlander,2016,Silver,55000,15000,Dallas
+747,Honda,Pilot,2020,Gray,50000,17000,Atlanta
+748,Ford,Explorer,2020,White,40000,14000,Phoenix
+749,Chevrolet,Traverse,2020,Black,45000,16000,Houston
+750,Hyundai,Santa Fe,2018,Red,35000,18000,Seattle
+751,Toyota,4Runner,2019,Silver,60000,19000,Los Angeles
+752,Honda,Odyssey,2017,White,50000,18000,New York
+753,Ford,Edge,2015,Blue,40000,22000,Chicago
+754,Chevrolet,Tahoe,2016,Black,35000,25000,Miami
+755,Hyundai,Palisade,2019,Silver,70000,18000,San Francisco
+756,Toyota,Sienna,2016,Red,55000,19000,Dallas
+757,Honda,Fit,2019,Gray,50000,17000,Atlanta
+758,Ford,Fusion,2015,White,45000,16000,Phoenix
+759,Chevrolet,Malibu,2015,Blue,40000,18000,Houston
+760,Hyundai,Venue,2018,Silver,35000,20000,Seattle
+761,Toyota,Yaris,2015,Black,55000,19000,Los Angeles
+762,Honda,HR-V,2016,White,50000,23000,New York
+763,Ford,EcoSport,2018,Red,40000,21000,Chicago
+764,Chevrolet,Spark,2019,Blue,35000,24000,Miami
+765,Hyundai,Accent,2018,Silver,70000,20000,San Francisco
+766,Toyota,Prius,2019,Gray,55000,22000,Dallas
+767,Honda,Civic,2015,White,50000,24000,Atlanta
+768,Ford,Fiesta,2016,Blue,45000,23000,Phoenix
+769,Chevrolet,Cruze,2019,Black,40000,27000,Houston
+770,Hyundai,Elantra,2019,Red,35000,25000,Seattle
+771,Toyota,Camry,2015,Silver,70000,28000,Los Angeles
+772,Honda,Accord,2018,White,55000,22000,New York
+773,Ford,Mustang,2018,Blue,50000,21000,Chicago
+774,Chevrolet,Camaro,2017,Red,45000,26000,Miami
+775,Hyundai,Genesis,2016,Black,30000,29000,San Francisco
+776,Toyota,Avalon,2020,Silver,35000,27000,Dallas
+777,Honda,Civic,2015,Gray,55000,12000,Atlanta
+778,Ford,Fusion,2016,White,50000,15000,Phoenix
+779,Chevrolet,Impala,2020,Blue,40000,17000,Houston
+780,Hyundai,Sonata,2015,Red,60000,14000,Seattle
+781,Toyota,Corolla,2019,Silver,55000,12000,Los Angeles
+782,Honda,CR-V,2017,White,45000,18000,New York
+783,Ford,Escape,2015,Blue,35000,16000,Chicago
+784,Chevrolet,Equinox,2019,Black,55000,14000,Miami
+785,Hyundai,Tucson,2015,Red,60000,12000,San Francisco
+786,Toyota,Rav14,2018,Gray,40000,15000,Dallas
+787,Honda,Pilot,2015,White,25000,19000,Atlanta
+788,Ford,Explorer,2016,Blue,30000,18000,Phoenix
+789,Chevrolet,Traverse,2018,Black,65000,22000,Houston
+790,Hyundai,Santa Fe,2018,Red,55000,16000,Seattle
+791,Toyota,4Runner,2015,Silver,50000,14000,Los Angeles
+792,Honda,Odyssey,2016,White,55000,19000,New York
+793,Ford,Edge,2016,Blue,30000,23000,Chicago
+794,Chevrolet,Tahoe,2019,Black,40000,21000,Miami
+795,Hyundai,Palisade,2015,Silver,45000,18000,San Francisco
+796,Toyota,Sienna,2018,Red,35000,20000,Dallas
+797,Honda,Fit,2015,Gray,60000,25000,Atlanta
+798,Ford,Fusion,2017,White,55000,24000,Phoenix
+799,Chevrolet,Malibu,2017,Blue,50000,23000,Houston
+800,Hyundai,Venue,2020,Silver,35000,28000,Seattle
+801,Toyota,Yaris,2020,Black,40000,25000,Los Angeles
+802,Toyota,Camry,2016,White,70000,27000,Los Angeles
+803,Honda,Civic,2015,Blue,55000,22000,New York
+804,Toyota,Camry,2017,White,50000,21000,Los Angeles
+805,Honda,Civic,2018,Blue,45000,26000,New York
+806,Ford,Focus,2018,Silver,30000,29000,Chicago
+807,Chevrolet,Cruze,2016,Red,35000,27000,Miami
+808,Hyundai,Elantra,2020,Black,55000,12000,San Francisco
+809,Toyota,Corolla,2017,Gray,50000,15000,Dallas
+810,Honda,Accord,2018,White,40000,17000,Atlanta
+811,Ford,Mustang,2020,Yellow,60000,14000,Phoenix
+812,Chevrolet,Impala,2016,Black,55000,12000,Houston
+813,Hyundai,Sonata,2019,Blue,50000,15000,Seattle
+814,Toyota,Rav15,2016,Gray,40000,17000,Los Angeles
+815,Honda,CR-V,2015,Red,35000,14000,New York
+816,Ford,Escape,2016,White,70000,12000,Chicago
+817,Chevrolet,Equinox,2019,Black,55000,15000,Miami
+818,Hyundai,Kona,2015,Blue,50000,17000,San Francisco
+819,Toyota,Highlander,2019,Silver,40000,14000,Dallas
+820,Honda,Pilot,2015,Gray,45000,16000,Atlanta
+821,Ford,Explorer,2019,White,35000,18000,Phoenix
+822,Chevrolet,Traverse,2020,Black,60000,19000,Houston
+823,Hyundai,Santa Fe,2017,Red,50000,18000,Seattle
+824,Toyota,4Runner,2017,Silver,40000,22000,Los Angeles
+825,Honda,Odyssey,2019,White,35000,25000,New York
+826,Ford,Edge,2020,Blue,70000,18000,Chicago
+827,Chevrolet,Tahoe,2018,Black,55000,19000,Miami
+828,Hyundai,Palisade,2015,Silver,50000,17000,San Francisco
+829,Toyota,Sienna,2016,Red,45000,16000,Dallas
+830,Honda,Fit,2016,Gray,40000,18000,Atlanta
+831,Ford,Fusion,2017,White,35000,20000,Phoenix
+832,Chevrolet,Malibu,2016,Blue,55000,19000,Houston
+833,Hyundai,Venue,2019,Silver,50000,23000,Seattle
+834,Toyota,Yaris,2016,Black,40000,21000,Los Angeles
+835,Honda,HR-V,2020,White,35000,24000,New York
+836,Ford,EcoSport,2016,Red,70000,20000,Chicago
+837,Chevrolet,Spark,2019,Blue,55000,22000,Miami
+838,Hyundai,Accent,2020,Silver,50000,24000,San Francisco
+839,Toyota,Prius,2018,Gray,45000,23000,Dallas
+840,Honda,Civic,2018,White,40000,27000,Atlanta
+841,Ford,Fiesta,2016,Blue,35000,25000,Phoenix
+842,Chevrolet,Cruze,2020,Black,70000,28000,Houston
+843,Hyundai,Elantra,2016,Red,55000,22000,Seattle
+844,Toyota,Camry,2015,Silver,50000,21000,Los Angeles
+845,Honda,Accord,2016,White,45000,26000,New York
+846,Ford,Mustang,2017,Blue,30000,29000,Chicago
+847,Chevrolet,Camaro,2020,Red,35000,27000,Miami
+848,Hyundai,Genesis,2017,Black,55000,12000,San Francisco
+849,Toyota,Avalon,2020,Silver,50000,15000,Dallas
+850,Honda,Civic,2018,Gray,40000,17000,Atlanta
+851,Ford,Fusion,2019,White,60000,14000,Phoenix
+852,Chevrolet,Impala,2016,Blue,55000,12000,Houston
+853,Hyundai,Sonata,2019,Red,45000,18000,Seattle
+854,Toyota,Corolla,2019,Silver,35000,16000,Los Angeles
+855,Honda,CR-V,2017,White,55000,14000,New York
+856,Ford,Escape,2020,Blue,60000,12000,Chicago
+857,Chevrolet,Equinox,2017,Black,40000,15000,Miami
+858,Hyundai,Tucson,2016,Red,25000,19000,San Francisco
+859,Toyota,Rav15,2017,Gray,30000,18000,Dallas
+860,Honda,Pilot,2019,White,65000,22000,Atlanta
+861,Ford,Explorer,2016,Blue,55000,16000,Phoenix
+862,Chevrolet,Traverse,2017,Black,50000,14000,Houston
+863,Hyundai,Santa Fe,2018,Red,55000,19000,Seattle
+864,Toyota,4Runner,2018,Silver,30000,23000,Los Angeles
+865,Honda,Odyssey,2016,White,40000,21000,New York
+866,Ford,Edge,2019,Blue,45000,18000,Chicago
+867,Chevrolet,Tahoe,2016,Black,35000,20000,Miami
+868,Hyundai,Palisade,2016,Silver,60000,25000,San Francisco
+869,Toyota,Sienna,2015,Red,55000,24000,Dallas
+870,Honda,Fit,2020,Gray,50000,23000,Atlanta
+871,Ford,Fusion,2015,White,35000,28000,Phoenix
+872,Chevrolet,Malibu,2015,Blue,40000,25000,Houston
+873,Hyundai,Venue,2019,Silver,70000,27000,Seattle
+874,Toyota,Yaris,2015,Black,55000,22000,Los Angeles
+875,Toyota,Camry,2017,White,50000,21000,Los Angeles
+876,Honda,Civic,2018,Blue,45000,26000,New York
+877,Toyota,Camry,2018,White,30000,29000,Los Angeles
+878,Honda,Civic,2015,Blue,35000,27000,New York
+879,Ford,Focus,2017,Silver,55000,12000,Chicago
+880,Chevrolet,Cruze,2018,Red,50000,15000,Miami
+881,Hyundai,Elantra,2020,Black,40000,17000,San Francisco
+882,Toyota,Corolla,2019,Gray,60000,14000,Dallas
+883,Honda,Accord,2019,White,55000,12000,Atlanta
+884,Ford,Mustang,2015,Yellow,50000,15000,Phoenix
+885,Chevrolet,Impala,2020,Black,40000,17000,Houston
+886,Hyundai,Sonata,2017,Blue,35000,14000,Seattle
+887,Toyota,Rav16,2020,Gray,70000,12000,Los Angeles
+888,Honda,CR-V,2016,Red,55000,15000,New York
+889,Ford,Escape,2019,White,50000,17000,Chicago
+890,Chevrolet,Equinox,2020,Black,40000,14000,Miami
+891,Hyundai,Kona,2015,Blue,45000,16000,San Francisco
+892,Toyota,Highlander,2015,Silver,35000,18000,Dallas
+893,Honda,Pilot,2017,Gray,60000,19000,Atlanta
+894,Ford,Explorer,2020,White,50000,18000,Phoenix
+895,Chevrolet,Traverse,2018,Black,40000,22000,Houston
+896,Hyundai,Santa Fe,2017,Red,35000,25000,Seattle
+897,Toyota,4Runner,2020,Silver,70000,18000,Los Angeles
+898,Honda,Odyssey,2017,White,55000,19000,New York
+899,Ford,Edge,2019,Blue,50000,17000,Chicago
+900,Chevrolet,Tahoe,2015,Black,45000,16000,Miami
+901,Hyundai,Palisade,2016,Silver,40000,18000,San Francisco
+902,Toyota,Sienna,2020,Red,35000,20000,Dallas
+903,Honda,Fit,2015,Gray,55000,19000,Atlanta
+904,Ford,Fusion,2017,White,50000,23000,Phoenix
+905,Chevrolet,Malibu,2019,Blue,40000,21000,Houston
+906,Hyundai,Venue,2020,Silver,35000,24000,Seattle
+907,Toyota,Yaris,2016,Black,70000,20000,Los Angeles
+908,Honda,HR-V,2019,White,55000,22000,New York
+909,Ford,EcoSport,2020,Red,50000,24000,Chicago
+910,Chevrolet,Spark,2019,Blue,45000,23000,Miami
+911,Hyundai,Accent,2019,Silver,40000,27000,San Francisco
+912,Toyota,Prius,2018,Gray,35000,25000,Dallas
+913,Honda,Civic,2019,White,70000,28000,Atlanta
+914,Ford,Fiesta,2016,Blue,55000,22000,Phoenix
+915,Chevrolet,Cruze,2017,Black,50000,21000,Houston
+916,Hyundai,Elantra,2019,Red,45000,26000,Seattle
+917,Toyota,Camry,2019,Silver,30000,29000,Los Angeles
+918,Honda,Accord,2020,White,35000,27000,New York
+919,Ford,Mustang,2015,Blue,55000,12000,Chicago
+920,Chevrolet,Camaro,2017,Red,50000,15000,Miami
+921,Hyundai,Genesis,2020,Black,40000,17000,San Francisco
+922,Toyota,Avalon,2019,Silver,60000,14000,Dallas
+923,Honda,Civic,2018,Gray,55000,12000,Atlanta
+924,Ford,Fusion,2015,White,45000,18000,Phoenix
+925,Chevrolet,Impala,2016,Blue,35000,16000,Houston
+926,Hyundai,Sonata,2019,Red,55000,14000,Seattle
+927,Toyota,Corolla,2019,Silver,60000,12000,Los Angeles
+928,Honda,CR-V,2020,White,40000,15000,New York
+929,Ford,Escape,2018,Blue,25000,19000,Chicago
+930,Chevrolet,Equinox,2015,Black,30000,18000,Miami
+931,Hyundai,Tucson,2019,Red,65000,22000,San Francisco
+932,Toyota,Rav16,2020,Gray,55000,16000,Dallas
+933,Honda,Pilot,2020,White,50000,14000,Atlanta
+934,Ford,Explorer,2020,Blue,55000,19000,Phoenix
+935,Chevrolet,Traverse,2019,Black,30000,23000,Houston
+936,Hyundai,Santa Fe,2020,Red,40000,21000,Seattle
+937,Toyota,4Runner,2017,Silver,45000,18000,Los Angeles
+938,Honda,Odyssey,2018,White,35000,20000,New York
+939,Ford,Edge,2018,Blue,60000,25000,Chicago
+940,Chevrolet,Tahoe,2020,Black,55000,24000,Miami
+941,Hyundai,Palisade,2018,Silver,50000,23000,San Francisco
+942,Toyota,Sienna,2020,Red,35000,28000,Dallas
+943,Honda,Fit,2019,Gray,40000,25000,Atlanta
+944,Ford,Fusion,2020,White,70000,27000,Phoenix
+945,Chevrolet,Malibu,2015,Blue,55000,22000,Houston
+946,Hyundai,Venue,2018,Silver,50000,21000,Seattle
+947,Toyota,Yaris,2015,Black,45000,26000,Los Angeles
+948,Toyota,Camry,2017,White,30000,29000,Los Angeles
+949,Honda,Civic,2018,Blue,35000,27000,New York
+950,Toyota,Camry,2019,White,55000,12000,Los Angeles
+951,Honda,Civic,2016,Blue,50000,15000,New York
+952,Ford,Focus,2015,Silver,40000,17000,Chicago
+953,Chevrolet,Cruze,2019,Red,60000,14000,Miami
+954,Hyundai,Elantra,2015,Black,55000,12000,San Francisco
+955,Toyota,Corolla,2019,Gray,50000,15000,Dallas
+956,Honda,Accord,2015,White,40000,17000,Atlanta
+957,Ford,Mustang,2020,Yellow,35000,14000,Phoenix
+958,Chevrolet,Impala,2017,Black,70000,12000,Houston
+959,Hyundai,Sonata,2020,Blue,55000,15000,Seattle
+960,Toyota,Rav17,2015,Gray,50000,17000,Los Angeles
+961,Honda,CR-V,2015,Red,40000,14000,New York
+962,Ford,Escape,2019,White,45000,16000,Chicago
+963,Chevrolet,Equinox,2017,Black,35000,18000,Miami
+964,Hyundai,Kona,2018,Blue,60000,19000,San Francisco
+965,Toyota,Highlander,2017,Silver,50000,18000,Dallas
+966,Honda,Pilot,2019,Gray,40000,22000,Atlanta
+967,Ford,Explorer,2019,White,35000,25000,Phoenix
+968,Chevrolet,Traverse,2018,Black,70000,18000,Houston
+969,Hyundai,Santa Fe,2018,Red,55000,19000,Seattle
+970,Toyota,4Runner,2020,Silver,50000,17000,Los Angeles
+971,Honda,Odyssey,2017,White,45000,16000,New York
+972,Ford,Edge,2017,Blue,40000,18000,Chicago
+973,Chevrolet,Tahoe,2016,Black,35000,20000,Miami
+974,Hyundai,Palisade,2017,Silver,55000,19000,San Francisco
+975,Toyota,Sienna,2017,Red,50000,23000,Dallas
+976,Honda,Fit,2019,Gray,40000,21000,Atlanta
+977,Ford,Fusion,2019,White,35000,24000,Phoenix
+978,Chevrolet,Malibu,2018,Blue,70000,20000,Houston
+979,Hyundai,Venue,2015,Silver,55000,22000,Seattle
+980,Toyota,Yaris,2019,Black,50000,24000,Los Angeles
+981,Honda,HR-V,2017,White,45000,23000,New York
+982,Ford,EcoSport,2015,Red,40000,27000,Chicago
+983,Chevrolet,Spark,2018,Blue,35000,25000,Miami
+984,Hyundai,Accent,2020,Silver,70000,28000,San Francisco
+985,Toyota,Prius,2019,Gray,55000,22000,Dallas
+986,Honda,Civic,2016,White,50000,21000,Atlanta
+987,Ford,Fiesta,2017,Blue,45000,26000,Phoenix
+988,Chevrolet,Cruze,2018,Black,30000,29000,Houston
+989,Hyundai,Elantra,2019,Red,35000,27000,Seattle
+990,Toyota,Camry,2017,Silver,55000,12000,Los Angeles
+991,Honda,Accord,2019,White,50000,15000,New York
+992,Ford,Mustang,2016,Blue,40000,17000,Chicago
+993,Chevrolet,Camaro,2019,Red,60000,14000,Miami
+994,Hyundai,Genesis,2019,Black,55000,12000,San Francisco
+995,Toyota,Avalon,2016,Silver,45000,18000,Dallas
+996,Honda,Civic,2020,Gray,35000,16000,Atlanta
+997,Ford,Fusion,2018,White,55000,14000,Phoenix
+998,Chevrolet,Impala,2016,Blue,60000,12000,Houston
+999,Hyundai,Sonata,2020,Red,40000,15000,Seattle
+1000,Toyota,Corolla,2017,Silver,25000,19000,Los Angeles
+1001,Honda,CR-V,2020,White,30000,18000,New York
+1002,Ford,Escape,2016,Blue,65000,22000,Chicago
+1003,Chevrolet,Equinox,2018,Black,55000,16000,Miami
+1004,Hyundai,Tucson,2020,Red,50000,14000,San Francisco
+1005,Toyota,Rav17,2016,Gray,55000,19000,Dallas
+1006,Honda,Pilot,2015,White,30000,23000,Atlanta
+1007,Ford,Explorer,2017,Blue,40000,21000,Phoenix
+1008,Chevrolet,Traverse,2018,Black,45000,18000,Houston
+1009,Hyundai,Santa Fe,2017,Red,35000,20000,Seattle
+1010,Toyota,4Runner,2015,Silver,60000,25000,Los Angeles
+1011,Honda,Odyssey,2016,White,55000,24000,New York
+1012,Ford,Edge,2020,Blue,50000,23000,Chicago
+1013,Chevrolet,Tahoe,2020,Black,35000,28000,Miami
+1014,Hyundai,Palisade,2017,Silver,40000,25000,San Francisco
+1015,Toyota,Sienna,2016,Red,70000,27000,Dallas
+1016,Honda,Fit,2018,Gray,55000,22000,Atlanta
+1017,Ford,Fusion,2016,White,50000,21000,Phoenix
+1018,Chevrolet,Malibu,2019,Blue,45000,26000,Houston
+1019,Hyundai,Venue,2017,Silver,30000,29000,Seattle
+1020,Toyota,Yaris,2017,Black,35000,27000,Los Angeles
+1021,Toyota,Camry,2019,White,55000,12000,Los Angeles
+1022,Honda,Civic,2020,Blue,50000,15000,New York
+1023,Toyota,Camry,2016,White,40000,17000,Los Angeles
+1024,Honda,Civic,2017,Blue,60000,14000,New York
+1025,Ford,Focus,2018,Silver,55000,12000,Chicago
+1026,Chevrolet,Cruze,2016,Red,50000,15000,Miami
+1027,Hyundai,Elantra,2015,Black,40000,17000,San Francisco
+1028,Toyota,Corolla,2015,Gray,35000,14000,Dallas
+1029,Honda,Accord,2017,White,70000,12000,Atlanta
+1030,Ford,Mustang,2018,Yellow,55000,15000,Phoenix
+1031,Chevrolet,Impala,2017,Black,50000,17000,Houston
+1032,Hyundai,Sonata,2016,Blue,40000,14000,Seattle
+1033,Toyota,Rav18,2015,Gray,45000,16000,Los Angeles
+1034,Honda,CR-V,2015,Red,35000,18000,New York
+1035,Ford,Escape,2019,White,60000,19000,Chicago
+1036,Chevrolet,Equinox,2018,Black,50000,18000,Miami
+1037,Hyundai,Kona,2015,Blue,40000,22000,San Francisco
+1038,Toyota,Highlander,2020,Silver,35000,25000,Dallas
+1039,Honda,Pilot,2016,Gray,70000,18000,Atlanta
+1040,Ford,Explorer,2017,White,55000,19000,Phoenix
+1041,Chevrolet,Traverse,2018,Black,50000,17000,Houston
+1042,Hyundai,Santa Fe,2019,Red,45000,16000,Seattle
+1043,Toyota,4Runner,2020,Silver,40000,18000,Los Angeles
+1044,Honda,Odyssey,2015,White,35000,20000,New York
+1045,Ford,Edge,2015,Blue,55000,19000,Chicago
+1046,Chevrolet,Tahoe,2015,Black,50000,23000,Miami
+1047,Hyundai,Palisade,2016,Silver,40000,21000,San Francisco
+1048,Toyota,Sienna,2015,Red,35000,24000,Dallas
+1049,Honda,Fit,2016,Gray,70000,20000,Atlanta
+1050,Ford,Fusion,2016,White,55000,22000,Phoenix
+1051,Chevrolet,Malibu,2017,Blue,50000,24000,Houston
+1052,Hyundai,Venue,2019,Silver,45000,23000,Seattle
+1053,Toyota,Yaris,2019,Black,40000,27000,Los Angeles
+1054,Honda,HR-V,2019,White,35000,25000,New York
+1055,Ford,EcoSport,2016,Red,70000,28000,Chicago
+1056,Chevrolet,Spark,2016,Blue,55000,22000,Miami
+1057,Hyundai,Accent,2015,Silver,50000,21000,San Francisco
+1058,Toyota,Prius,2018,Gray,45000,26000,Dallas
+1059,Honda,Civic,2018,White,30000,29000,Atlanta
+1060,Ford,Fiesta,2015,Blue,35000,27000,Phoenix
+1061,Chevrolet,Cruze,2018,Black,55000,12000,Houston
+1062,Hyundai,Elantra,2018,Red,50000,15000,Seattle
+1063,Toyota,Camry,2015,Silver,40000,17000,Los Angeles
+1064,Honda,Accord,2018,White,60000,14000,New York
+1065,Ford,Mustang,2016,Blue,55000,12000,Chicago
+1066,Chevrolet,Camaro,2015,Red,45000,18000,Miami
+1067,Hyundai,Genesis,2019,Black,35000,16000,San Francisco
+1068,Toyota,Avalon,2020,Silver,55000,14000,Dallas
+1069,Honda,Civic,2015,Gray,60000,12000,Atlanta
+1070,Ford,Fusion,2017,White,40000,15000,Phoenix
+1071,Chevrolet,Impala,2015,Blue,25000,19000,Houston
+1072,Hyundai,Sonata,2017,Red,30000,18000,Seattle
+1073,Toyota,Corolla,2015,Silver,65000,22000,Los Angeles
+1074,Honda,CR-V,2019,White,55000,16000,New York
+1075,Ford,Escape,2017,Blue,50000,14000,Chicago
+1076,Chevrolet,Equinox,2019,Black,55000,19000,Miami
+1077,Hyundai,Tucson,2019,Red,30000,23000,San Francisco
+1078,Toyota,Rav18,2015,Gray,40000,21000,Dallas
+1079,Honda,Pilot,2020,White,45000,18000,Atlanta
+1080,Ford,Explorer,2018,Blue,35000,20000,Phoenix
+1081,Chevrolet,Traverse,2020,Black,60000,25000,Houston
+1082,Hyundai,Santa Fe,2019,Red,55000,24000,Seattle
+1083,Toyota,4Runner,2017,Silver,50000,23000,Los Angeles
+1084,Honda,Odyssey,2016,White,35000,28000,New York
+1085,Ford,Edge,2020,Blue,40000,25000,Chicago
+1086,Chevrolet,Tahoe,2020,Black,70000,27000,Miami
+1087,Hyundai,Palisade,2018,Silver,55000,22000,San Francisco
+1088,Toyota,Sienna,2017,Red,50000,21000,Dallas
+1089,Honda,Fit,2019,Gray,45000,26000,Atlanta
+1090,Ford,Fusion,2015,White,30000,29000,Phoenix
+1091,Chevrolet,Malibu,2015,Blue,35000,27000,Houston
+1092,Hyundai,Venue,2018,Silver,55000,12000,Seattle
+1093,Toyota,Yaris,2017,Black,50000,15000,Los Angeles
+1094,Toyota,Camry,2020,White,40000,17000,Los Angeles
+1095,Honda,Civic,2015,Blue,60000,14000,New York
+1096,Toyota,Camry,2018,White,55000,12000,Los Angeles
+1097,Honda,Civic,2020,Blue,50000,15000,New York
+1098,Ford,Focus,2019,Silver,40000,17000,Chicago
+1099,Chevrolet,Cruze,2017,Red,35000,14000,Miami
+1100,Hyundai,Elantra,2018,Black,70000,12000,San Francisco
+1101,Toyota,Corolla,2017,Gray,55000,15000,Dallas
+1102,Honda,Accord,2015,White,50000,17000,Atlanta
+1103,Ford,Mustang,2019,Yellow,40000,14000,Phoenix
+1104,Chevrolet,Impala,2016,Black,45000,16000,Houston
+1105,Hyundai,Sonata,2019,Blue,35000,18000,Seattle
+1106,Toyota,Rav19,2018,Gray,60000,19000,Los Angeles
+1107,Honda,CR-V,2017,Red,50000,18000,New York
+1108,Ford,Escape,2020,White,40000,22000,Chicago
+1109,Chevrolet,Equinox,2019,Black,35000,25000,Miami
+1110,Hyundai,Kona,2016,Blue,70000,18000,San Francisco
+1111,Toyota,Highlander,2015,Silver,55000,19000,Dallas
+1112,Honda,Pilot,2015,Gray,50000,17000,Atlanta
+1113,Ford,Explorer,2018,White,45000,16000,Phoenix
+1114,Chevrolet,Traverse,2016,Black,40000,18000,Houston
+1115,Hyundai,Santa Fe,2018,Red,35000,20000,Seattle
+1116,Toyota,4Runner,2016,Silver,55000,19000,Los Angeles
+1117,Honda,Odyssey,2015,White,50000,23000,New York
+1118,Ford,Edge,2017,Blue,40000,21000,Chicago
+1119,Chevrolet,Tahoe,2019,Black,35000,24000,Miami
+1120,Hyundai,Palisade,2018,Silver,70000,20000,San Francisco
+1121,Toyota,Sienna,2018,Red,55000,22000,Dallas
+1122,Honda,Fit,2019,Gray,50000,24000,Atlanta
+1123,Ford,Fusion,2016,White,45000,23000,Phoenix
+1124,Chevrolet,Malibu,2015,Blue,40000,27000,Houston
+1125,Hyundai,Venue,2018,Silver,35000,25000,Seattle
+1126,Toyota,Yaris,2017,Black,70000,28000,Los Angeles
+1127,Honda,HR-V,2015,White,55000,22000,New York
+1128,Ford,EcoSport,2017,Red,50000,21000,Chicago
+1129,Chevrolet,Spark,2017,Blue,45000,26000,Miami
+1130,Hyundai,Accent,2016,Silver,30000,29000,San Francisco
+1131,Toyota,Prius,2017,Gray,35000,27000,Dallas
+1132,Honda,Civic,2019,White,55000,12000,Atlanta
+1133,Ford,Fiesta,2019,Blue,50000,15000,Phoenix
+1134,Chevrolet,Cruze,2016,Black,40000,17000,Houston
+1135,Hyundai,Elantra,2020,Red,60000,14000,Seattle
+1136,Toyota,Camry,2018,Silver,55000,12000,Los Angeles
+1137,Honda,Accord,2017,White,45000,18000,New York
+1138,Ford,Mustang,2016,Blue,35000,16000,Chicago
+1139,Chevrolet,Camaro,2019,Red,55000,14000,Miami
+1140,Hyundai,Genesis,2018,Black,60000,12000,San Francisco
+1141,Toyota,Avalon,2017,Silver,40000,15000,Dallas
+1142,Honda,Civic,2016,Gray,25000,19000,Atlanta
+1143,Ford,Fusion,2017,White,30000,18000,Phoenix
+1144,Chevrolet,Impala,2019,Blue,65000,22000,Houston
+1145,Hyundai,Sonata,2018,Red,55000,16000,Seattle
+1146,Toyota,Corolla,2020,Silver,50000,14000,Los Angeles
+1147,Honda,CR-V,2020,White,55000,19000,New York
+1148,Ford,Escape,2018,Blue,30000,23000,Chicago
+1149,Chevrolet,Equinox,2015,Black,40000,21000,Miami
+1150,Hyundai,Tucson,2019,Red,45000,18000,San Francisco
+1151,Toyota,Rav19,2019,Gray,35000,20000,Dallas
+1152,Honda,Pilot,2018,White,60000,25000,Atlanta
+1153,Ford,Explorer,2015,Blue,55000,24000,Phoenix
+1154,Chevrolet,Traverse,2020,Black,50000,23000,Houston
+1155,Hyundai,Santa Fe,2018,Red,35000,28000,Seattle
+1156,Toyota,4Runner,2017,Silver,40000,25000,Los Angeles
+1157,Honda,Odyssey,2015,White,70000,27000,New York
+1158,Ford,Edge,2020,Blue,55000,22000,Chicago
+1159,Chevrolet,Tahoe,2019,Black,50000,21000,Miami
+1160,Hyundai,Palisade,2017,Silver,45000,26000,San Francisco
+1161,Toyota,Sienna,2019,Red,30000,29000,Dallas
+1162,Honda,Fit,2015,Gray,35000,27000,Atlanta
+1163,Ford,Fusion,2016,White,55000,12000,Phoenix
+1164,Chevrolet,Malibu,2016,Blue,50000,15000,Houston
+1165,Hyundai,Venue,2017,Silver,40000,17000,Seattle
+1166,Toyota,Yaris,2016,Black,60000,14000,Los Angeles
+1167,Toyota,Camry,2016,White,55000,12000,Los Angeles
+1168,Honda,Civic,2020,Blue,50000,15000,New York
+1169,Toyota,Camry,2019,White,40000,17000,Los Angeles
+1170,Honda,Civic,2016,Blue,35000,14000,New York
+1171,Ford,Focus,2017,Silver,70000,12000,Chicago
+1172,Chevrolet,Cruze,2020,Red,55000,15000,Miami
+1173,Hyundai,Elantra,2016,Black,50000,17000,San Francisco
+1174,Toyota,Corolla,2019,Gray,40000,14000,Dallas
+1175,Honda,Accord,2015,White,45000,16000,Atlanta
+1176,Ford,Mustang,2018,Yellow,35000,18000,Phoenix
+1177,Chevrolet,Impala,2015,Black,60000,19000,Houston
+1178,Hyundai,Sonata,2018,Blue,50000,18000,Seattle
+1179,Toyota,Rav20,2020,Gray,40000,22000,Los Angeles
+1180,Honda,CR-V,2016,Red,35000,25000,New York
+1181,Ford,Escape,2015,White,70000,18000,Chicago
+1182,Chevrolet,Equinox,2020,Black,55000,19000,Miami
+1183,Hyundai,Kona,2016,Blue,50000,17000,San Francisco
+1184,Toyota,Highlander,2017,Silver,45000,16000,Dallas
+1185,Honda,Pilot,2019,Gray,40000,18000,Atlanta
+1186,Ford,Explorer,2017,White,35000,20000,Phoenix
+1187,Chevrolet,Traverse,2019,Black,55000,19000,Houston
+1188,Hyundai,Santa Fe,2019,Red,50000,23000,Seattle
+1189,Toyota,4Runner,2020,Silver,40000,21000,Los Angeles
+1190,Honda,Odyssey,2015,White,35000,24000,New York
+1191,Ford,Edge,2018,Blue,70000,20000,Chicago
+1192,Chevrolet,Tahoe,2017,Black,55000,22000,Miami
+1193,Hyundai,Palisade,2016,Silver,50000,24000,San Francisco
+1194,Toyota,Sienna,2020,Red,45000,23000,Dallas
+1195,Honda,Fit,2019,Gray,40000,27000,Atlanta
+1196,Ford,Fusion,2015,White,35000,25000,Phoenix
+1197,Chevrolet,Malibu,2017,Blue,70000,28000,Houston
+1198,Hyundai,Venue,2018,Silver,55000,22000,Seattle
+1199,Toyota,Yaris,2016,Black,50000,21000,Los Angeles
+1200,Honda,HR-V,2019,White,45000,26000,New York
+1201,Ford,EcoSport,2020,Red,30000,29000,Chicago
+1202,Chevrolet,Spark,2017,Blue,35000,27000,Miami
+1203,Hyundai,Accent,2017,Silver,55000,12000,San Francisco
+1204,Toyota,Prius,2020,Gray,50000,15000,Dallas
+1205,Honda,Civic,2018,White,40000,17000,Atlanta
+1206,Ford,Fiesta,2015,Blue,60000,14000,Phoenix
+1207,Chevrolet,Cruze,2020,Black,55000,12000,Houston
+1208,Hyundai,Elantra,2017,Red,45000,18000,Seattle
+1209,Toyota,Camry,2016,Silver,35000,16000,Los Angeles
+1210,Honda,Accord,2016,White,55000,14000,New York
+1211,Ford,Mustang,2020,Blue,60000,12000,Chicago
+1212,Chevrolet,Camaro,2020,Red,40000,15000,Miami
+1213,Hyundai,Genesis,2020,Black,25000,19000,San Francisco
+1214,Toyota,Avalon,2016,Silver,30000,18000,Dallas
+1215,Honda,Civic,2016,Gray,65000,22000,Atlanta
+1216,Ford,Fusion,2018,White,55000,16000,Phoenix
+1217,Chevrolet,Impala,2018,Blue,50000,14000,Houston
+1218,Hyundai,Sonata,2017,Red,55000,19000,Seattle
+1219,Toyota,Corolla,2018,Silver,30000,23000,Los Angeles
+1220,Honda,CR-V,2018,White,40000,21000,New York
+1221,Ford,Escape,2017,Blue,45000,18000,Chicago
+1222,Chevrolet,Equinox,2018,Black,35000,20000,Miami
+1223,Hyundai,Tucson,2017,Red,60000,25000,San Francisco
+1224,Toyota,Rav20,2015,Gray,55000,24000,Dallas
+1225,Honda,Pilot,2018,White,50000,23000,Atlanta
+1226,Ford,Explorer,2015,Blue,35000,28000,Phoenix
+1227,Chevrolet,Traverse,2020,Black,40000,25000,Houston
+1228,Hyundai,Santa Fe,2020,Red,70000,27000,Seattle
+1229,Toyota,4Runner,2017,Silver,55000,22000,Los Angeles
+1230,Honda,Odyssey,2017,White,50000,21000,New York
+1231,Ford,Edge,2018,Blue,45000,26000,Chicago
+1232,Chevrolet,Tahoe,2019,Black,30000,29000,Miami
+1233,Hyundai,Palisade,2019,Silver,35000,27000,San Francisco
+1234,Toyota,Sienna,2016,Red,55000,12000,Dallas
+1235,Honda,Fit,2015,Gray,50000,15000,Atlanta
+1236,Ford,Fusion,2020,White,40000,17000,Phoenix
+1237,Chevrolet,Malibu,2015,Blue,60000,14000,Houston
+1238,Hyundai,Venue,2017,Silver,55000,12000,Seattle
+1239,Toyota,Yaris,2018,Black,50000,15000,Los Angeles
+1240,Toyota,Camry,2017,White,40000,17000,Los Angeles
+1241,Honda,Civic,2020,Blue,35000,14000,New York
+1242,Toyota,Camry,2020,White,70000,12000,Los Angeles
+1243,Honda,Civic,2018,Blue,55000,15000,New York
+1244,Ford,Focus,2018,Silver,50000,17000,Chicago
+1245,Chevrolet,Cruze,2020,Red,40000,14000,Miami
+1246,Hyundai,Elantra,2020,Black,45000,16000,San Francisco
+1247,Toyota,Corolla,2015,Gray,35000,18000,Dallas
+1248,Honda,Accord,2017,White,60000,19000,Atlanta
+1249,Ford,Mustang,2015,Yellow,50000,18000,Phoenix
+1250,Chevrolet,Impala,2018,Black,40000,22000,Houston
+1251,Hyundai,Sonata,2017,Blue,35000,25000,Seattle
+1252,Toyota,Rav21,2019,Gray,70000,18000,Los Angeles
+1253,Honda,CR-V,2018,Red,55000,19000,New York
+1254,Ford,Escape,2016,White,50000,17000,Chicago
+1255,Chevrolet,Equinox,2015,Black,45000,16000,Miami
+1256,Hyundai,Kona,2017,Blue,40000,18000,San Francisco
+1257,Toyota,Highlander,2017,Silver,35000,20000,Dallas
+1258,Honda,Pilot,2017,Gray,55000,19000,Atlanta
+1259,Ford,Explorer,2016,White,50000,23000,Phoenix
+1260,Chevrolet,Traverse,2015,Black,40000,21000,Houston
+1261,Hyundai,Santa Fe,2018,Red,35000,24000,Seattle
+1262,Toyota,4Runner,2016,Silver,70000,20000,Los Angeles
+1263,Honda,Odyssey,2020,White,55000,22000,New York
+1264,Ford,Edge,2018,Blue,50000,24000,Chicago
+1265,Chevrolet,Tahoe,2015,Black,45000,23000,Miami
+1266,Hyundai,Palisade,2019,Silver,40000,27000,San Francisco
+1267,Toyota,Sienna,2018,Red,35000,25000,Dallas
+1268,Honda,Fit,2016,Gray,70000,28000,Atlanta
+1269,Ford,Fusion,2018,White,55000,22000,Phoenix
+1270,Chevrolet,Malibu,2019,Blue,50000,21000,Houston
+1271,Hyundai,Venue,2020,Silver,45000,26000,Seattle
+1272,Toyota,Yaris,2015,Black,30000,29000,Los Angeles
+1273,Honda,HR-V,2020,White,35000,27000,New York
+1274,Ford,EcoSport,2017,Red,55000,12000,Chicago
+1275,Chevrolet,Spark,2015,Blue,50000,15000,Miami
+1276,Hyundai,Accent,2018,Silver,40000,17000,San Francisco
+1277,Toyota,Prius,2016,Gray,60000,14000,Dallas
+1278,Honda,Civic,2016,White,55000,12000,Atlanta
+1279,Ford,Fiesta,2018,Blue,45000,18000,Phoenix
+1280,Chevrolet,Cruze,2016,Black,35000,16000,Houston
+1281,Hyundai,Elantra,2016,Red,55000,14000,Seattle
+1282,Toyota,Camry,2015,Silver,60000,12000,Los Angeles
+1283,Honda,Accord,2018,White,40000,15000,New York
+1284,Ford,Mustang,2015,Blue,25000,19000,Chicago
+1285,Chevrolet,Camaro,2015,Red,30000,18000,Miami
+1286,Hyundai,Genesis,2019,Black,65000,22000,San Francisco
+1287,Toyota,Avalon,2020,Silver,55000,16000,Dallas
+1288,Honda,Civic,2019,Gray,50000,14000,Atlanta
+1289,Ford,Fusion,2015,White,55000,19000,Phoenix
+1290,Chevrolet,Impala,2019,Blue,30000,23000,Houston
+1291,Hyundai,Sonata,2018,Red,40000,21000,Seattle
+1292,Toyota,Corolla,2018,Silver,45000,18000,Los Angeles
+1293,Honda,CR-V,2019,White,35000,20000,New York
+1294,Ford,Escape,2020,Blue,60000,25000,Chicago
+1295,Chevrolet,Equinox,2020,Black,55000,24000,Miami
+1296,Hyundai,Tucson,2019,Red,50000,23000,San Francisco
+1297,Toyota,Rav21,2019,Gray,35000,28000,Dallas
+1298,Honda,Pilot,2015,White,40000,25000,Atlanta
+1299,Ford,Explorer,2016,Blue,70000,27000,Phoenix
+1300,Chevrolet,Traverse,2020,Black,55000,22000,Houston
+1301,Hyundai,Santa Fe,2018,Red,50000,21000,Seattle
+1302,Toyota,4Runner,2015,Silver,45000,26000,Los Angeles
+1303,Honda,Odyssey,2015,White,30000,29000,New York
+1304,Ford,Edge,2015,Blue,35000,27000,Chicago
+1305,Chevrolet,Tahoe,2020,Black,55000,12000,Miami
+1306,Hyundai,Palisade,2018,Silver,50000,15000,San Francisco
+1307,Toyota,Sienna,2019,Red,40000,17000,Dallas
+1308,Honda,Fit,2018,Gray,60000,14000,Atlanta
+1309,Ford,Fusion,2019,White,55000,12000,Phoenix
+1310,Chevrolet,Malibu,2017,Blue,50000,15000,Houston
+1311,Hyundai,Venue,2020,Silver,40000,17000,Seattle
+1312,Toyota,Yaris,2019,Black,35000,14000,Los Angeles
+1313,Toyota,Camry,2015,White,70000,12000,Los Angeles
+1314,Honda,Civic,2019,Blue,55000,15000,New York
+1315,Toyota,Camry,2020,White,50000,17000,Los Angeles
+1316,Honda,Civic,2015,Blue,40000,14000,New York
+1317,Ford,Focus,2017,Silver,45000,16000,Chicago
+1318,Chevrolet,Cruze,2018,Red,35000,18000,Miami
+1319,Hyundai,Elantra,2019,Black,60000,19000,San Francisco
+1320,Toyota,Corolla,2020,Gray,50000,18000,Dallas
+1321,Honda,Accord,2016,White,40000,22000,Atlanta
+1322,Ford,Mustang,2016,Yellow,35000,25000,Phoenix
+1323,Chevrolet,Impala,2020,Black,70000,18000,Houston
+1324,Hyundai,Sonata,2015,Blue,55000,19000,Seattle
+1325,Toyota,Rav22,2015,Gray,50000,17000,Los Angeles
+1326,Honda,CR-V,2020,Red,45000,16000,New York
+1327,Ford,Escape,2018,White,40000,18000,Chicago
+1328,Chevrolet,Equinox,2017,Black,35000,20000,Miami
+1329,Hyundai,Kona,2017,Blue,55000,19000,San Francisco
+1330,Toyota,Highlander,2020,Silver,50000,23000,Dallas
+1331,Honda,Pilot,2015,Gray,40000,21000,Atlanta
+1332,Ford,Explorer,2018,White,35000,24000,Phoenix
+1333,Chevrolet,Traverse,2020,Black,70000,20000,Houston
+1334,Hyundai,Santa Fe,2019,Red,55000,22000,Seattle
+1335,Toyota,4Runner,2015,Silver,50000,24000,Los Angeles
+1336,Honda,Odyssey,2016,White,45000,23000,New York
+1337,Ford,Edge,2019,Blue,40000,27000,Chicago
+1338,Chevrolet,Tahoe,2018,Black,35000,25000,Miami
+1339,Hyundai,Palisade,2015,Silver,70000,28000,San Francisco
+1340,Toyota,Sienna,2019,Red,55000,22000,Dallas
+1341,Honda,Fit,2016,Gray,50000,21000,Atlanta
+1342,Ford,Fusion,2017,White,45000,26000,Phoenix
+1343,Chevrolet,Malibu,2016,Blue,30000,29000,Houston
+1344,Hyundai,Venue,2018,Silver,35000,27000,Seattle
+1345,Toyota,Yaris,2016,Black,55000,12000,Los Angeles
+1346,Honda,HR-V,2018,White,50000,15000,New York
+1347,Ford,EcoSport,2015,Red,40000,17000,Chicago
+1348,Chevrolet,Spark,2015,Blue,60000,14000,Miami
+1349,Hyundai,Accent,2016,Silver,55000,12000,San Francisco
+1350,Toyota,Prius,2018,Gray,45000,18000,Dallas
+1351,Honda,Civic,2015,White,35000,16000,Atlanta
+1352,Ford,Fiesta,2017,Blue,55000,14000,Phoenix
+1353,Chevrolet,Cruze,2020,Black,60000,12000,Houston
+1354,Hyundai,Elantra,2017,Red,40000,15000,Seattle
+1355,Toyota,Camry,2018,Silver,25000,19000,Los Angeles
+1356,Honda,Accord,2018,White,30000,18000,New York
+1357,Ford,Mustang,2019,Blue,65000,22000,Chicago
+1358,Chevrolet,Camaro,2018,Red,55000,16000,Miami
+1359,Hyundai,Genesis,2019,Black,50000,14000,San Francisco
+1360,Toyota,Avalon,2016,Silver,55000,19000,Dallas
+1361,Honda,Civic,2015,Gray,30000,23000,Atlanta
+1362,Ford,Fusion,2015,White,40000,21000,Phoenix
+1363,Chevrolet,Impala,2017,Blue,45000,18000,Houston
+1364,Hyundai,Sonata,2020,Red,35000,20000,Seattle
+1365,Toyota,Corolla,2017,Silver,60000,25000,Los Angeles
+1366,Honda,CR-V,2017,White,55000,24000,New York
+1367,Ford,Escape,2017,Blue,50000,23000,Chicago
+1368,Chevrolet,Equinox,2015,Black,35000,28000,Miami
+1369,Hyundai,Tucson,2020,Red,40000,25000,San Francisco
+1370,Toyota,Rav22,2019,Gray,70000,27000,Dallas
+1371,Honda,Pilot,2017,White,55000,22000,Atlanta
+1372,Ford,Explorer,2016,Blue,50000,21000,Phoenix
+1373,Chevrolet,Traverse,2018,Black,45000,26000,Houston
+1374,Hyundai,Santa Fe,2018,Red,30000,29000,Seattle
+1375,Toyota,4Runner,2020,Silver,35000,27000,Los Angeles
+1376,Honda,Odyssey,2015,White,55000,12000,New York
+1377,Ford,Edge,2016,Blue,50000,15000,Chicago
+1378,Chevrolet,Tahoe,2016,Black,40000,17000,Miami
+1379,Hyundai,Palisade,2018,Silver,60000,14000,San Francisco
+1380,Toyota,Sienna,2015,Red,55000,12000,Dallas
+1381,Honda,Fit,2018,Gray,50000,15000,Atlanta
+1382,Ford,Fusion,2020,White,40000,17000,Phoenix
+1383,Chevrolet,Malibu,2017,Blue,35000,14000,Houston
+1384,Hyundai,Venue,2020,Silver,70000,12000,Seattle
+1385,Toyota,Yaris,2018,Black,55000,15000,Los Angeles
+1386,Toyota,Camry,2020,White,50000,17000,Los Angeles
+1387,Honda,Civic,2016,Blue,40000,14000,New York
+1388,Toyota,Camry,2015,White,45000,16000,Los Angeles
+1389,Honda,Civic,2019,Blue,35000,18000,New York
+1390,Ford,Focus,2017,Silver,60000,19000,Chicago
+1391,Chevrolet,Cruze,2015,Red,50000,18000,Miami
+1392,Hyundai,Elantra,2015,Black,40000,22000,San Francisco
+1393,Toyota,Corolla,2019,Gray,35000,25000,Dallas
+1394,Honda,Accord,2018,White,70000,18000,Atlanta
+1395,Ford,Mustang,2017,Yellow,55000,19000,Phoenix
+1396,Chevrolet,Impala,2020,Black,50000,17000,Houston
+1397,Hyundai,Sonata,2020,Blue,45000,16000,Seattle
+1398,Toyota,Rav23,2016,Gray,40000,18000,Los Angeles
+1399,Honda,CR-V,2019,Red,35000,20000,New York
+1400,Ford,Escape,2015,White,55000,19000,Chicago
+1401,Chevrolet,Equinox,2017,Black,50000,23000,Miami
+1402,Hyundai,Kona,2019,Blue,40000,21000,San Francisco
+1403,Toyota,Highlander,2020,Silver,35000,24000,Dallas
+1404,Honda,Pilot,2019,Gray,70000,20000,Atlanta
+1405,Ford,Explorer,2016,White,55000,22000,Phoenix
+1406,Chevrolet,Traverse,2017,Black,50000,24000,Houston
+1407,Hyundai,Santa Fe,2015,Red,45000,23000,Seattle
+1408,Toyota,4Runner,2016,Silver,40000,27000,Los Angeles
+1409,Honda,Odyssey,2020,White,35000,25000,New York
+1410,Ford,Edge,2018,Blue,70000,28000,Chicago
+1411,Chevrolet,Tahoe,2020,Black,55000,22000,Miami
+1412,Hyundai,Palisade,2016,Silver,50000,21000,San Francisco
+1413,Toyota,Sienna,2017,Red,45000,26000,Dallas
+1414,Honda,Fit,2016,Gray,30000,29000,Atlanta
+1415,Ford,Fusion,2015,White,35000,27000,Phoenix
+1416,Chevrolet,Malibu,2016,Blue,55000,12000,Houston
+1417,Hyundai,Venue,2020,Silver,50000,15000,Seattle
+1418,Toyota,Yaris,2019,Black,40000,17000,Los Angeles
+1419,Honda,HR-V,2018,White,60000,14000,New York
+1420,Ford,EcoSport,2020,Red,55000,12000,Chicago
+1421,Chevrolet,Spark,2015,Blue,45000,18000,Miami
+1422,Hyundai,Accent,2019,Silver,35000,16000,San Francisco
+1423,Toyota,Prius,2017,Gray,55000,14000,Dallas
+1424,Honda,Civic,2016,White,60000,12000,Atlanta
+1425,Ford,Fiesta,2020,Blue,40000,15000,Phoenix
+1426,Chevrolet,Cruze,2020,Black,25000,19000,Houston
+1427,Hyundai,Elantra,2017,Red,30000,18000,Seattle
+1428,Toyota,Camry,2019,Silver,65000,22000,Los Angeles
+1429,Honda,Accord,2015,White,55000,16000,New York
+1430,Ford,Mustang,2019,Blue,50000,14000,Chicago
+1431,Chevrolet,Camaro,2018,Red,55000,19000,Miami
+1432,Hyundai,Genesis,2019,Black,30000,23000,San Francisco
+1433,Toyota,Avalon,2019,Silver,40000,21000,Dallas
+1434,Honda,Civic,2020,Gray,45000,18000,Atlanta
+1435,Ford,Fusion,2018,White,35000,20000,Phoenix
+1436,Chevrolet,Impala,2017,Blue,60000,25000,Houston
+1437,Hyundai,Sonata,2019,Red,55000,24000,Seattle
+1438,Toyota,Corolla,2020,Silver,50000,23000,Los Angeles
+1439,Honda,CR-V,2015,White,35000,28000,New York
+1440,Ford,Escape,2020,Blue,40000,25000,Chicago
+1441,Chevrolet,Equinox,2020,Black,70000,27000,Miami
+1442,Hyundai,Tucson,2018,Red,55000,22000,San Francisco
+1443,Toyota,Rav23,2016,Gray,50000,21000,Dallas
+1444,Honda,Pilot,2019,White,45000,26000,Atlanta
+1445,Ford,Explorer,2015,Blue,30000,29000,Phoenix
+1446,Chevrolet,Traverse,2017,Black,35000,27000,Houston
+1447,Hyundai,Santa Fe,2017,Red,55000,12000,Seattle
+1448,Toyota,4Runner,2016,Silver,50000,15000,Los Angeles
+1449,Honda,Odyssey,2016,White,40000,17000,New York
+1450,Ford,Edge,2017,Blue,60000,14000,Chicago
+1451,Chevrolet,Tahoe,2020,Black,55000,12000,Miami
+1452,Hyundai,Palisade,2016,Silver,50000,15000,San Francisco
+1453,Toyota,Sienna,2018,Red,40000,17000,Dallas
+1454,Honda,Fit,2018,Gray,35000,14000,Atlanta
+1455,Ford,Fusion,2020,White,70000,12000,Phoenix
+1456,Chevrolet,Malibu,2017,Blue,55000,15000,Houston
+1457,Hyundai,Venue,2017,Silver,50000,17000,Seattle
+1458,Toyota,Yaris,2015,Black,40000,14000,Los Angeles
+1459,Toyota,Camry,2017,White,45000,16000,Los Angeles
+1460,Honda,Civic,2017,Blue,35000,18000,New York
+1461,Toyota,Camry,2015,White,60000,19000,Los Angeles
+1462,Honda,Civic,2016,Blue,50000,18000,New York
+1463,Ford,Focus,2018,Silver,40000,22000,Chicago
+1464,Chevrolet,Cruze,2019,Red,35000,25000,Miami
+1465,Hyundai,Elantra,2020,Black,70000,18000,San Francisco
+1466,Toyota,Corolla,2020,Gray,55000,19000,Dallas
+1467,Honda,Accord,2017,White,50000,17000,Atlanta
+1468,Ford,Mustang,2016,Yellow,45000,16000,Phoenix
+1469,Chevrolet,Impala,2018,Black,40000,18000,Houston
+1470,Hyundai,Sonata,2016,Blue,35000,20000,Seattle
+1471,Toyota,Rav24,2016,Gray,55000,19000,Los Angeles
+1472,Honda,CR-V,2017,Red,50000,23000,New York
+1473,Ford,Escape,2017,White,40000,21000,Chicago
+1474,Chevrolet,Equinox,2019,Black,35000,24000,Miami
+1475,Hyundai,Kona,2018,Blue,70000,20000,San Francisco
+1476,Toyota,Highlander,2015,Silver,55000,22000,Dallas
+1477,Honda,Pilot,2015,Gray,50000,24000,Atlanta
+1478,Ford,Explorer,2020,White,45000,23000,Phoenix
+1479,Chevrolet,Traverse,2020,Black,40000,27000,Houston
+1480,Hyundai,Santa Fe,2017,Red,35000,25000,Seattle
+1481,Toyota,4Runner,2018,Silver,70000,28000,Los Angeles
+1482,Honda,Odyssey,2017,White,55000,22000,New York
+1483,Ford,Edge,2015,Blue,50000,21000,Chicago
+1484,Chevrolet,Tahoe,2015,Black,45000,26000,Miami
+1485,Hyundai,Palisade,2019,Silver,30000,29000,San Francisco
+1486,Toyota,Sienna,2017,Red,35000,27000,Dallas
+1487,Honda,Fit,2017,Gray,55000,12000,Atlanta
+1488,Ford,Fusion,2019,White,50000,15000,Phoenix
+1489,Chevrolet,Malibu,2016,Blue,40000,17000,Houston
+1490,Hyundai,Venue,2015,Silver,60000,14000,Seattle
+1491,Toyota,Yaris,2015,Black,55000,12000,Los Angeles
+1492,Honda,HR-V,2018,White,45000,18000,New York
+1493,Ford,EcoSport,2016,Red,35000,16000,Chicago
+1494,Chevrolet,Spark,2018,Blue,55000,14000,Miami
+1495,Hyundai,Accent,2018,Silver,60000,12000,San Francisco
+1496,Toyota,Prius,2020,Gray,40000,15000,Dallas
+1497,Honda,Civic,2018,White,25000,19000,Atlanta
+1498,Ford,Fiesta,2017,Blue,30000,18000,Phoenix
+1499,Chevrolet,Cruze,2018,Black,65000,22000,Houston
+1500,Hyundai,Elantra,2018,Red,55000,16000,Seattle
+1501,Toyota,Camry,2018,Silver,50000,14000,Los Angeles
+1502,Honda,Accord,2015,White,55000,19000,New York
+1503,Ford,Mustang,2015,Blue,30000,23000,Chicago
+1504,Chevrolet,Camaro,2019,Red,40000,21000,Miami
+1505,Hyundai,Genesis,2016,Black,45000,18000,San Francisco
+1506,Toyota,Avalon,2018,Silver,35000,20000,Dallas
+1507,Honda,Civic,2015,Gray,60000,25000,Atlanta
+1508,Ford,Fusion,2019,White,55000,24000,Phoenix
+1509,Chevrolet,Impala,2017,Blue,50000,23000,Houston
+1510,Hyundai,Sonata,2015,Red,35000,28000,Seattle
+1511,Toyota,Corolla,2019,Silver,40000,25000,Los Angeles
+1512,Honda,CR-V,2017,White,70000,27000,New York
+1513,Ford,Escape,2018,Blue,55000,22000,Chicago
+1514,Chevrolet,Equinox,2019,Black,50000,21000,Miami
+1515,Hyundai,Tucson,2018,Red,45000,26000,San Francisco
+1516,Toyota,Rav24,2017,Gray,30000,29000,Dallas
+1517,Honda,Pilot,2018,White,35000,27000,Atlanta
+1518,Ford,Explorer,2016,Blue,55000,12000,Phoenix
+1519,Chevrolet,Traverse,2020,Black,50000,15000,Houston
+1520,Hyundai,Santa Fe,2017,Red,40000,17000,Seattle
+1521,Toyota,4Runner,2020,Silver,60000,14000,Los Angeles
+1522,Honda,Odyssey,2017,White,55000,12000,New York
+1523,Ford,Edge,2015,Blue,50000,15000,Chicago
+1524,Chevrolet,Tahoe,2017,Black,40000,17000,Miami
+1525,Hyundai,Palisade,2019,Silver,35000,14000,San Francisco
+1526,Toyota,Sienna,2017,Red,70000,12000,Dallas
+1527,Honda,Fit,2017,Gray,55000,15000,Atlanta
+1528,Ford,Fusion,2020,White,50000,17000,Phoenix
+1529,Chevrolet,Malibu,2019,Blue,40000,14000,Houston
+1530,Hyundai,Venue,2018,Silver,45000,16000,Seattle
+1531,Toyota,Yaris,2019,Black,35000,18000,Los Angeles
+1532,Toyota,Camry,2016,White,60000,19000,Los Angeles
+1533,Honda,Civic,2017,Blue,50000,18000,New York
+1534,Toyota,Camry,2019,White,40000,22000,Los Angeles
+1535,Honda,Civic,2015,Blue,35000,25000,New York
+1536,Ford,Focus,2019,Silver,70000,18000,Chicago
+1537,Chevrolet,Cruze,2020,Red,55000,19000,Miami
+1538,Hyundai,Elantra,2020,Black,50000,17000,San Francisco
+1539,Toyota,Corolla,2015,Gray,45000,16000,Dallas
+1540,Honda,Accord,2015,White,40000,18000,Atlanta
+1541,Ford,Mustang,2020,Yellow,35000,20000,Phoenix
+1542,Chevrolet,Impala,2016,Black,55000,19000,Houston
+1543,Hyundai,Sonata,2017,Blue,50000,23000,Seattle
+1544,Toyota,Rav25,2017,Gray,40000,21000,Los Angeles
+1545,Honda,CR-V,2020,Red,35000,24000,New York
+1546,Ford,Escape,2016,White,70000,20000,Chicago
+1547,Chevrolet,Equinox,2019,Black,55000,22000,Miami
+1548,Hyundai,Kona,2015,Blue,50000,24000,San Francisco
+1549,Toyota,Highlander,2016,Silver,45000,23000,Dallas
+1550,Honda,Pilot,2016,Gray,40000,27000,Atlanta
+1551,Ford,Explorer,2020,White,35000,25000,Phoenix
+1552,Chevrolet,Traverse,2020,Black,70000,28000,Houston
+1553,Hyundai,Santa Fe,2016,Red,55000,22000,Seattle
+1554,Toyota,4Runner,2020,Silver,50000,21000,Los Angeles
+1555,Honda,Odyssey,2018,White,45000,26000,New York
+1556,Ford,Edge,2019,Blue,30000,29000,Chicago
+1557,Chevrolet,Tahoe,2016,Black,35000,27000,Miami
+1558,Hyundai,Palisade,2018,Silver,55000,12000,San Francisco
+1559,Toyota,Sienna,2017,Red,50000,15000,Dallas
+1560,Honda,Fit,2020,Gray,40000,17000,Atlanta
+1561,Ford,Fusion,2016,White,60000,14000,Phoenix
+1562,Chevrolet,Malibu,2019,Blue,55000,12000,Houston
+1563,Hyundai,Venue,2019,Silver,45000,18000,Seattle
+1564,Toyota,Yaris,2019,Black,35000,16000,Los Angeles
+1565,Honda,HR-V,2017,White,55000,14000,New York
+1566,Ford,EcoSport,2017,Red,60000,12000,Chicago
+1567,Chevrolet,Spark,2017,Blue,40000,15000,Miami
+1568,Hyundai,Accent,2016,Silver,25000,19000,San Francisco
+1569,Toyota,Prius,2017,Gray,30000,18000,Dallas
+1570,Honda,Civic,2016,White,65000,22000,Atlanta
+1571,Ford,Fiesta,2017,Blue,55000,16000,Phoenix
+1572,Chevrolet,Cruze,2020,Black,50000,14000,Houston
+1573,Hyundai,Elantra,2020,Red,55000,19000,Seattle
+1574,Toyota,Camry,2018,Silver,30000,23000,Los Angeles
+1575,Honda,Accord,2016,White,40000,21000,New York
+1576,Ford,Mustang,2017,Blue,45000,18000,Chicago
+1577,Chevrolet,Camaro,2015,Red,35000,20000,Miami
+1578,Hyundai,Genesis,2016,Black,60000,25000,San Francisco
+1579,Toyota,Avalon,2018,Silver,55000,24000,Dallas
+1580,Honda,Civic,2016,Gray,50000,23000,Atlanta
+1581,Ford,Fusion,2019,White,35000,28000,Phoenix
+1582,Chevrolet,Impala,2017,Blue,40000,25000,Houston
+1583,Hyundai,Sonata,2019,Red,70000,27000,Seattle
+1584,Toyota,Corolla,2016,Silver,55000,22000,Los Angeles
+1585,Honda,CR-V,2017,White,50000,21000,New York
+1586,Ford,Escape,2015,Blue,45000,26000,Chicago
+1587,Chevrolet,Equinox,2019,Black,30000,29000,Miami
+1588,Hyundai,Tucson,2015,Red,35000,27000,San Francisco
+1589,Toyota,Rav25,2015,Gray,55000,12000,Dallas
+1590,Honda,Pilot,2020,White,50000,15000,Atlanta
+1591,Ford,Explorer,2016,Blue,40000,17000,Phoenix
+1592,Chevrolet,Traverse,2016,Black,60000,14000,Houston
+1593,Hyundai,Santa Fe,2015,Red,55000,12000,Seattle
+1594,Toyota,4Runner,2015,Silver,50000,15000,Los Angeles
+1595,Honda,Odyssey,2015,White,40000,17000,New York
+1596,Ford,Edge,2017,Blue,35000,14000,Chicago
+1597,Chevrolet,Tahoe,2018,Black,70000,12000,Miami
+1598,Hyundai,Palisade,2015,Silver,55000,15000,San Francisco
+1599,Toyota,Sienna,2019,Red,50000,17000,Dallas
+1600,Honda,Fit,2017,Gray,40000,14000,Atlanta
+1601,Ford,Fusion,2019,White,45000,16000,Phoenix
+1602,Chevrolet,Malibu,2017,Blue,35000,18000,Houston
+1603,Hyundai,Venue,2016,Silver,60000,19000,Seattle
+1604,Toyota,Yaris,2018,Black,50000,18000,Los Angeles
+1605,Toyota,Camry,2020,White,40000,22000,Los Angeles
+1606,Honda,Civic,2017,Blue,35000,25000,New York
+1607,Toyota,Camry,2017,White,70000,18000,Los Angeles
+1608,Honda,Civic,2017,Blue,55000,19000,New York
+1609,Ford,Focus,2020,Silver,50000,17000,Chicago
+1610,Chevrolet,Cruze,2020,Red,45000,16000,Miami
+1611,Hyundai,Elantra,2018,Black,40000,18000,San Francisco
+1612,Toyota,Corolla,2020,Gray,35000,20000,Dallas
+1613,Honda,Accord,2017,White,55000,19000,Atlanta
+1614,Ford,Mustang,2016,Yellow,50000,23000,Phoenix
+1615,Chevrolet,Impala,2015,Black,40000,21000,Houston
+1616,Hyundai,Sonata,2016,Blue,35000,24000,Seattle
+1617,Toyota,Rav26,2017,Gray,70000,20000,Los Angeles
+1618,Honda,CR-V,2016,Red,55000,22000,New York
+1619,Ford,Escape,2018,White,50000,24000,Chicago
+1620,Chevrolet,Equinox,2016,Black,45000,23000,Miami
+1621,Hyundai,Kona,2015,Blue,40000,27000,San Francisco
+1622,Toyota,Highlander,2018,Silver,35000,25000,Dallas
+1623,Honda,Pilot,2020,Gray,70000,28000,Atlanta
+1624,Ford,Explorer,2016,White,55000,22000,Phoenix
+1625,Chevrolet,Traverse,2020,Black,50000,21000,Houston
+1626,Hyundai,Santa Fe,2017,Red,45000,26000,Seattle
+1627,Toyota,4Runner,2018,Silver,30000,29000,Los Angeles
+1628,Honda,Odyssey,2020,White,35000,27000,New York
+1629,Ford,Edge,2020,Blue,55000,12000,Chicago
+1630,Chevrolet,Tahoe,2017,Black,50000,15000,Miami
+1631,Hyundai,Palisade,2016,Silver,40000,17000,San Francisco
+1632,Toyota,Sienna,2020,Red,60000,14000,Dallas
+1633,Honda,Fit,2020,Gray,55000,12000,Atlanta
+1634,Ford,Fusion,2017,White,45000,18000,Phoenix
+1635,Chevrolet,Malibu,2018,Blue,35000,16000,Houston
+1636,Hyundai,Venue,2019,Silver,55000,14000,Seattle
+1637,Toyota,Yaris,2018,Black,60000,12000,Los Angeles
+1638,Honda,HR-V,2019,White,40000,15000,New York
+1639,Ford,EcoSport,2018,Red,25000,19000,Chicago
+1640,Chevrolet,Spark,2015,Blue,30000,18000,Miami
+1641,Hyundai,Accent,2016,Silver,65000,22000,San Francisco
+1642,Toyota,Prius,2017,Gray,55000,16000,Dallas
+1643,Honda,Civic,2016,White,50000,14000,Atlanta
+1644,Ford,Fiesta,2020,Blue,55000,19000,Phoenix
+1645,Chevrolet,Cruze,2015,Black,30000,23000,Houston
+1646,Hyundai,Elantra,2016,Red,40000,21000,Seattle
+1647,Toyota,Camry,2017,Silver,45000,18000,Los Angeles
+1648,Honda,Accord,2019,White,35000,20000,New York
+1649,Ford,Mustang,2018,Blue,60000,25000,Chicago
+1650,Chevrolet,Camaro,2019,Red,55000,24000,Miami
+1651,Hyundai,Genesis,2018,Black,50000,23000,San Francisco
+1652,Toyota,Avalon,2015,Silver,35000,28000,Dallas
+1653,Honda,Civic,2017,Gray,40000,25000,Atlanta
+1654,Ford,Fusion,2016,White,70000,27000,Phoenix
+1655,Chevrolet,Impala,2015,Blue,55000,22000,Houston
+1656,Hyundai,Sonata,2016,Red,50000,21000,Seattle
+1657,Toyota,Corolla,2017,Silver,45000,26000,Los Angeles
+1658,Honda,CR-V,2016,White,30000,29000,New York
+1659,Ford,Escape,2017,Blue,35000,27000,Chicago
+1660,Chevrolet,Equinox,2019,Black,55000,12000,Miami
+1661,Hyundai,Tucson,2018,Red,50000,15000,San Francisco
+1662,Toyota,Rav26,2020,Gray,40000,17000,Dallas
+1663,Honda,Pilot,2016,White,60000,14000,Atlanta
+1664,Ford,Explorer,2020,Blue,55000,12000,Phoenix
+1665,Chevrolet,Traverse,2018,Black,50000,15000,Houston
+1666,Hyundai,Santa Fe,2016,Red,40000,17000,Seattle
+1667,Toyota,4Runner,2020,Silver,35000,14000,Los Angeles
+1668,Honda,Odyssey,2019,White,70000,12000,New York
+1669,Ford,Edge,2015,Blue,55000,15000,Chicago
+1670,Chevrolet,Tahoe,2018,Black,50000,17000,Miami
+1671,Hyundai,Palisade,2017,Silver,40000,14000,San Francisco
+1672,Toyota,Sienna,2017,Red,45000,16000,Dallas
+1673,Honda,Fit,2015,Gray,35000,18000,Atlanta
+1674,Ford,Fusion,2018,White,60000,19000,Phoenix
+1675,Chevrolet,Malibu,2016,Blue,50000,18000,Houston
+1676,Hyundai,Venue,2019,Silver,40000,22000,Seattle
+1677,Toyota,Yaris,2018,Black,35000,25000,Los Angeles
+1678,Toyota,Camry,2017,White,70000,18000,Los Angeles
+1679,Honda,Civic,2019,Blue,55000,19000,New York
+1680,Toyota,Camry,2016,White,50000,17000,Los Angeles
+1681,Honda,Civic,2020,Blue,45000,16000,New York
+1682,Ford,Focus,2016,Silver,40000,18000,Chicago
+1683,Chevrolet,Cruze,2017,Red,35000,20000,Miami
+1684,Hyundai,Elantra,2016,Black,55000,19000,San Francisco
+1685,Toyota,Corolla,2017,Gray,50000,23000,Dallas
+1686,Honda,Accord,2019,White,40000,21000,Atlanta
+1687,Ford,Mustang,2016,Yellow,35000,24000,Phoenix
+1688,Chevrolet,Impala,2017,Black,70000,20000,Houston
+1689,Hyundai,Sonata,2017,Blue,55000,22000,Seattle
+1690,Toyota,Rav27,2018,Gray,50000,24000,Los Angeles
+1691,Honda,CR-V,2017,Red,45000,23000,New York
+1692,Ford,Escape,2018,White,40000,27000,Chicago
+1693,Chevrolet,Equinox,2017,Black,35000,25000,Miami
+1694,Hyundai,Kona,2018,Blue,70000,28000,San Francisco
+1695,Toyota,Highlander,2017,Silver,55000,22000,Dallas
+1696,Honda,Pilot,2020,Gray,50000,21000,Atlanta
+1697,Ford,Explorer,2015,White,45000,26000,Phoenix
+1698,Chevrolet,Traverse,2015,Black,30000,29000,Houston
+1699,Hyundai,Santa Fe,2019,Red,35000,27000,Seattle
+1700,Toyota,4Runner,2018,Silver,55000,12000,Los Angeles
+1701,Honda,Odyssey,2017,White,50000,15000,New York
+1702,Ford,Edge,2016,Blue,40000,17000,Chicago
+1703,Chevrolet,Tahoe,2019,Black,60000,14000,Miami
+1704,Hyundai,Palisade,2015,Silver,55000,12000,San Francisco
+1705,Toyota,Sienna,2017,Red,45000,18000,Dallas
+1706,Honda,Fit,2018,Gray,35000,16000,Atlanta
+1707,Ford,Fusion,2019,White,55000,14000,Phoenix
+1708,Chevrolet,Malibu,2017,Blue,60000,12000,Houston
+1709,Hyundai,Venue,2019,Silver,40000,15000,Seattle
+1710,Toyota,Yaris,2019,Black,25000,19000,Los Angeles
+1711,Honda,HR-V,2016,White,30000,18000,New York
+1712,Ford,EcoSport,2016,Red,65000,22000,Chicago
+1713,Chevrolet,Spark,2017,Blue,55000,16000,Miami
+1714,Hyundai,Accent,2016,Silver,50000,14000,San Francisco
+1715,Toyota,Prius,2015,Gray,55000,19000,Dallas
+1716,Honda,Civic,2019,White,30000,23000,Atlanta
+1717,Ford,Fiesta,2019,Blue,40000,21000,Phoenix
+1718,Chevrolet,Cruze,2020,Black,45000,18000,Houston
+1719,Hyundai,Elantra,2020,Red,35000,20000,Seattle
+1720,Toyota,Camry,2016,Silver,60000,25000,Los Angeles
+1721,Honda,Accord,2015,White,55000,24000,New York
+1722,Ford,Mustang,2019,Blue,50000,23000,Chicago
+1723,Chevrolet,Camaro,2015,Red,35000,28000,Miami
+1724,Hyundai,Genesis,2019,Black,40000,25000,San Francisco
+1725,Toyota,Avalon,2019,Silver,70000,27000,Dallas
+1726,Honda,Civic,2017,Gray,55000,22000,Atlanta
+1727,Ford,Fusion,2016,White,50000,21000,Phoenix
+1728,Chevrolet,Impala,2016,Blue,45000,26000,Houston
+1729,Hyundai,Sonata,2019,Red,30000,29000,Seattle
+1730,Toyota,Corolla,2016,Silver,35000,27000,Los Angeles
+1731,Honda,CR-V,2020,White,55000,12000,New York
+1732,Ford,Escape,2015,Blue,50000,15000,Chicago
+1733,Chevrolet,Equinox,2015,Black,40000,17000,Miami
+1734,Hyundai,Tucson,2015,Red,60000,14000,San Francisco
+1735,Toyota,Rav27,2017,Gray,55000,12000,Dallas
+1736,Honda,Pilot,2019,White,50000,15000,Atlanta
+1737,Ford,Explorer,2017,Blue,40000,17000,Phoenix
+1738,Chevrolet,Traverse,2017,Black,35000,14000,Houston
+1739,Hyundai,Santa Fe,2019,Red,70000,12000,Seattle
+1740,Toyota,4Runner,2019,Silver,55000,15000,Los Angeles
+1741,Honda,Odyssey,2020,White,50000,17000,New York
+1742,Ford,Edge,2016,Blue,40000,14000,Chicago
+1743,Chevrolet,Tahoe,2017,Black,45000,16000,Miami
+1744,Hyundai,Palisade,2019,Silver,35000,18000,San Francisco
+1745,Toyota,Sienna,2015,Red,60000,19000,Dallas
+1746,Honda,Fit,2019,Gray,50000,18000,Atlanta
+1747,Ford,Fusion,2020,White,40000,22000,Phoenix
+1748,Chevrolet,Malibu,2015,Blue,35000,25000,Houston
+1749,Hyundai,Venue,2018,Silver,70000,18000,Seattle
+1750,Toyota,Yaris,2018,Black,55000,19000,Los Angeles
+1751,Toyota,Camry,2016,White,50000,17000,Los Angeles
+1752,Honda,Civic,2016,Blue,45000,16000,New York
+1753,Toyota,Camry,2019,White,40000,18000,Los Angeles
+1754,Honda,Civic,2020,Blue,35000,20000,New York
+1755,Ford,Focus,2019,Silver,55000,19000,Chicago
+1756,Chevrolet,Cruze,2016,Red,50000,23000,Miami
+1757,Hyundai,Elantra,2016,Black,40000,21000,San Francisco
+1758,Toyota,Corolla,2016,Gray,35000,24000,Dallas
+1759,Honda,Accord,2015,White,70000,20000,Atlanta
+1760,Ford,Mustang,2019,Yellow,55000,22000,Phoenix
+1761,Chevrolet,Impala,2015,Black,50000,24000,Houston
+1762,Hyundai,Sonata,2019,Blue,45000,23000,Seattle
+1763,Toyota,Rav28,2015,Gray,40000,27000,Los Angeles
+1764,Honda,CR-V,2020,Red,35000,25000,New York
+1765,Ford,Escape,2020,White,70000,28000,Chicago
+1766,Chevrolet,Equinox,2015,Black,55000,22000,Miami
+1767,Hyundai,Kona,2020,Blue,50000,21000,San Francisco
+1768,Toyota,Highlander,2020,Silver,45000,26000,Dallas
+1769,Honda,Pilot,2015,Gray,30000,29000,Atlanta
+1770,Ford,Explorer,2016,White,35000,27000,Phoenix
+1771,Chevrolet,Traverse,2019,Black,55000,12000,Houston
+1772,Hyundai,Santa Fe,2020,Red,50000,15000,Seattle
+1773,Toyota,4Runner,2015,Silver,40000,17000,Los Angeles
+1774,Honda,Odyssey,2016,White,60000,14000,New York
+1775,Ford,Edge,2016,Blue,55000,12000,Chicago
+1776,Chevrolet,Tahoe,2018,Black,45000,18000,Miami
+1777,Hyundai,Palisade,2020,Silver,35000,16000,San Francisco
+1778,Toyota,Sienna,2016,Red,55000,14000,Dallas
+1779,Honda,Fit,2016,Gray,60000,12000,Atlanta
+1780,Ford,Fusion,2015,White,40000,15000,Phoenix
+1781,Chevrolet,Malibu,2016,Blue,25000,19000,Houston
+1782,Hyundai,Venue,2019,Silver,30000,18000,Seattle
+1783,Toyota,Yaris,2015,Black,65000,22000,Los Angeles
+1784,Honda,HR-V,2018,White,55000,16000,New York
+1785,Ford,EcoSport,2018,Red,50000,14000,Chicago
+1786,Chevrolet,Spark,2017,Blue,55000,19000,Miami
+1787,Hyundai,Accent,2020,Silver,30000,23000,San Francisco
+1788,Toyota,Prius,2016,Gray,40000,21000,Dallas
+1789,Honda,Civic,2017,White,45000,18000,Atlanta
+1790,Ford,Fiesta,2016,Blue,35000,20000,Phoenix
+1791,Chevrolet,Cruze,2020,Black,60000,25000,Houston
+1792,Hyundai,Elantra,2017,Red,55000,24000,Seattle
+1793,Toyota,Camry,2019,Silver,50000,23000,Los Angeles
+1794,Honda,Accord,2016,White,35000,28000,New York
+1795,Ford,Mustang,2016,Blue,40000,25000,Chicago
+1796,Chevrolet,Camaro,2017,Red,70000,27000,Miami
+1797,Hyundai,Genesis,2016,Black,55000,22000,San Francisco
+1798,Toyota,Avalon,2016,Silver,50000,21000,Dallas
+1799,Honda,Civic,2015,Gray,45000,26000,Atlanta
+1800,Ford,Fusion,2019,White,30000,29000,Phoenix
+1801,Chevrolet,Impala,2016,Blue,35000,27000,Houston
+1802,Hyundai,Sonata,2020,Red,55000,12000,Seattle
+1803,Toyota,Corolla,2016,Silver,50000,15000,Los Angeles
+1804,Honda,CR-V,2018,White,40000,17000,New York
+1805,Ford,Escape,2015,Blue,60000,14000,Chicago
+1806,Chevrolet,Equinox,2017,Black,55000,12000,Miami
+1807,Hyundai,Tucson,2017,Red,50000,15000,San Francisco
+1808,Toyota,Rav28,2017,Gray,40000,17000,Dallas
+1809,Honda,Pilot,2019,White,35000,14000,Atlanta
+1810,Ford,Explorer,2015,Blue,70000,12000,Phoenix
+1811,Chevrolet,Traverse,2016,Black,55000,15000,Houston
+1812,Hyundai,Santa Fe,2020,Red,50000,17000,Seattle
+1813,Toyota,4Runner,2019,Silver,40000,14000,Los Angeles
+1814,Honda,Odyssey,2017,White,45000,16000,New York
+1815,Ford,Edge,2017,Blue,35000,18000,Chicago
+1816,Chevrolet,Tahoe,2015,Black,60000,19000,Miami
+1817,Hyundai,Palisade,2020,Silver,50000,18000,San Francisco
+1818,Toyota,Sienna,2019,Red,40000,22000,Dallas
+1819,Honda,Fit,2019,Gray,35000,25000,Atlanta
+1820,Ford,Fusion,2018,White,70000,18000,Phoenix
+1821,Chevrolet,Malibu,2015,Blue,55000,19000,Houston
+1822,Hyundai,Venue,2017,Silver,50000,17000,Seattle
+1823,Toyota,Yaris,2018,Black,45000,16000,Los Angeles
+1824,Toyota,Camry,2015,White,40000,18000,Los Angeles
+1825,Honda,Civic,2016,Blue,35000,20000,New York
+1826,Toyota,Camry,2016,White,55000,19000,Los Angeles
+1827,Honda,Civic,2019,Blue,50000,23000,New York
+1828,Ford,Focus,2016,Silver,40000,21000,Chicago
+1829,Chevrolet,Cruze,2015,Red,35000,24000,Miami
+1830,Hyundai,Elantra,2016,Black,70000,20000,San Francisco
+1831,Toyota,Corolla,2015,Gray,55000,22000,Dallas
+1832,Honda,Accord,2017,White,50000,24000,Atlanta
+1833,Ford,Mustang,2017,Yellow,45000,23000,Phoenix
+1834,Chevrolet,Impala,2015,Black,40000,27000,Houston
+1835,Hyundai,Sonata,2018,Blue,35000,25000,Seattle
+1836,Toyota,Rav29,2015,Gray,70000,28000,Los Angeles
+1837,Honda,CR-V,2015,Red,55000,22000,New York
+1838,Ford,Escape,2016,White,50000,21000,Chicago
+1839,Chevrolet,Equinox,2019,Black,45000,26000,Miami
+1840,Hyundai,Kona,2016,Blue,30000,29000,San Francisco
+1841,Toyota,Highlander,2017,Silver,35000,27000,Dallas
+1842,Honda,Pilot,2015,Gray,55000,12000,Atlanta
+1843,Ford,Explorer,2016,White,50000,15000,Phoenix
+1844,Chevrolet,Traverse,2019,Black,40000,17000,Houston
+1845,Hyundai,Santa Fe,2015,Red,60000,14000,Seattle
+1846,Toyota,4Runner,2019,Silver,55000,12000,Los Angeles
+1847,Honda,Odyssey,2020,White,45000,18000,New York
+1848,Ford,Edge,2019,Blue,35000,16000,Chicago
+1849,Chevrolet,Tahoe,2017,Black,55000,14000,Miami
+1850,Hyundai,Palisade,2016,Silver,60000,12000,San Francisco
+1851,Toyota,Sienna,2019,Red,40000,15000,Dallas
+1852,Honda,Fit,2017,Gray,25000,19000,Atlanta
+1853,Ford,Fusion,2020,White,30000,18000,Phoenix
+1854,Chevrolet,Malibu,2018,Blue,65000,22000,Houston
+1855,Hyundai,Venue,2016,Silver,55000,16000,Seattle
+1856,Toyota,Yaris,2017,Black,50000,14000,Los Angeles
+1857,Honda,HR-V,2016,White,55000,19000,New York
+1858,Ford,EcoSport,2020,Red,30000,23000,Chicago
+1859,Chevrolet,Spark,2016,Blue,40000,21000,Miami
+1860,Hyundai,Accent,2016,Silver,45000,18000,San Francisco
+1861,Toyota,Prius,2015,Gray,35000,20000,Dallas
+1862,Honda,Civic,2018,White,60000,25000,Atlanta
+1863,Ford,Fiesta,2019,Blue,55000,24000,Phoenix
+1864,Chevrolet,Cruze,2016,Black,50000,23000,Houston
+1865,Hyundai,Elantra,2017,Red,35000,28000,Seattle
+1866,Toyota,Camry,2018,Silver,40000,25000,Los Angeles
+1867,Honda,Accord,2018,White,70000,27000,New York
+1868,Ford,Mustang,2019,Blue,55000,22000,Chicago
+1869,Chevrolet,Camaro,2017,Red,50000,21000,Miami
+1870,Hyundai,Genesis,2017,Black,45000,26000,San Francisco
+1871,Toyota,Avalon,2020,Silver,30000,29000,Dallas
+1872,Honda,Civic,2015,Gray,35000,27000,Atlanta
+1873,Ford,Fusion,2020,White,55000,12000,Phoenix
+1874,Chevrolet,Impala,2015,Blue,50000,15000,Houston
+1875,Hyundai,Sonata,2017,Red,40000,17000,Seattle
+1876,Toyota,Corolla,2017,Silver,60000,14000,Los Angeles
+1877,Honda,CR-V,2020,White,55000,12000,New York
+1878,Ford,Escape,2015,Blue,50000,15000,Chicago
+1879,Chevrolet,Equinox,2017,Black,40000,17000,Miami
+1880,Hyundai,Tucson,2020,Red,35000,14000,San Francisco
+1881,Toyota,Rav29,2017,Gray,70000,12000,Dallas
+1882,Honda,Pilot,2017,White,55000,15000,Atlanta
+1883,Ford,Explorer,2017,Blue,50000,17000,Phoenix
+1884,Chevrolet,Traverse,2020,Black,40000,14000,Houston
+1885,Hyundai,Santa Fe,2018,Red,45000,16000,Seattle
+1886,Toyota,4Runner,2015,Silver,35000,18000,Los Angeles
+1887,Honda,Odyssey,2019,White,60000,19000,New York
+1888,Ford,Edge,2017,Blue,50000,18000,Chicago
+1889,Chevrolet,Tahoe,2019,Black,40000,22000,Miami
+1890,Hyundai,Palisade,2018,Silver,35000,25000,San Francisco
+1891,Toyota,Sienna,2018,Red,70000,18000,Dallas
+1892,Honda,Fit,2016,Gray,55000,19000,Atlanta
+1893,Ford,Fusion,2020,White,50000,17000,Phoenix
+1894,Chevrolet,Malibu,2018,Blue,45000,16000,Houston
+1895,Hyundai,Venue,2019,Silver,40000,18000,Seattle
+1896,Toyota,Yaris,2016,Black,35000,20000,Los Angeles
+1897,Toyota,Camry,2020,White,55000,19000,Los Angeles
+1898,Honda,Civic,2018,Blue,50000,23000,New York
+1899,Toyota,Camry,2018,White,40000,21000,Los Angeles
+1900,Honda,Civic,2017,Blue,35000,24000,New York
+1901,Ford,Focus,2019,Silver,70000,20000,Chicago
+1902,Chevrolet,Cruze,2016,Red,55000,22000,Miami
+1903,Hyundai,Elantra,2015,Black,50000,24000,San Francisco
+1904,Toyota,Corolla,2020,Gray,45000,23000,Dallas
+1905,Honda,Accord,2018,White,40000,27000,Atlanta
+1906,Ford,Mustang,2016,Yellow,35000,25000,Phoenix
+1907,Chevrolet,Impala,2015,Black,70000,28000,Houston
+1908,Hyundai,Sonata,2020,Blue,55000,22000,Seattle
+1909,Toyota,Rav30,2016,Gray,50000,21000,Los Angeles
+1910,Honda,CR-V,2016,Red,45000,26000,New York
+1911,Ford,Escape,2015,White,30000,29000,Chicago
+1912,Chevrolet,Equinox,2016,Black,35000,27000,Miami
+1913,Hyundai,Kona,2019,Blue,55000,12000,San Francisco
+1914,Toyota,Highlander,2016,Silver,50000,15000,Dallas
+1915,Honda,Pilot,2015,Gray,40000,17000,Atlanta
+1916,Ford,Explorer,2018,White,60000,14000,Phoenix
+1917,Chevrolet,Traverse,2015,Black,55000,12000,Houston
+1918,Hyundai,Santa Fe,2016,Red,45000,18000,Seattle
+1919,Toyota,4Runner,2016,Silver,35000,16000,Los Angeles
+1920,Honda,Odyssey,2015,White,55000,14000,New York
+1921,Ford,Edge,2019,Blue,60000,12000,Chicago
+1922,Chevrolet,Tahoe,2015,Black,40000,15000,Miami
+1923,Hyundai,Palisade,2016,Silver,25000,19000,San Francisco
+1924,Toyota,Sienna,2018,Red,30000,18000,Dallas
+1925,Honda,Fit,2020,Gray,65000,22000,Atlanta
+1926,Ford,Fusion,2018,White,55000,16000,Phoenix
+1927,Chevrolet,Malibu,2015,Blue,50000,14000,Houston
+1928,Hyundai,Venue,2016,Silver,55000,19000,Seattle
+1929,Toyota,Yaris,2019,Black,30000,23000,Los Angeles
+1930,Honda,HR-V,2015,White,40000,21000,New York
+1931,Ford,EcoSport,2015,Red,45000,18000,Chicago
+1932,Chevrolet,Spark,2015,Blue,35000,20000,Miami
+1933,Hyundai,Accent,2019,Silver,60000,25000,San Francisco
+1934,Toyota,Prius,2018,Gray,55000,24000,Dallas
+1935,Honda,Civic,2020,White,50000,23000,Atlanta
+1936,Ford,Fiesta,2018,Blue,35000,28000,Phoenix
+1937,Chevrolet,Cruze,2018,Black,40000,25000,Houston
+1938,Hyundai,Elantra,2018,Red,70000,27000,Seattle
+1939,Toyota,Camry,2018,Silver,55000,22000,Los Angeles
+1940,Honda,Accord,2015,White,50000,21000,New York
+1941,Ford,Mustang,2017,Blue,45000,26000,Chicago
+1942,Chevrolet,Camaro,2018,Red,30000,29000,Miami
+1943,Hyundai,Genesis,2020,Black,35000,27000,San Francisco
+1944,Toyota,Avalon,2016,Silver,55000,12000,Dallas
+1945,Honda,Civic,2017,Gray,50000,15000,Atlanta
+1946,Ford,Fusion,2015,White,40000,17000,Phoenix
+1947,Chevrolet,Impala,2019,Blue,60000,14000,Houston
+1948,Hyundai,Sonata,2015,Red,55000,12000,Seattle
+1949,Toyota,Corolla,2016,Silver,50000,15000,Los Angeles
+1950,Honda,CR-V,2019,White,40000,17000,New York
+1951,Ford,Escape,2019,Blue,35000,14000,Chicago
+1952,Chevrolet,Equinox,2016,Black,70000,12000,Miami
+1953,Hyundai,Tucson,2020,Red,55000,15000,San Francisco
+1954,Toyota,Rav30,2018,Gray,50000,17000,Dallas
+1955,Honda,Pilot,2018,White,40000,14000,Atlanta
+1956,Ford,Explorer,2019,Blue,45000,16000,Phoenix
+1957,Chevrolet,Traverse,2017,Black,35000,18000,Houston
+1958,Hyundai,Santa Fe,2019,Red,60000,19000,Seattle
+1959,Toyota,4Runner,2018,Silver,50000,18000,Los Angeles
+1960,Honda,Odyssey,2018,White,40000,22000,New York
+1961,Ford,Edge,2018,Blue,35000,25000,Chicago
+1962,Chevrolet,Tahoe,2020,Black,70000,18000,Miami
+1963,Hyundai,Palisade,2020,Silver,55000,19000,San Francisco
+1964,Toyota,Sienna,2016,Red,50000,17000,Dallas
+1965,Honda,Fit,2019,Gray,45000,16000,Atlanta
+1966,Ford,Fusion,2018,White,40000,18000,Phoenix
+1967,Chevrolet,Malibu,2018,Blue,35000,20000,Houston
+1968,Hyundai,Venue,2016,Silver,55000,19000,Seattle
+1969,Toyota,Yaris,2017,Black,50000,23000,Los Angeles
+1970,Toyota,Camry,2017,White,40000,21000,Los Angeles
+1971,Honda,Civic,2020,Blue,35000,24000,New York
+1972,Toyota,Camry,2015,White,70000,20000,Los Angeles
+1973,Honda,Civic,2019,Blue,55000,22000,New York
+1974,Ford,Focus,2016,Silver,50000,24000,Chicago
+1975,Chevrolet,Cruze,2020,Red,45000,23000,Miami
+1976,Hyundai,Elantra,2017,Black,40000,27000,San Francisco
+1977,Toyota,Corolla,2018,Gray,35000,25000,Dallas
+1978,Honda,Accord,2018,White,70000,28000,Atlanta
+1979,Ford,Mustang,2019,Yellow,55000,22000,Phoenix
+1980,Chevrolet,Impala,2019,Black,50000,21000,Houston
+1981,Hyundai,Sonata,2016,Blue,45000,26000,Seattle
+1982,Toyota,Rav31,2018,Gray,30000,29000,Los Angeles
+1983,Honda,CR-V,2016,Red,35000,27000,New York
+1984,Ford,Escape,2019,White,55000,12000,Chicago
+1985,Chevrolet,Equinox,2020,Black,50000,15000,Miami
+1986,Hyundai,Kona,2019,Blue,40000,17000,San Francisco
+1987,Toyota,Highlander,2017,Silver,60000,14000,Dallas
+1988,Honda,Pilot,2020,Gray,55000,12000,Atlanta
+1989,Ford,Explorer,2016,White,45000,18000,Phoenix
+1990,Chevrolet,Traverse,2018,Black,35000,16000,Houston
+1991,Hyundai,Santa Fe,2016,Red,55000,14000,Seattle
+1992,Toyota,4Runner,2015,Silver,60000,12000,Los Angeles
+1993,Honda,Odyssey,2018,White,40000,15000,New York
+1994,Ford,Edge,2020,Blue,25000,19000,Chicago
+1995,Chevrolet,Tahoe,2020,Black,30000,18000,Miami
+1996,Hyundai,Palisade,2019,Silver,65000,22000,San Francisco
+1997,Toyota,Sienna,2018,Red,55000,16000,Dallas
+1998,Honda,Fit,2018,Gray,50000,14000,Atlanta
+1999,Ford,Fusion,2017,White,55000,19000,Phoenix
+2000,Chevrolet,Malibu,2016,Blue,30000,23000,Houston
