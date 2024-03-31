@@ -1,0 +1,399 @@
+---
+title: "MadhavKr12213356"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+    social: ["twitter","instagram","facebook","menu"]
+    source_code: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(knitr)
+library(DT)
+library(rpivotTable)
+library(ggplot2)
+library(plotly)
+library(dplyr)
+library(openintro)
+library(highcharter)
+library(ggvis)
+library(GGally)
+
+```
+
+RBI DATA
+=======================================================================
+```{r}
+
+df<-read.csv("RBI DATA states_wise_population_Income.csv")
+
+```
+
+```{r}
+
+mycolors <- c("#00ffff", "#c41e3a", "#fbceb1", "#ff4f00")
+
+```
+
+
+Row
+-----------------------------------------------------------------------
+
+### State wise population Income
+
+```{r}
+
+valueBox(paste("RBI DATA STATE WISE"),color = "skyblue")
+
+```
+
+### Maximum income of state for the year 2011
+
+```{r}
+
+max_income<-which(df$X2011.12.INC == max(df$X2011.12.INC))
+
+valueBox(df$States_Union.Territories[max_income],color = "lightpink",icon = 'fa-building')
+
+```
+
+
+### **Average Literacy rate of India for the year 2011**
+
+```{r}
+
+gauge(round(mean(df$X2011..LIT),digits = 2),min = 0,max = 100,gaugeSectors(success = c(66,100),warning = c(34,66),danger = c(0,33),colors = c("green","pink","orange")))
+
+```
+
+Row
+--------------------------------------------------------------------------
+
+### Female per thousand Male in Bihar for the year 2011
+
+```{r}
+
+valueBox(df$X2011..SEX_Ratio[df$States_Union.Territories == "Bihar"],color = "#00ffff",icon = 'fa-female')
+
+```
+
+### Literacy rate in Bihar for the year 2011
+
+```{r}
+
+valueBox(df$X2011..LIT[df$States_Union.Territories == "Bihar"],color = "#7fffd4",icon = 'fa-user')
+
+```
+
+### Population of Bihar for the year 2011
+
+```{r}
+
+valueBox(df$X2011..POP[df$States_Union.Territories == "Bihar"],color = "#08e8de",icon = 'fa-female')
+
+```
+
+### Unemployment rate in Bihar for the year 2011
+
+```{r}
+
+valueBox(df$X2011..UNEMP[df$States_Union.Territories == "Bihar"],color = "#faf0be",icon = 'fa-user')
+
+```
+
+### Income of Bihar for the year 2011
+
+```{r}
+
+valueBox(df$X2011.12.INC[df$States_Union.Territories == "Bihar"],color = "#fffdd0",icon = 'fa-rupee')
+
+```
+
+
+Row
+----------------------------------------------------------------------------
+
+### States having **unemployment** rate greater then 30
+
+```{r}
+
+p1 <- df %>% filter(X2011..UNEMP > 30) %>% 
+        
+        plot_ly(labels = ~States_Union.Territories,
+                values = ~X2011..UNEMP,
+                marker = list(colors = mycolors)) %>%
+        add_pie(hole = 0) %>%
+        layout(xaxis = list(showline = F,
+                            showgrid = F,
+                            zeroline = F,
+                            showticklabels = F),
+               yaxis = list(showline = F,
+                            showgrid = F,
+                            zeroline = F,
+                            showticklabels = F))
+p1
+
+```
+
+
+
+
+### States having Poverty greater than 30 for the year 2011
+
+```{r}
+
+p2 <- df %>%
+         filter(X2011..Poverty > 30) %>% 
+         plot_ly(x = ~States_Union.Territories,
+                 y = ~X2011..Poverty,
+                 type = 'bar',
+                 marker = list(color = 'green')) %>%
+layout(xaxis = list(title = "State"),
+yaxis = list(title = 'Poverty for the year 2011'))
+
+p2
+
+```
+
+
+### Density plot of literacy rate in 2011
+
+
+```{r}
+
+density_plot <- plot_ly(df, x = ~`X2011..LIT`, type = "histogram", histnorm = "probability density",
+                        marker = list(color = "blue"), opacity = 0.7, line = list(color = "black")) %>%
+  layout(title = "Density Plot of Literacy Rate in 2011", xaxis = list(title = "Literacy Rate"))
+density_plot
+
+
+```
+
+
+
+Charts
+=================================
+
+Column
+------------------------------------
+
+### Scatter Plot of 2011 Unemployment Vs 2011 Poverty
+
+```{r}
+
+plot_ly(data = df, x = ~`X2011..UNEMP`, y = ~`X2011..Poverty`,text = ~States_Union.Territories, type = "scatter", mode = "markers", marker = list(color = "red")) %>%
+  layout(title = "2011 Unemployment vs. 2011 Poverty",
+         xaxis = list(title = "2011 Unemployment"),
+         yaxis = list(title = "2011 Poverty"))
+
+
+
+
+```
+
+
+### Box plot of literacy rate in 2001 and 2011
+
+```{r}
+
+
+
+
+boxplot <- plot_ly(df, y = ~`X2001...LIT`, type = "box", name = "2001") %>%
+  add_trace(y = ~`X2011..LIT`, name = "2011") %>%
+  layout(title = "Literacy Rate Comparison (2001 vs 2011)", yaxis = list(title = "Literacy Rate"))
+
+boxplot
+
+
+
+```
+
+
+### Histogram of population in 2011
+
+```{r}
+
+histogram <- plot_ly(df, x = ~`X2011..POP`, type = "histogram", marker = list(color = "lightblue"), 
+                     opacity = 0.7, line = list(color = "black")) %>%
+  layout(title = "Population Distribution in 2011", xaxis = list(title = "Population"))
+histogram
+
+
+
+```
+
+
+
+Column
+--------------------------------------------------------------------
+
+### Bubble chart of Population in 2001 vs Population in 2011
+
+
+```{r}
+
+
+
+bubble_chart <- plot_ly(df, x = ~X2001...POP, y = ~X2011..POP, size = ~X2011..LIT,
+                        color = ~X2011..UNEMP, colors = "Blues", type = "scatter", mode = "markers",
+                        text = ~paste("State/UT: ", States_Union.Territories,
+                                      "<br>Population (2001): ", X2001...POP,
+                                      "<br>Population (2011): ", X2011..POP,
+                                      "<br>Literacy Rate (2011): ", X2011..LIT,
+                                      "<br>Unemployment Rate (2011): ", X2011..UNEMP)) %>%
+  layout(title = "Population Comparison (2001 vs 2011)",
+         xaxis = list(title = "Population in 2001"),
+         yaxis = list(title = "Population in 2011"))
+
+bubble_chart
+
+```
+
+
+### Pie chart of unemployment rate in 2001
+
+```{r}
+
+unemployment_pie <- data.frame(Unemployment_Rate = c(sum(df$`X2001..UNEMP`), sum(df$`X2011..UNEMP`)),
+                               Year = c("2001", "2011"))
+
+pie_chart <- plot_ly(unemployment_pie, labels = ~Year, values = ~Unemployment_Rate, type = "pie",
+                     textposition = "inside", hole = 0.4) %>%
+  layout(title = "Unemployment Rate Comparison (2001 vs 2011)")
+pie_chart
+
+```
+
+
+### Scatter plot matrix
+
+```{r}
+
+
+scatter_data <- df[, c("X2001...LIT", "X2011..LIT", "X2001...POP", "X2011..POP", "X2001..UNEMP", "X2011..UNEMP")]
+
+scatter_matrix <- plot_ly(scatter_data, type = "scatter", mode = "markers", 
+                          marker = list(size = 10, opacity = 0.5),
+                          diagonal = list(visible = FALSE)) %>%
+  add_trace(x = ~X2001...LIT, y = ~X2001...POP, name = "2001", type = "scatter", mode = "markers", 
+            marker = list(color = "blue")) %>%
+  add_trace(x = ~X2011..LIT, y = ~X2011..POP, name = "2011", type = "scatter", mode = "markers", 
+            marker = list(color = "red")) %>%
+  layout(title = "Literacy Rate vs Population",
+         xaxis = list(title = "Literacy Rate"),
+         yaxis = list(title = "Population"))
+
+scatter_matrix
+
+```
+
+
+Bar chart
+=========================================================
+
+### Bar chart representing income of each state for the year 2011-12
+
+```{r}
+plot_ly(data = df, x = ~States_Union.Territories, y = ~`X2011.12.INC`, type = "bar", marker = list(color = "skyblue")) %>%
+  layout(title = "2011-12 Income by States/Union Territories", xaxis = list(title = "States/Union Territories"), yaxis = list(title = "Income"))
+
+```
+
+
+
+Data Table
+========================================
+
+```{r}
+
+datatable(df,
+          caption = "RBI DATA",
+          rownames = T,
+          filter = "top",
+          options = list(pageLength = 25))
+
+```
+
+
+Pivot Table
+=========================================
+
+```{r}
+
+
+filtered_df <- df[df$`X2011..LIT` > 70, ]
+
+
+rpivotTable(filtered_df,
+            aggregatorName = "Count",
+            cols = "States_Union.Territories",
+            rows = "States_Union.Territories",
+            rendererName = "Heatmap",
+            width = "50%",  
+            height = "400px",  
+            rowLimit = 20,   
+            colLimit = 20)  
+
+
+
+```
+
+
+
+Summary {data-orientation=columns}
+===========================================
+
+Column
+-----------------------------------
+
+### Maximum income of state for the year 2000 - 01
+
+```{r}
+
+valueBox(max(df$X2000.01.INC),
+         icon = "fa-rupee" )
+
+```
+
+### Average income of India for the year 2000 - 01
+```{r}
+valueBox(round(mean(df$X2000.01.INC),
+               digits = 2),
+         icon = "fa-rupee")
+```
+
+### Average literacy rate of India for the year 2011 - 12
+
+```{r}
+valueBox(round(mean(df$X2011..LIT), digits = 2),
+         icon = "fa-book")
+```
+
+
+
+
+Column
+---------------------------
+
+Report
+
+* This is a report on `r length(df$States_Union.Territories)` Indian State and Union Territories.
+
+* The average unemployment rate of India for the year 2011 was `r mean(df$X2011..LIT)`.
+
+* The average poverty in India for the year 2011 was `r mean(df$X2011..Poverty)`.
+
+This report was generated on `r format(Sys.Date(), format = "%B %d, %Y")`.
+
+About Report
+========================================
+
+Created by: Madhav Kumar at Lovely Professional University, Punjab
+
+Confidential: HIGHLY!
+
+
+
