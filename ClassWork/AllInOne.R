@@ -257,4 +257,144 @@ sqldf("select region,max(BMI) from readexcel group by region")
 sqldf("select BMI, region from readexcel where age > 50 and age < 60")
 
 
+# substr
+
+string1<-"abcdefghij"
+substr(string1,1,5)
+
+vector1<-c("madhav","kishan","ravi","rahul","rohan")
+substr(vector1,1,3)
+substr(vector1[1],1,3)
+
+
+nchar(vector1)
+
+nchar(string1)
+
+grep("Madhav",vector1)
+
+grep("Madhav",vector1,ignore.case = T)
+
+print(grep("Madhav",vector1,ignore.case = T,value = T))
+
+sub("madhav","Madhav",vector1)
+
+for(name in vector1){
+  name<-toupper(name)
+  print(name)
+}
+
+
+# apply() function
+
+matrix1<- matrix(c(1:9), nrow = 3, ncol = 3)
+matrix1
+apply(matrix1, 1, sum)
+apply(matrix1, 2, mean)
+
+# lapply() : 
+
+list1<-list("Madhav","Rahul","Kishan","Amit")
+lapply(list1, tolower)
+
+unlist(lapply(list1,tolower))
+
+
+# sapply() : 
+
+x<-cars
+x
+
+sapply(x,max)
+
+# tapply() : 
+
+d<-iris
+d
+
+tapply(d$Sepal.Width,d$Species,median)
+
+
+list1<-list("Madhav","Krishna")
+list2<-list("kumar","Kumar")
+mapply(paste,list1,list2)
+
+
+# missing value : 
+
+dataframe<-data.frame(Name = c("Madhav",NA,NA,NA), Reg_No = c(1:4))
+
+dataframe
+
+levels(dataframe)
+
+is.na(dataframe)
+
+dataframe[!is.na(dataframe)]
+
+na.fail(dataframe)
+na.omit(dataframe)
+na.exclude(dataframe)
+na.pass(dataframe)
+
+library(visdat)
+vis_miss(dataframe)
+
+
+date()
+
+Sys.Date()
+Sys.time()
+Sys.timezone()
+date1<-as.POSIXlt("28-04-2024")
+date1
+
+date1<-as.POSIXlt("2024-04-28")
+date1
+
+weekdays(date1)
+months(date1)
+
+weekdays(date1,abbreviate = T)
+
+LETTERS
+letters
+month.abb
+month.name
+
+
+data<-iris
+View(data)
+
+library(dplyr)
+
+data %>% select(Sepal.Length)
+
+data %>% filter(Sepal.Length > 6.0) %>% select(Sepal.Length,Sepal.Width)
+
+library(tidyr)
+
+
+df<-data.frame(Reg_No = c(101,102,103,104,105),Name = c("Madhav","Krishna","Rahul","Rohan","Satyam"),Surname = c("Kumar","Das","Gupta","Chandel","Singh"),Grade = c('A','B','C','D','E'))
+df
+LongD<-gather(df,key = "Key.1",value = "Value.1",Name,Surname)
+LongD
+
+spreadD<-spread(LongD,Key.1,Value.1)
+spreadD
+
+uniteD<-unite(spreadD,Name_SurName,Name,Surname,sep = " ")
+uniteD
+
+sepD<-separate(uniteD,Name_SurName,c("Name","Surname"),sep = " ")
+sepD
+
+df<-data.frame(S.No = c(1:5),Bool = c(T,rep(NA,3),F))
+df
+
+fill(df,Bool,.direction = "up")
+
+drop_na(df,Bool)
+
+replace_na(df,list(Bool = T))
 
