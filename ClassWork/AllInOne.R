@@ -124,3 +124,137 @@ for(x in array1){
 # data frame
 
 
+Data_frame<-data.frame(Name = c("Madhav","Kishan","Rahul","Rohit","Govind"),Section = rep(c("K22GM"),times = 5),Roll_No = c(1:5))
+Data_frame
+
+summary(Data_frame)
+Data_frame$Name
+
+
+dim(Data_frame)
+
+length(Data_frame)
+
+rowbind<-rbind(Data_frame,c("Krishna","K22GM",6))
+rowbind
+
+colbind<-cbind(Data_frame,Percentage = c(97,98,99,100,99))
+colbind
+
+
+# factor
+
+name<-c("Madhav","Kumar","Rahul","Madhav","Rohan")
+levels(factor(name))
+
+length(factor(name))
+
+factor(name)[1]
+
+
+
+# write a program to print Armstrong number : 
+
+inputRange1<-as.integer(readline("Enter Number = "))
+
+inputRange2<-as.integer(readline("Enter Number = "))
+
+function1<-function(num){
+  count<-0;
+  while(num!=0){
+    num<-floor(num/10);
+    count<-count+1
+  }
+  return(count)
+}
+
+function2<-function(num1,num2){
+  for(num in num1:num2){
+    temp<-num
+    sum<-0
+    count<-function1(num)
+    while (num != 0) {
+      rem<-num %% 10
+      sum<-sum+(rem^count)
+      num<-floor(num/10)
+    }
+    
+    if(sum == temp){
+      print(temp)
+    }
+  }
+}
+
+function2(inputRange1,inputRange2)
+
+
+
+# working on csv file : 
+
+readcsv<-read.csv(file.choose())
+View(readcsv)
+
+head(readcsv)
+tail(readcsv)
+
+mean(readcsv$Pregnancies)
+median(readcsv$Glucose)
+max(readcsv$Age)
+min(readcsv$Outcome)
+
+names(readcsv)
+
+nrow(readcsv)
+ncol(readcsv)
+
+Number<-1:768
+readcsv$Number<-Number
+names(readcsv)
+View(readcsv)
+
+readcsv$Number <- NULL
+View(readcsv)
+
+names(readcsv)
+
+subset(readcsv,BloodPressure > mean(readcsv$BloodPressure))
+subset(readcsv,readcsv$Glucose == 100 & readcsv$BloodPressure >= 100)
+
+
+# excel file : 
+
+library(readxl)
+
+data()
+
+readexcel<-read_excel(file.choose())
+
+View(readexcel)
+
+nrow(readexcel)
+subset(readexcel,readexcel$age == 50)
+
+
+names(readexcel)
+
+mean(readexcel$age)
+
+median(readexcel$bmi)
+subset(readexcel,readexcel$sex == "male" & readexcel$region == "southeast")
+
+# sql file : 
+
+library(sqldf)
+
+sqldf("select * from readcsv")
+
+sqldf("select * from readcsv limit 5")
+
+sqldf("select Age from readcsv limit 4")
+
+sqldf("select region,max(BMI) from readexcel group by region")
+
+sqldf("select BMI, region from readexcel where age > 50 and age < 60")
+
+
+
