@@ -398,3 +398,106 @@ drop_na(df,Bool)
 
 replace_na(df,list(Bool = T))
 
+
+# 04-05-2024
+
+
+
+library(stringr)
+
+str_c("Madhav"," ","Kumar")
+
+str_sub("Madhav kumar",1,6)
+
+str<-"Madhav is a good boy"
+sub("good","bad",str)
+
+str_replace(str,"good","bad")
+
+str_detect(str,"Madhav",negate = T)
+
+str_extract(str,"madhav")
+
+str_split(str," ")
+
+str_pad(str,width = 50,side = "right",pad = "0")
+
+str_to_lower(str)
+str_to_upper(str)
+
+str_trim("   Hello World        ")
+
+
+data()
+
+df<-as.data.frame(Titanic)
+View(df)
+print(df)
+
+library(dplyr)
+UpdateDf <-as.data.frame(df)
+UpdateDf <- UpdateDf %>% mutate(Family = paste(Class,Sex,Age,Survived,sep=" "))
+
+UpdateDf
+
+unique(head(UpdateDf,4))
+
+freqdf<-df$Survived
+freqdf
+
+summary(freqdf)
+
+summary(df$Age)
+
+# mtcars
+
+df<-as.data.frame(mtcars)
+df
+
+criteria1<-df %>% filter(gear > 3 & am == 0) %>% select(mpg)
+criteria1
+
+
+install.packages("sqldf")
+library(sqldf)
+
+sqldf("select mpg from df where gear>3 and am == 0")
+
+subset(df,gear > 3 & am == 0)["mpg"]
+
+for(i in 1 : nrow(df)){
+  if(df$gear[i] > 3 & df$am[i] == 0){
+    print(df$mpg[i]);
+  }
+}
+
+vector1<-c("a","n","Hello",2,"c45",'100')
+vector1
+typeof(vector1)
+class(vector1)
+
+df<-data.frame(emp.id = c(1:5), Name = c("Madhav","Krishna","Rahul","Sandeep","Kishan"), Salaries = c(1234,2345,3456,4567,5678), Dept = c(rep("IT",4),"CSE"))
+df
+# salary3000 = df[df$Salaries > 2500,]
+# salary3000
+
+salary3000<-which(df$Salaries > 3000 & df$Dept == "IT")
+df[salary3000,]
+
+
+
+data()
+View(fruit)
+print(fruit)
+
+titanicdf<-as.data.frame(Titanic)
+titanicdf
+totalPassangerClass<-tapply(titanicdf$Freq,titanicdf$Class,sum)
+totalPassangerClass
+
+totalPassangerClassDead = tapply(titanicdf$Freq[titanicdf$Survived == "No"],titanicdf$Class[titanicdf$Survived == "No"],sum)
+totalPassangerClassDead
+
+
+deadRatio = totalPassangerClassDead/totalPassangerClass
+deadRatio
