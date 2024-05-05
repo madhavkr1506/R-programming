@@ -501,3 +501,152 @@ totalPassangerClassDead
 
 deadRatio = totalPassangerClassDead/totalPassangerClass
 deadRatio
+
+
+newData<-as.data.frame(HairEyeColor)
+newData
+View(newData)
+
+totalNoOfPeople<-tapply(newData$Freq,newData$Sex,sum)
+totalNoOfPeople
+
+sum(subset(newData,newData$Eye=="Brown" & newData$Sex=="Male",select = "Freq"))
+
+sum(subset(newData,newData$Eye=="Brown" & newData$Sex=="Female",select = "Freq"))
+
+sum<-0
+for(i in 1:nrow(newData)){
+  if(newData$Sex[i] == "Male" & newData$Eye[i] == "Brown"){
+    sum = sum+newData$Freq[i]
+  }
+}
+print(sum)
+
+
+BrownMenSum<-sum(sapply(newData$Freq[newData$Sex == "Male" & newData$Eye == "Brown"],sum))
+
+TotalSum<-sum(sapply(newData$Freq,sum))
+
+ratioForBrownMen<-BrownMenSum/TotalSum
+ratioForBrownMen
+round(ratioForBrownMen,2)
+
+TotalPeople<-tapply(newData$Freq,newData$Eye,sum)
+TotalPeople.men<-tapply(newData$Freq[newData$Sex == "Male"],newData$Eye[newData$Sex == "Male"],sum)
+TotalPeople.men.ratio<-TotalPeople / TotalPeople.men
+round(TotalPeople.men.ratio,2)
+
+
+# data frame
+
+df<-data.frame(Name = c("Madhav","Krishna","Ravi","Rahul","Rohan","Rohit","Mohit"), Surname = c("Kumar","Singh","Jayka","Sharma","Yadav","Jadhav","Agarwal"), Country.code = c(91,81,101,71,61,54,91), Mobile.no = c(123456789,147852963,321654987,159376248,852963741,258741369,456987123), Grade = c("A","B","C","D","E","F","G"))
+df
+
+library(tidyr)
+
+longD<-gather(df,key = "key.1",value = "value.1",Name,Surname)
+longD
+
+sepD<-spread(longD,key.1,value.1)
+sepD
+
+uniteD<-unite(sepD,Contact.No,Country.code,Mobile.no,sep = "-")
+uniteD
+
+separateD<-separate(uniteD,Contact.No,c("Country.Code","Mobile.No"),sep = "-")
+separateD
+
+# Graph
+
+data()
+df<-as.data.frame(iris)
+
+df
+
+names(df)
+nrow(df)
+
+levelsSpecies<-levels(df$Species)
+levelsSpecies
+levelsSpecies.sum<-tapply(df$Sepal.Length,df$Species,sum)
+levelsSpecies.sum
+barplot(levelsSpecies.sum,main = "Bar plot representing sum of sepal.length of species",ylab = "sum of sepal.length",xlab = "species",col = "green", col.lab = "blue", col.main = "red", col.axis = "brown",width = c(2,2,2))
+
+pie(levelsSpecies.sum,col = c("green","red","blue"),main = "Bar plot representing sum of sepal.length of species",ylab = "sum of sepal.length",xlab = "species", col.lab = "blue", col.main = "red", col.axis = "brown")
+
+library(plotrix)
+pie3D(levelsSpecies.sum,labels = levelsSpecies,explode = 0.3,main = "Pie3D representing sum of sepal.length of species",col.main = "brown")
+
+
+boxplot(Sepal.Length ~ Sepal.Width,data = iris,main = "Box plot representing sum of sepal.length",col = "red")
+
+?boxplot
+
+hist(df$Sepal.Length,main = "Histogram representing frequency of sepal.length",col.main = "green", xlab = "sepal.length")
+
+
+# ggplot
+
+library(ggplot2)
+library(dplyr)
+
+mtcarsData<-as.data.frame(mtcars)
+mtcarsData
+
+p1<-mtcarsData %>% select(mpg,cyl) %>% filter(mpg > 20)
+p1
+
+# barplot
+
+df<-as.data.frame(mtcars)
+
+cyltable<-table(df$cyl)
+cyltable
+
+barplot(cyltable,main = "Cylinder table",col = rainbow(3))
+
+barplot(prop.table(cyltable) * 100 ,col = rainbow(3))
+
+plot(factor(df$cyl),col = rainbow(3))
+
+am<-factor(df$am)
+
+levels(am)<-c("Automatic","Manual")
+
+grouptable<-table(df$cyl,df$am)
+grouptable
+barplot(grouptable,col = rainbow(3),main = "Bar plot",beside = T)
+
+
+# display transmission type and number of cylinders based on mean horse Power.
+
+summary<-round(tapply(df$hp,list(df$cyl,am),mean),2)
+summary
+
+plot1<-barplot(summary,col = rainbow(3),beside = T,main = "display transmission type and number of cylinders based on mean horse Power")
+
+legend(x = "topright",y = "top",legend = levels(factor(df$cyl)),fill = rainbow(3),title = "Cylinder")
+# box plot
+
+boxplot(summary,col = rainbow(2),notch =  T)
+
+
+# scatter plot
+
+plot(df$mpg~df$hp)
+
+# box plot
+
+df<-as.data.frame(mtcars)
+names(df)
+?mtcars
+
+df$efficiency<-df$hp / df$wt
+
+boxplot(df$efficiency ~ df$am,main = "Engine efficiency as per car transmission" , xlab = "Transmission type", ylab = "Efficiency", col = rainbow(2), names = c("Automatic","Manual"))
+
+scatter.plot<-plot(df$efficiency,df$am)
+
+library(ggplot2)
+
+ggplot(df,aes(x = mpg, y = drat)) + geom_point(aes(color = factor(gear))) + stat_smooth(method = "lm",color = "red",se = FALSE,size = 1)
