@@ -650,3 +650,391 @@ scatter.plot<-plot(df$efficiency,df$am)
 library(ggplot2)
 
 ggplot(df,aes(x = mpg, y = drat)) + geom_point(aes(color = factor(gear))) + stat_smooth(method = "lm",color = "red",se = FALSE,size = 1)
+
+
+# Practice : 
+
+# 1.
+
+for(i in 1:10){
+  for(j in 1:10){
+    cat(i*j," ")
+  }
+  cat("\n")
+}
+
+# 2.
+
+n <- as.integer(readline(prompt = "Enter the number of rows for the pyramid: "))
+
+
+for (i in 1:n) {
+  for (j in 1:(n - i)) {
+    cat(" ")
+  }
+  for (k in 1:(2 * i - 1)) {
+    cat(" *")
+  }
+  cat("\n")
+}
+
+# 3.
+
+library(stringr)
+
+vector1<-c("a","ab","acb","accb","acccb","accccb")
+vector1
+
+p1<-str_subset(vector1,"^a(c{2})+b$")
+p1
+
+p2<-str_subset(vector1,"^a(c)+b$")
+p2
+
+p3<-str_subset(vector1,"^a(c{0,1})+b$")
+p3
+
+p4<-str_subset(vector1,"^a(c{2,4})+b$")
+p4
+
+str_to_upper(vector1)
+
+str_to_lower(vector1)
+str_detect(vector1,"^a(c)+b$")
+
+str_match(vector1,"^a(c)+b$")
+
+str_replace_all(vector1,"c","***")
+
+# 4.
+
+df<-as.data.frame(iris)
+library(plotly)
+plot1<-plot_ly(df,x = ~df$Sepal.Length,y = ~ df$Sepal.Width,type = "scatter", mode = "line")
+plot1
+
+plot2<-plot_ly(df,x = df$Sepal.Length,type = "scatter",mode = "line")
+plot2
+
+plot3<-plot_ly(df,x = df$Sepal.Length, type = "box")
+plot3
+
+plot4<-plot_ly(df,x = df$Sepal.Length,type = "histogram")
+plot4
+
+
+plot(df$Sepal.Length,type = "l")
+
+library(ggplot2)
+ggplot(df,aes(x = Sepal.Length, y = Sepal.Width)) + geom_point() + geom_smooth(method = "lm",se = 0)
+
+
+# 5;
+
+data()
+
+df<-.asdata.frame(faithful)
+df
+unique(df$eruptions)
+
+avgwaitingTime<-mean(diff(df$eruptions))
+avgwaitingTime
+
+names(df)
+?faithful
+
+morethan3mins<-sum(df$eruptions > 3)
+morethan3mins
+
+morethan2andlessthan4<-sum(df$eruptions >= 2 & df$eruptions <= 4)
+morethan2andlessthan4
+
+library(dplyr)
+
+plot_ly(df,x = df$eruptions, type = "box") %>% layout(title = "box plot",xaxis = list(title = "eruptions"))
+
+plot_ly(df,x = df$eruptions,type = "histogram") %>% layout(title = "histogram")
+
+plot_ly(df,x = df$eruptions,type = "scatter",mode = "marker")
+
+dflabel<-c("Madhav","Rahul","Kumar","Krishna","Ravi")
+dfvalue<-c(99,78,56,45,67)
+markerdf<-c(rainbow(5))
+df<-data.frame(data1=dflabel,data2=dfvalue,data3=markerdf)
+df
+plot_ly(df,labels = dflabel, values = dfvalue, marker = list(colors = markerdf)) %>% add_pie(hole = 0)
+
+
+# pattern
+
+n<-5L
+for(i in 0:(n-1)){
+  for(j in 0:(n-i-1)){
+    cat(" ")
+  }
+  for(k in 0:i){
+    cat(k+1)
+  }
+  for(l in 0:i){
+    if(l == 0){
+      next;
+    }
+    else{
+      cat(l)
+    }
+  }
+  cat("\n")
+}
+
+
+irisdf<-as.data.frame(iris)
+?iris
+
+library(plotly)
+
+plot_ly(irisdf,x = irisdf$Sepal.Length,type = "histogram") %>% layout(title = "Histogram plot",
+                                                               xaxis = list(title = "Sepal.Length"),
+                                                               yaxis = list(title = "Frequency"))
+
+
+plot_ly(irisdf,x = irisdf$Sepal.Length, y = irisdf$Petal.Length , type = "box") %>% layout(title = "Box plot",
+                                                                                    xaxis = list(title = "Sepal.Length"),
+                                                                                    yaxis = list(title = "Sepal.Width"))
+
+
+
+plot_ly(irisdf, x = irisdf$Sepal.Width, type = "scatter", mode = "line") %>% layout(title = "Line plot",
+                                                                                    xaxis = list(title = "Sepal.Width"))
+
+mtcarsdf<-as.data.frame(mtcars)
+
+cyltable<-table(mtcarsdf$cyl)
+cyltable
+barplot(cyltable)
+
+plot_ly(mtcarsdf, x = cyltable, y = levels(factor(mtcarsdf$cyl)), type = "bar") %>% layout(title = "Bar plot",
+                                                                                           xaxis = list(title = "No of cars"),
+                                                                                           yaxis = list(title = "No of cylinder"))
+
+plot_ly(mtcarsdf,labels = levels(factor(mtcarsdf$cyl)), values = cyltable, marker = list(colors = rainbow(3))) %>% add_pie(hole = 0)
+
+
+data()
+airdf<-as.data.frame(airquality)
+?airquality
+View(airdf)
+
+# colSums(is.na(airdf))
+
+# data(package = .packages(all.available = TRUE))
+
+
+# nrow(airdf)
+# airdf[order(airdf[,1]),]
+
+# View(airdf)
+# airdf$Solar.R<-NULL
+# View(airdf)
+
+
+selectcol<-airdf[,c("Ozone","Solar.R","Wind","Temp")]
+selectcol
+
+library(tidyr)
+fill(airdf,Ozone,.direction = "down")
+fill(airdf,Solar.R,.direction = "down")
+
+selectcol.mean<-sapply(airdf, mean)
+selectcol.mean
+
+# 
+
+library(tidyr)
+
+df<-data.frame(c.feedback = c("good","bad","average","below average","awesome"),c.id = c(1,2,3,4,5),q.id = c(101,102,103,104,105),e.scores = c(100,78,56,48,100))
+df
+
+long<-gather(df,key = "key.1",value = "value.1",c.id,q.id)
+long
+
+spread<-spread(long,key.1,value.1)
+spread
+
+unite<-unite(spread,c.id_q.id,c.id,q.id)
+unite
+
+separate<-separate(unite,c.id_q.id,c("c.id","q.id"))
+separate
+
+# diamond shape
+
+# n<-5L
+# for(i in 0:(n-1)){
+#   for(j in 0:(n-i-1)){
+#     cat(" ")
+#   }
+#   for(k in 0:(i)){
+#     cat(k+1)
+#   }
+#   for(l in i:0){
+#     if(l == 0){
+#       next
+#     }
+#     else{
+#       cat(l)
+#     }
+#   }
+#   cat("\n")
+#   
+# }
+
+
+n<-as.integer(readline("Input value : "))
+
+function1<-function(n){
+  for(i in 1:n){
+    for(j in 1:(n-i)){
+      cat(" ")
+    }
+    for(k in 1:(i*2-1)){
+      cat("*")
+    }
+    cat("\n")
+  }
+  for(i in (n-1):1){
+    for(j in 1:(n-i)){
+      cat(" ")
+    }
+    for(k in 1:(2*i-1)){
+      cat("*")
+    }
+    cat("\n")
+  }
+}
+
+
+function1(n)
+
+
+function2<-function(n){
+  for(i in 1:n){
+    for(j in 1:i){
+      cat("*")
+    }
+    cat("\n")
+  }
+}
+
+function2(n)
+
+# reverse right angled triangle
+function3<-function(n){
+  for(i in 1:n){
+    for(j in 1:i){
+      cat("*")
+    }
+    for(k in (n-i):1){
+      if(k == 0){
+        break
+      }
+      cat("#")
+    }
+    cat("\n")
+  }
+}
+
+function3(n)
+
+
+function4<-function(n){
+  for(i in 1:n){
+    for(j in 1:i){
+      if(j == 1){
+        next
+      }
+      cat(" ")
+    }
+    for(k in i:(n)){
+      cat(k)
+    }
+    cat("\n")
+  }
+}
+
+function4(n)
+# 
+
+data()
+
+?Niles
+?LakeHuron
+
+df<-as.data.frame(iris)
+View(df)
+
+unique(df$Species)
+
+mean.sepal.length<-tapply(df$Sepal.Length,df$Species,mean)
+
+barplot(mean.sepal.length, main = "Bar plot", xlab = "Species", ylab = "Value", col = rainbow(3), col.main = "pink", col.lab = "red", col.axis = "brown")
+
+
+library(ggplot2)
+library(dplyr)
+ggplot(df,aes(x = df$Sepal.Length))+geom_histogram(binwidth = 3,fill = "black")+labs(title = "sepal.length")
+
+
+heatmap(as.matrix(mtcars))
+library(plotly)
+
+
+plot_ly(data = as.data.frame(mtcars), x = ~mpg, y = ~hp, z = ~mpg, type = "heatmap")
+
+
+# subject marks
+
+subject<-as.integer(readline("Input number of subjects : "))
+list1<-list()
+
+for(i in 1:subject){
+  marks<-as.integer(readline(paste("Input marks ",i,": ")))
+  
+  # list1[[i]]<-marks
+  list1<-append(list1,marks)
+}
+
+list1<-NULL
+
+sum<-0
+for(i in list1){
+  sum<-sum+i
+}
+
+average<-sum / subject
+
+if(average >= 90){
+  print("A")
+}else if(average>=80){
+  print("B")
+}else if(average>=70){
+  print("C")
+}else if(average>=60){
+  print("D")
+}else{
+  print("E")
+}
+
+
+df<-data.frame(ht=c(111,112,113),wt=c(56,78,98),gen=c("M","T","F"))
+df
+levelofgen<-levels(factor(df$gen))
+levelofgen
+levelofgenOrder<-factor(c("M","F","F"),levels = c("M","T","F"))
+levelofgenOrder
+
+list1 = list("A","B","C")
+typeof(list1)
+vector1<-unlist(as.vector(list1))
+typeof(vector1)
+
+
