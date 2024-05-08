@@ -1,5 +1,6 @@
 # vector
 
+
 name<-c("Madhav","Kishan","Rahul","Mohit","Rohan")
 name
 
