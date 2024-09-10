@@ -111,6 +111,106 @@ summary(readdata$Petal.Length)
 summary(readdata$Petal.Width)
 
 normalize<-function(x){
-  return (x - min(x) / (max(x) - min(x)))
+  return ((x - min(x)) / (max(x) - min(x)))
 }
+
+
+table(readdata$Species)
+
+
+readdata$Sepal.Length<-normalize(readdata$Sepal.Length)
+readdata$Sepal.Width<-normalize(readdata$Sepal.Width)
+readdata$Petal.Length<-normalize(readdata$Petal.Length)
+readdata$Petal.Width<-normalize(readdata$Petal.Width)
+summary(readdata$Sepal.Length)
+summary(readdata$Sepal.Width)
+summary(readdata$Petal.Length)
+summary(readdata$Petal.Width)
+
+
+library(class)
+library(caret)
+
+
+traindata<-readdata[1:90,]
+testdata<-readdata[91:150,]
+prep_model<-knn(traindata[,-5],testdata[,-5],cl = readdata$Species[1:90],k = 21)
+prep_model
+
+confusiontable = table(prep_model,readdata$Species[91:150])
+confusiontable
+
+
+confusionMatrix(prep_model,readdata$Species[91:150])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+readdata<-read.csv("wisc_bc_data.csv")
+View(readdata)
+readdata<-readdata[-1]
+View(readdata)
+
+table(readdata$diagnosis)
+
+summary(readdata$area_mean)
+summary(readdata$smoothness_mean)
+summary(readdata$radius_mean)
+
+normalize<-function(x){
+  return ((x - min(x)) / (max(x) - min(x)))
+}
+
+
+
+# knn algorithm
+
+readdata$radius_mean<-normalize(readdata$radius_mean)
+readdata$area_mean<-normalize(readdata$area_mean)
+readdata$smoothness_mean<-normalize(readdata$smoothness_mean)
+
+summary(readdata$radius_mean)
+summary(readdata$area_mean)
+summary(readdata$smoothness_mean)
+
+nrow(readdata)
+
+traindata<-readdata[1:469,-1]
+traindata
+testdata<-readdata[470:569,-1]
+testdata
+
+trainlabel<-readdata[1:469,1]
+trainlabel
+
+testlabel<-readdata[470:569,1]
+testlabel
+
+library(class)
+
+library(caret)
+prep_model<-knn(train = traindata,test = testdata,cl = trainlabel,k = 18)
+prep_model
+
+confusiontable = table(prep_model,testlabel)
+confusiontable
+
+
+confusionMatrix(confusiontable)
+
+library(gmodels)
+CrossTable(x = testlabel,y = prep_model,prop.chisq = FALSE)
+
+
 
