@@ -1,116 +1,100 @@
-data<-read.csv("spam.csv",stringsAsFactors = FALSE)
-str(data)
+sms_raw<-read.csv("sms_spam.csv",stringsAsFactors = FALSE)
+str(sms_raw)
 
-data$X<-NULL
-data$X.1<-NULL
-data$X.2<-NULL
+View(sms_raw)
+str(sms_raw)
 
-View(data)
-str(data)
+sms_raw$type<-factor(sms_raw$type)
+sms_raw$type
 
-data$v1<-factor(data$v1)
-data$v1
-
-str(data$v1)
-table(data$v1)
+table(sms_raw$type)
 
 library(tm)
-data_corpus<-VCorpus(VectorSource(data$v2))
-print(data_corpus)
+sms_corpus<-VCorpus(VectorSource(sms_raw$text))
+print(sms_corpus)
 
-View(data_corpus)
+View(sms_corpus)
 
-inspect(data_corpus[1:3])
+inspect(sms_corpus[1:3])
 
-as.character(data_corpus[[1]])
+sms_corpus
 
-lapply(data_corpus[1:3], as.character)
+as.character(sms_corpus[[1]])
 
-View(data_corpus)
+lapply(sms_corpus[1:2], as.character)
 
-data_corpus_clean<-tm_map(data_corpus,content_transformer(tolower))
-View(data_corpus_clean)
+sms_corpus_clean<-tm_map(sms_corpus,content_transformer(tolower))
 
-as.character(data_corpus_clean[[1]])
+View(sms_corpus_clean)
+as.character(sms_corpus_clean[[1]])
 
-data_corpus_clean<-tm_map(data_corpus_clean,removeNumbers)
 
-as.character(data_corpus_clean[[3]])
+sms_corpus_clean<-tm_map(sms_corpus,removeNumbers)
 
-data_corpus_clean<-tm_map(data_corpus_clean,removeWords,stopwords())
+View(sms_corpus_clean)
+as.character(sms_corpus_clean[[3]])
 
-as.character(data_corpus_clean[[3]])
+sms_corpus_clean<-tm_map(sms_corpus,removeWords,stopwords())
 
-data_corpus_clean<-tm_map(data_corpus_clean,removePunctuation)
+View(sms_corpus_clean)
+as.character(sms_corpus_clean[[3]])
 
-as.character(data_corpus_clean[[3]])
 
-install.packages("SnowballC")
+sms_corpus_clean<-tm_map(sms_corpus,removePunctuation)
+
+View(sms_corpus_clean)
+as.character(sms_corpus_clean[[3]])
+
 
 library(SnowballC)
 
-wordsStem(c("learns","learned","learning","learns"))
-data_corpus_clean<-tm_map(data_corpus_clean,stemDocument)
+wordStem(c("learns","learned","learning","learns"))
 
-data_corpus_clean<-tm_map(data_corpus_clean,stripWhitespace)
-data_dmt<-DocumentTermMatrix(data_corpus_clean)
+sms_corpus_clean<-tm_map(sms_corpus_clean,stemDocument)
+sms_dtm<-DocumentTermMatrix(sms_corpus_clean)
 
-view(data_dmt)
+View(sms_dtm)
+print(sms_dtm)
+inspect(sms_dtm)
 
-inspect(data_dmt)
+sms_dtm_train<-sms_dtm[1:4169,]
+inspect(sms_dtm_train)
+sms_dtm_test<-sms_dtm[4170:5559,]
 
-data_train<-data_dmt[1:4169,]
-inspect(data_train)
+sms_train_label<-sms_raw[1:4169,]$type
+sms_test_label<-sms_raw[4170:5559,]$type
 
-data_test<-data_dmt[4170:5559,]
-
-train_label<-data[1:4169,]$v1
-test_label<-data[4170:5559,]$v1
-
-install.packages("wordcloud")
 library(wordcloud)
 
-wordcloud(data_corpus_clean,min.freq = 50, random.order = FALSE)
-
-findFreqTerms(data_train,5)
-
-data_freq_words<-findFreqTerms(data_train,5)
-
-
-str(data_freq_words)
-
-data_dmt_freq_train<-data_train[, data_freq_words]
-data_dmt_freq_test<-data_test[, data_freq_words]
+wordcloud(sms_corpus_clean,min.freq = 50,random.order = FALSE)
+findFreqTerms(sms_dtm_train,5)
+sms_freq_word<-findFreqTerms(sms_dtm_train,5)
+str(sms_freq_word)
 
 
-inspect(data_dmt_freq_train)
+sms_dtm_freq_train<-sms_dtm_train[, sms_freq_word]
+sms_dtm_freq_test<-sms_dtm_test[,sms_freq_word]
+
+inspect(sms_dtm_freq_train)
 
 convert_counts<-function(x){
-  x<-ifelse(x>0,"yes","no")
+  x<-ifelse(x > 0, "yes","no")
 }
 
-sms_train<-apply(data_dmt_freq_train,MARGIN = 2,convert_counts)
-sms_text<-apply(data_dmt_freq_test,MARGIN = 2,convert_counts)
+sms_train<-apply(sms_dtm_freq_train,2,convert_counts)
+sms_test<-apply(sms_dtm_freq_test,2,convert_counts)
 
 View(sms_train)
 
-install.packages("e1071")
-
 library(e1071)
 
-sms_classifier<-naiveBayes(sms_train,data_train_label)
+sms_classifier<-naiveBayes(sms_train,sms_train_label)
+sms_test_pred<-predict(sms_classifier,sms_test)
 
-sms_text_pred<-predict(sms_classifier,sms_text)
+head(sms_test_pred)
 
-head(sms_text_pred)
-
-a = table(sms_test_pred, data_test_label)
-
+a = table(sms_test_pred,sms_test_label)
 a
-
 library(gmodels)
-
-CrossTable(sms_test_pred,sms_test_label,prop.chisq = FALSE,prop.t = FALSE, dnn = c('Prediction','Actual'))
-
-
+CrossTable(sms_test_pred,sms_test_label,prop.chisq = FALSE, prop.t = FALSE, dnn = c("Prediction","Actual"))  
 
