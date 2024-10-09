@@ -146,6 +146,10 @@ library(e1071)
 
 data<-read.csv("intrusion_detection_data.csv")
 
+
+data$service<-NULL
+data$flag<-NULL
+
 indexes = sample(1:nrow(data),0.7 * nrow(data))
 
 traindata<-data[indexes,]
