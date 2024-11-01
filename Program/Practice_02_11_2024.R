@@ -66,3 +66,36 @@ confusionMatrix(pred_model, test_data$Class)
 CrossTable(x = pred_model, y = test_data$Class, prop.chisq = FALSE)
 
 
+
+# DECISION TREE
+
+library(ggplot2)
+
+data = as.data.frame(diamonds)
+
+head(data)
+data$color = as.integer(as.factor(data$color))
+data$clarity = as.integer(as.factor(data$clarity))
+
+sample_ = sample(1:nrow(data) , 0.7 * nrow(data))
+
+train_data = data[sample_,]
+test_data = data[-sample_,]
+
+library(rpart)
+library(rpart.plot)
+
+model = rpart(cut ~., data = train_data, method = "class")
+rpart.plot(model)
+
+pred_model = predict(model, test_data, type = "class")
+
+pred_model
+
+library(caret)
+
+confusionMatrix(pred_model, test_data$cut)
+
+library(gmodels)
+
+CrossTable(x = pred_model, y = test_data$cut, prop.chiq = FALSE)
