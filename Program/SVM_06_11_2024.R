@@ -28,3 +28,31 @@ confusionMatrix(pred_model, test_data$Purchased)
 
 
 
+# IRIS : SVM
+
+data = as.data.frame(iris)
+
+data$Species = as.integer(as.factor(data$Species))
+
+
+View(data)
+
+sample_ = sample(1:nrow(data), 0.75 * nrow(data))
+
+train_data = data[sample_,]
+test_data = data[-sample_,]
+
+library(e1071)
+
+classify = svm(formula = Species ~., data = train_data, type = "C-classification", kernel = "linear")
+
+pred_model = predict(classify, test_data[,-ncol(data)])
+pred_model
+
+library(caret)
+
+confusionTable = table(pred_model, test_data[,ncol(data)])
+confusionTable
+
+print(paste("Accuracy: ",((sum(diag(confusionTable))) / sum(confusionTable))))
+confusionMatrix(confusionTable)
