@@ -184,3 +184,63 @@ groceryrules_df = read.csv("groceryrules_03_12_24.csv")
 str(groceryrules_df)
 
 
+
+
+
+
+
+
+# Neural Network
+
+data = read.csv("Concrete_Data.csv")
+str(data)
+
+library(neuralnet)
+
+summary(data)
+normalize = function(x){
+  return ((x - min(x)) / (max(x) - min(x)))
+}
+
+data = as.data.frame(lapply(data,normalize))
+
+summary(data)
+
+sample_ = sample(1:nrow(data), 0.7 * nrow(data))
+train_data = data[sample_,]
+test_data = data[-sample_,]
+
+model = neuralnet(strength ~., data = train_data)
+plot(model)
+
+compute.model = compute(model, test_data[,-ncol(data)])
+compute.model
+
+predicted.result = compute.model$net.result
+
+cor(predicted.result,test_data$strength)
+
+
+
+
+# support model vector
+
+data = read.csv("social.csv")
+str(data)
+
+data = data[,3:5]
+data$Purchased = factor(data$Purchased,levels = c(0,1))
+
+sample_ = sample(1:nrow(data), 0.7 * nrow(data))
+
+train_data = data[sample_,]
+test_data = data[-sample_,]
+
+library(e1071)
+
+model = svm(formula = Purchased~.,data = train_data, type = "C-classification",kernel = "linear")
+
+model.predict = predict(model, test_data[,-3])
+
+library(caret)
+confusionMatrix(model.predict, test_data$Purchased)
