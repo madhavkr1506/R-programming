@@ -484,5 +484,74 @@ ggplot() + geom_point(data = data_, aes(x = Level, y = Salary), color = "orange"
 predict(linear.model, data.frame(Level = 7))
 predict(poly.model, data.frame(Level = 7,Level2 = 7^2, Level3 = 7^3, Level4 = 7^4))
 
+# clustering
 
+library(dplyr)
+data = iris
+data_ = data %>% select(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width)
+head(data_)
+
+library(cluster)
+
+kmeans.re = kmeans(data_, center = 3, nstart = 20)
+kmeans.re$cluster
+kmeans.re$centers
+kmeans.re
+
+
+confusion_table = table(data$Species, kmeans.re$cluster)
+confusion_table
+
+confusion_table_df = as.data.frame(as.table(confusion_table))
+confusion_table_df
+
+colnames(confusion_table_df) = c("Actual","Prediction","Count")
+
+ggplot(data = confusion_table_df, aes(x = Prediction, y = Count, fill = Actual)) + 
+  geom_bar(stat = "identity", position = "dodge") + 
+  labs(title = "Confusion Matrix - Clustering[K Means]",
+       x = "Prediction",
+       y = "Frequency",
+       fill = "Actual Count") + scale_fill_discrete(name = "Actual Class Species") + theme_minimal()
+clusplot(data_, kmeans.re$cluster,color = TRUE, shade = TRUE, lines = 0, labels = 2) 
+
+
+# H - Clustering
+
+d = dist(data_, method = "euclidean")
+hfit = hclust(d)
+plot(hfit)
+
+graph_ = cutree(hfit, k = 4)
+graph_
+
+rect.hclust(hfit, k = 4, border = "red")
+
+
+
+
+
+# sqldf
+
+library(sqldf)
+
+data = as.data.frame(airquality)
+head(data)
+
+View(data)
+
+for(i in 1:ncol(data)){
+  if(is.numeric(data[[i]])){
+    data[[i]][is.na(data[[i]])] = mean(data[[i]],na.rm = TRUE)
+  }
+}
+
+data = as.data.frame(lapply(data,round))
+View(data)
+
+
+sqldf("select * from data where wind > 15")
+
+sqldf("select * from data group by month having max(temp)")
+sqldf("select Ozone, max(Temp) as Max_Temp from data")
 
